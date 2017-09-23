@@ -1,0 +1,295 @@
+﻿Log file open, 09/23/17 09:16:27
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BonVoyage
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-844954747) SRandInit(-844954747).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.170651
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: UE4Editor-BonVoyage.dll
+Running D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage Development Win64 -project="D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Creating makefile for BonVoyage (no existing makefile)
+Performing full C++ include scan (no include cache file)
+@progress push 5%
+Parsing headers for BonVoyageEditor
+  Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for BonVoyageEditor in 9.2593412 seconds
+@progress pop
+Performing 9 actions (4 in parallel)
+[2/9] Resource ModuleVersionResource.rc.inl
+[3/9] Resource PCLaunch.rc
+SharedPCH.Engine.cpp
+BonVoyage.cpp
+IRCManager.cpp
+IRCManager.gen.cpp
+BonVoyage.init.gen.cpp
+[8/9] Link UE4Editor-BonVoyage.dll
+[9/9] Link UE4Editor-BonVoyage.lib
+   Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage.exp
+   Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage.suppressed.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage.suppressed.exp
+Total build time: 85.24 seconds (Local executor: 27.27 seconds)
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.23-16.18.01:083][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.23-16.18.01:083][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.23-16.18.01:093][  0]LogInit: Computer: CYLONRAIDER
+[2017.09.23-16.18.01:093][  0]LogInit: User: User
+[2017.09.23-16.18.01:093][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.23-16.18.01:093][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2017.09.23-16.18.01:093][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.09.23-16.18.01:093][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.23-16.18.01:093][  0]LogMemory: Process Physical Memory: 291.95 MB used, 291.95 MB peak
+[2017.09.23-16.18.01:093][  0]LogMemory: Process Virtual Memory: 280.63 MB used, 280.63 MB peak
+[2017.09.23-16.18.01:093][  0]LogMemory: Physical Memory: 6354.77 MB used,  59102.48 MB free, 65457.25 MB total
+[2017.09.23-16.18.01:093][  0]LogMemory: Virtual Memory: 751.21 MB used,  59102.48 MB free, 134217728.00 MB total
+[2017.09.23-16.18.01:197][  0]LogInit: Using OS detected language (en-US).
+[2017.09.23-16.18.01:197][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.23-16.18.01:199][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.23-16.18.01:850][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.23-16.18.03:089][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.09.23-16.18.03:089][  0]LogD3D11RHI:       8113/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.23-16.18.03:090][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.23-16.18.03:090][  0]LogD3D11RHI:       0/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.23-16.18.03:090][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.23-16.18.03:097][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.23-16.18.03:097][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.23-16.18.03:097][  0]LogWindows: EnumDisplayDevices:
+[2017.09.23-16.18.03:098][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.09.23-16.18.03:098][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.23-16.18.03:098][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.23-16.18.03:098][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.23-16.18.03:098][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.23-16.18.03:098][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.09.23-16.18.03:098][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.09.23-16.18.03:098][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.09.23-16.18.03:098][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.23-16.18.04:202][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.23-16.18.04:246][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.23-16.18.04:290][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Projects/BonVoyage/Intermediate/Shaders/WorkingDirectory/12584/).
+[2017.09.23-16.18.04:290][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/EDCBAA0E4DE2FF638A504AAD81437B35/'.
+[2017.09.23-16.18.04:290][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.23-16.18.05:188][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.23-16.18.05:225][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.23-16.18.05:264][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.23-16.18.05:301][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.23-16.18.05:340][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.23-16.18.05:378][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.23-16.18.05:415][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.23-16.18.05:456][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.23-16.18.05:488][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.23-16.18.05:529][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.23-16.18.05:565][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.23-16.18.05:603][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.23-16.18.05:645][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.23-16.18.05:680][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.23-16.18.05:716][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.23-16.18.05:792][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.23-16.18.05:792][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.23-16.18.05:818][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.23-16.18.05:891][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.23-16.18.05:915][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.23-16.18.05:953][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.23-16.18.05:991][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.23-16.18.06:026][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.23-16.18.06:064][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.23-16.18.06:064][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.23-16.18.06:420][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.23-16.18.06:518][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.23-16.18.06:518][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.23-16.18.06:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.23-16.18.06:518][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.23-16.18.06:519][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.23-16.18.06:519][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.23-16.18.06:537][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.23-16.18.06:549][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.23-16.18.06:562][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.23-16.18.06:563][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.23-16.18.06:563][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.23-16.18.06:563][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.23-16.18.06:820][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.09.23-16.18.06:920][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.23-16.18.07:067][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.23-16.18.07:292][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.23-16.18.07:318][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.23-16.18.07:318][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.23-16.18.07:318][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.23-16.18.07:318][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.23-16.18.07:318][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.23-16.18.07:699][  0]LogNetVersion: BonVoyage , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2954532094)
+[2017.09.23-16.18.07:894][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.038057 seconds
+[2017.09.23-16.18.07:899][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.23-16.18.07:899][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.23-16.18.07:899][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.23-16.18.07:938][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.23-16.18.10:013][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.23-16.18.10:043][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.23-16.18.10:554][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.23-16.18.10:873][  0]SourceControl: Source control is disabled
+[2017.09.23-16.18.10:873][  0]SourceControl: Source control is disabled
+[2017.09.23-16.18.10:905][  0]SourceControl: Source control is disabled
+[2017.09.23-16.18.10:935][  0]SourceControl: Source control is disabled
+[2017.09.23-16.18.11:318][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.23-16.18.11:484][  0]LogOcInput: OculusInput pre-init called
+[2017.09.23-16.18.11:674][  0]LogEngine: Initializing Engine...
+[2017.09.23-16.18.11:699][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.09.23-16.18.11:949][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.23-16.18.11:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.017 s
+[2017.09.23-16.18.11:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.23-16.18.12:054][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.23-16.18.12:082][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.23-16.18.12:232][  0]LogInit: FAudioDevice initialized.
+[2017.09.23-16.18.12:326][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.23-16.18.12:341][  0]LogInit: Texture streaming: Enabled
+[2017.09.23-16.18.12:420][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.23-16.18.12:596][  0]LogInit: Transaction tracking system initialized
+[2017.09.23-16.18.12:819][  0]BlueprintLog: New page: Editor Load
+[2017.09.23-16.18.13:422][  0]LocalizationService: Localization service is disabled
+[2017.09.23-16.18.13:935][  0]LogConsoleResponse: Display: 
+[2017.09.23-16.18.14:123][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.23-16.18.14:124][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.23-16.18.14:124][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.23-16.18.14:226][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/' took 0.02s
+[2017.09.23-16.18.14:885][  0]SourceControl: Source control is disabled
+[2017.09.23-16.18.14:886][  0]Cmd: MAP LOAD FILE="../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.23-16.18.14:972][  0]LightingResults: New page: Lighting Build
+[2017.09.23-16.18.15:002][  0]MapCheck: New page: Map Check
+[2017.09.23-16.18.15:002][  0]LightingResults: New page: Lighting Build
+[2017.09.23-16.18.22:315][  0]LogBlueprint: Warning: [AwayPanel] 'CurrentRoom' variable not found. Base class was probably changed.
+[2017.09.23-16.18.22:315][  0]LogBlueprint: Warning: [AwayPanel] 'Rooms' variable not found. Base class was probably changed.
+[2017.09.23-16.18.22:315][  0]LogBlueprint: Warning: [AwayPanel] 'BeamTarget' variable not found. Base class was probably changed.
+[2017.09.23-16.18.22:351][  0]LogBlueprint: Warning: [RoomRoster] 'CurrentRoom' variable not found. Base class was probably changed.
+[2017.09.23-16.18.22:351][  0]LogBlueprint: Warning: [RoomRoster] 'Rooms' variable not found. Base class was probably changed.
+[2017.09.23-16.18.22:351][  0]LogBlueprint: Warning: [RoomRoster] 'BeamTarget' variable not found. Base class was probably changed.
+[2017.09.23-16.18.23:657][  0]LogBlueprint: Warning: [NebulaBase] 'Planet' variable not found. Base class was probably changed.
+[2017.09.23-16.18.23:657][  0]LogBlueprint: Warning: [NebulaBase] 'Planet' variable not found. Base class was probably changed.
+[2017.09.23-16.18.34:987][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.23-16.18.35:172][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.23-16.18.35:205][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.23-16.18.35:254][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.996ms to complete.
+[2017.09.23-16.18.35:254][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 20.368
+[2017.09.23-16.18.35:308][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.23-16.18.35:904][  0]LogCollectionManager: Loaded 0 collections in 0.001560 seconds
+[2017.09.23-16.18.36:065][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Saved/Collections/' took 0.01s
+[2017.09.23-16.18.36:065][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Developers/User/Collections/' took 0.01s
+[2017.09.23-16.18.36:065][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Collections/' took 0.01s
+[2017.09.23-16.18.36:065][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000018 seconds
+[2017.09.23-16.18.36:077][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2387 classes and 502 folders.
+[2017.09.23-16.18.36:175][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.09.23-16.18.37:338][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.09.23-16.18.37:443][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.09.23-16.18.38:303][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.23-16.18.38:318][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.23-16.18.38:384][  0]LogSlate: Took 0.039664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.23-16.18.38:696][  0]LogRenderer: Reallocating scene render targets to support 972x576 Format 10 NumSamples 1 (Frame:1).
+[2017.09.23-16.18.38:963][  0]LogSlate: Took 0.019193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.23-16.18.39:094][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.09.23-16.18.39:094][  0]LogLoad: (Engine Initialization) Total time: 132.54 seconds
+[2017.09.23-16.18.39:094][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.23-16.18.39:094][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.23-16.18.39:223][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.09.23-16.18.39:572][  2]LogAssetRegistry: Asset discovery search completed in 32.7743 seconds
+[2017.09.23-16.18.39:575][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.23-16.18.39:575][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000114 seconds (updated 0 objects)
+[2017.09.23-16.18.44:566][ 80]LogFileCache: Retrieving MD5 hashes for directory 'D:/Unreal/Projects/BonVoyage/Content/' took 5.44s

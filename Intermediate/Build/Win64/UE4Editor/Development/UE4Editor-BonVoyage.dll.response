@@ -61,6 +61,8 @@
 "D:\Unreal\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
 "D:\Unreal\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
 "D:\Unreal\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+"D:\Unreal\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Sockets.lib"
+"D:\Unreal\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Networking.lib"
 /OUT:"D:\Unreal\Projects\BonVoyage\Binaries\Win64\UE4Editor-BonVoyage.dll"
 /IMPLIB:"D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage.suppressed.lib"
 /PDB:"D:\Unreal\Projects\BonVoyage\Binaries\Win64\UE4Editor-BonVoyage.pdb"
