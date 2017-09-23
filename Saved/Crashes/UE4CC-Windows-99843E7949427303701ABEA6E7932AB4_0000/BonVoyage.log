@@ -1,0 +1,1269 @@
+﻿Log file open, 09/05/17 17:03:12
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BonVoyage
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1317984240) SRandInit(1317984240).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.175083
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.06-00.03.13:950][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-00.03.13:950][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.06-00.03.13:979][  0]LogInit: Computer: CYLONRAIDER
+[2017.09.06-00.03.13:980][  0]LogInit: User: User
+[2017.09.06-00.03.13:980][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.06-00.03.13:980][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.09.06-00.03.13:980][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.09.06-00.03.13:980][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.06-00.03.13:980][  0]LogMemory: Process Physical Memory: 285.06 MB used, 285.06 MB peak
+[2017.09.06-00.03.13:980][  0]LogMemory: Process Virtual Memory: 278.67 MB used, 278.67 MB peak
+[2017.09.06-00.03.13:980][  0]LogMemory: Physical Memory: 7829.84 MB used,  57627.41 MB free, 65457.25 MB total
+[2017.09.06-00.03.13:980][  0]LogMemory: Virtual Memory: 704.41 MB used,  57627.41 MB free, 134217728.00 MB total
+[2017.09.06-00.03.14:321][  0]LogInit: Using OS detected language (en-US).
+[2017.09.06-00.03.14:321][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.06-00.03.14:324][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.06-00.03.15:058][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.06-00.03.15:101][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.09.06-00.03.15:101][  0]LogD3D11RHI:       8113/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.06-00.03.15:103][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.06-00.03.15:103][  0]LogD3D11RHI:       0/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.06-00.03.15:103][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.06-00.03.15:110][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.06-00.03.15:110][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.06-00.03.15:110][  0]LogWindows: EnumDisplayDevices:
+[2017.09.06-00.03.15:110][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.09.06-00.03.15:110][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.06-00.03.15:110][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.06-00.03.15:111][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.06-00.03.15:111][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.06-00.03.15:111][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.09.06-00.03.15:111][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.09.06-00.03.15:111][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.09.06-00.03.15:111][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.06-00.03.15:143][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.06-00.03.15:155][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.06-00.03.15:197][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../Projects/BonVoyage/Intermediate/Shaders/WorkingDirectory/932/).
+[2017.09.06-00.03.15:197][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/A7F03B4743FD49ABFB8B7C88EBBB5382/'.
+[2017.09.06-00.03.15:197][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.06-00.03.16:274][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.06-00.03.16:320][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.06-00.03.16:362][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.06-00.03.16:406][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.06-00.03.16:452][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.06-00.03.16:494][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.06-00.03.16:534][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.06-00.03.16:572][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.06-00.03.16:611][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.06-00.03.16:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.06-00.03.16:696][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.06-00.03.16:741][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.06-00.03.16:791][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.06-00.03.16:835][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.06-00.03.16:873][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.06-00.03.16:954][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.06-00.03.16:954][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.06-00.03.16:983][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.06-00.03.17:060][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.06-00.03.17:088][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.06-00.03.17:129][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.06-00.03.17:170][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.06-00.03.17:211][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.06-00.03.17:259][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.06-00.03.17:259][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.06-00.03.17:640][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.06-00.03.17:742][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.06-00.03.17:742][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.06-00.03.17:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.06-00.03.17:742][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.06-00.03.17:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.06-00.03.17:742][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.06-00.03.17:761][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.06-00.03.17:773][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.06-00.03.17:784][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.06-00.03.17:784][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.06-00.03.17:785][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-00.03.17:785][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-00.03.18:763][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2017.09.06-00.03.18:878][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-00.03.19:053][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.06-00.03.19:308][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.06-00.03.19:338][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.06-00.03.19:338][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.06-00.03.19:338][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.06-00.03.19:338][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.06-00.03.19:338][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.06-00.03.19:771][  0]LogNetVersion: BonVoyage , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2954532094)
+[2017.09.06-00.03.20:326][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.334182 seconds
+[2017.09.06-00.03.20:334][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.06-00.03.20:334][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.06-00.03.20:334][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.06-00.03.20:383][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.06-00.03.22:640][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.06-00.03.22:672][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.06-00.03.23:178][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.06-00.03.23:494][  0]SourceControl: Source control is disabled
+[2017.09.06-00.03.23:494][  0]SourceControl: Source control is disabled
+[2017.09.06-00.03.23:526][  0]SourceControl: Source control is disabled
+[2017.09.06-00.03.23:558][  0]SourceControl: Source control is disabled
+[2017.09.06-00.03.23:962][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.06-00.03.24:126][  0]LogOcInput: OculusInput pre-init called
+[2017.09.06-00.03.24:381][  0]LogEngine: Initializing Engine...
+[2017.09.06-00.03.24:401][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.09.06-00.03.24:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.06-00.03.24:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.011 s
+[2017.09.06-00.03.24:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.06-00.03.24:732][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.06-00.03.24:759][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.06-00.03.24:838][  0]LogInit: FAudioDevice initialized.
+[2017.09.06-00.03.24:933][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.06-00.03.24:949][  0]LogInit: Texture streaming: Enabled
+[2017.09.06-00.03.25:031][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.06-00.03.25:190][  0]LogInit: Transaction tracking system initialized
+[2017.09.06-00.03.25:407][  0]BlueprintLog: New page: Editor Load
+[2017.09.06-00.03.26:007][  0]LocalizationService: Localization service is disabled
+[2017.09.06-00.03.26:511][  0]LogConsoleResponse: Display: 
+[2017.09.06-00.03.26:743][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.06-00.03.26:744][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.06-00.03.26:744][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.06-00.03.27:487][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/' took 0.11s
+[2017.09.06-00.03.27:487][  0]SourceControl: Source control is disabled
+[2017.09.06-00.03.27:487][  0]Cmd: MAP LOAD FILE="../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-00.03.27:487][  0]LightingResults: New page: Lighting Build
+[2017.09.06-00.03.27:517][  0]MapCheck: New page: Map Check
+[2017.09.06-00.03.27:517][  0]LightingResults: New page: Lighting Build
+[2017.09.06-00.03.30:407][  0]LogBlueprint: Warning: [RoomRoster] 'CurrentRoom' variable not found. Base class was probably changed.
+[2017.09.06-00.03.30:407][  0]LogBlueprint: Warning: [RoomRoster] 'Rooms' variable not found. Base class was probably changed.
+[2017.09.06-00.03.30:407][  0]LogBlueprint: Warning: [RoomRoster] 'BeamTarget' variable not found. Base class was probably changed.
+[2017.09.06-00.03.30:805][  0]LogBlueprint: Warning: [Compiler ImpulseComponent] Can't parse default value '(X=0.000000,Y=0.000000,Z=0.000000)' for  <None> . Property: DodgeBonus.
+[2017.09.06-00.03.30:860][  0]LogBlueprint: Warning: [Compiler ImpulseComponent] [0020.47] Compile of ImpulseComponent successful, but with 1 Warning(s) [in 628 ms] (/Game/Assets/Blueprints/PlayableShips/ShipComponents/ImpulseComponent/ImpulseComponent.ImpulseComponent)
+[2017.09.06-00.03.32:842][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.06-00.03.32:905][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-00.03.32:939][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-00.03.32:980][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.361ms to complete.
+[2017.09.06-00.03.32:980][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.494
+[2017.09.06-00.03.33:484][  0]LogCollectionManager: Loaded 0 collections in 0.001476 seconds
+[2017.09.06-00.03.33:619][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Saved/Collections/' took 0.01s
+[2017.09.06-00.03.33:619][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Developers/User/Collections/' took 0.01s
+[2017.09.06-00.03.33:619][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Collections/' took 0.01s
+[2017.09.06-00.03.33:619][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.06-00.03.33:632][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2387 classes and 502 folders.
+[2017.09.06-00.03.33:698][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.09.06-00.03.34:751][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.09.06-00.03.34:855][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.09.06-00.03.35:567][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.06-00.03.35:580][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.06-00.03.35:639][  0]LogSlate: Took 0.015381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.06-00.03.35:991][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.09.06-00.03.36:379][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.09.06-00.03.36:380][  0]LogLoad: (Engine Initialization) Total time: 25.99 seconds
+[2017.09.06-00.03.36:380][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.06-00.03.36:380][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.06-00.03.36:767][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.06-00.03.36:885][  0]LogSlate: Took 0.019589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-00.03.37:064][  1]LogAssetRegistry: Asset discovery search completed in 18.3233 seconds
+[2017.09.06-00.03.37:068][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.06-00.03.37:068][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000125 seconds (updated 0 objects)
+[2017.09.06-00.13.56:280][163]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-00.13.56:864][163]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.06-00.13.56:921][163]LogEnum: Warning: Enum name collision: 'RoomBonuses::NewEnumerator0' is in both '/Game/Assets/Blueprints/PlayableShips/ShipComponents/WeaponsComponent/RoomBonuses.RoomBonuses' and '/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomBonuses.RoomBonuses'
+[2017.09.06-00.13.56:921][163]LogEnum: Warning: Enum name collision: 'RoomBonuses::NewEnumerator1' is in both '/Game/Assets/Blueprints/PlayableShips/ShipComponents/WeaponsComponent/RoomBonuses.RoomBonuses' and '/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomBonuses.RoomBonuses'
+[2017.09.06-00.13.56:921][163]LogEnum: Warning: Enum name collision: 'RoomBonuses::NewEnumerator0' is in both '/Game/Assets/Blueprints/PlayableShips/ShipComponents/WeaponsComponent/RoomBonuses.RoomBonuses' and '/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomBonuses.RoomBonuses'
+[2017.09.06-00.13.56:921][163]LogEnum: Warning: Enum name collision: 'RoomBonuses::NewEnumerator1' is in both '/Game/Assets/Blueprints/PlayableShips/ShipComponents/WeaponsComponent/RoomBonuses.RoomBonuses' and '/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomBonuses.RoomBonuses'
+[2017.09.06-00.13.57:121][163]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
+[2017.09.06-00.13.58:670][163]LogSlate: Took 0.017969 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.06-00.13.59:515][164]LogSlate: Took 0.014138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.06-00.15.07:261][398]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-00.15.16:301][425]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.021
+[2017.09.06-00.15.16:624][425]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase] ([1] browsable assets)...
+[2017.09.06-00.15.16:643][425]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase]
+[2017.09.06-00.15.16:643][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase]
+[2017.09.06-00.15.17:473][425]LogSavePackage: Save=345.60ms
+[2017.09.06-00.15.17:473][425]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBase_Auto1E141581044B6F63CC3B2C1BBE10AE4C7.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase_Auto1.uasset'
+[2017.09.06-00.15.17:484][425]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase_Auto1.uasset
+[2017.09.06-00.15.17:484][425]LogFileHelpers: Auto-saving content packages took 1.182
+[2017.09.06-01.13.26:240][478]LogSlate: Took 0.019089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.06-01.15.51:415][ 87]LogEditorTransaction: Undo Move Node
+[2017.09.06-01.15.52:724][158]LogEditorTransaction: Undo Create Pin Link
+[2017.09.06-01.16.16:556][539]BlueprintLog: New page: Compile CrewObject
+[2017.09.06-01.16.16:917][539]LogBlueprint: Error: [Compiler CrewComponent] In use pin  Damage  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.09.06-01.16.17:418][539]LogBlueprint: Warning: [Compiler CrewComponent] [4387.02] Compile of CrewComponent failed. 1 Fatal Issue(s) 0 Warning(s) [in 824 ms] (/Game/Assets/Blueprints/PlayableShips/ShipComponents/CrewComponent/CrewComponent.CrewComponent)
+[2017.09.06-01.16.20:974][713]LogSavePackage: Save=217.29ms
+[2017.09.06-01.16.20:974][713]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/CrewObject712198204088A912BACD479E16798A6A.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/CrewComponent/CrewObject.uasset'
+[2017.09.06-01.16.20:976][713]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/CrewComponent/CrewObject.uasset
+[2017.09.06-01.16.43:483][ 52]BlueprintLog: New page: Compile CrewComponent
+[2017.09.06-01.16.43:870][ 52]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-01.16.44:979][ 87]LogSavePackage: Save=151.79ms
+[2017.09.06-01.16.44:980][ 87]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/CrewComponent5224227549A587409DE440A71A347421.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/CrewComponent/CrewComponent.uasset'
+[2017.09.06-01.16.44:981][ 87]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/CrewComponent/CrewComponent.uasset
+[2017.09.06-01.16.58:439][894]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.06-01.16.58:659][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-01.16.58:660][894]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.06-01.16.58:737][894]LogPlayLevel: [PlayLevel] Compiling RoomObject before play...
+[2017.09.06-01.16.58:786][894]LogPlayLevel: [PlayLevel]   Compiling CrewComponent as a dependent...
+[2017.09.06-01.16.58:812][894]LogPlayLevel: [PlayLevel]   Compiling HUDComponent as a dependent...
+[2017.09.06-01.16.58:855][894]LogPlayLevel: [PlayLevel]   Compiling RoomComponent as a dependent...
+[2017.09.06-01.16.58:885][894]LogPlayLevel: [PlayLevel]   Compiling ScannerComponent as a dependent...
+[2017.09.06-01.16.58:921][894]LogPlayLevel: [PlayLevel]   Compiling MapIcon as a dependent...
+[2017.09.06-01.16.58:945][894]LogPlayLevel: [PlayLevel]   Compiling RoomRecord as a dependent...
+[2017.09.06-01.16.59:191][894]LogPlayLevel: PlayLevel: Blueprint regeneration took 531 ms (7 blueprints)
+[2017.09.06-01.16.59:246][894]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 5, 2017, 11:16:59 AM)
+[2017.09.06-01.16.59:377][894]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.06-01.16.59:415][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037190s)
+[2017.09.06-01.16.59:415][894]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.06-01.16.59:416][894]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2017.09.06-01.16.59:416][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038523s)
+[2017.09.06-01.16.59:472][894]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.06-01.16.59:561][894]LogInit: FAudioDevice initialized.
+[2017.09.06-01.16.59:613][894]LogLoad: Game class is 'HeraldGameMode_C'
+[2017.09.06-01.16.59:651][894]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.05-18.16.59
+[2017.09.06-01.16.59:696][894]LogWorld: Bringing up level for play took: 0.045436
+[2017.09.06-01.16.59:770][894]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.09.06-01.16.59:866][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.16.59:866][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.16.59:866][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.16.59:867][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.16.59:867][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.16.59:867][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.16.59:867][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.16.59:867][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.16.59:867][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.16.59:888][894]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital0
+[2017.09.06-01.16.59:950][894]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital0
+[2017.09.06-01.16.59:993][894]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital0
+[2017.09.06-01.16.59:994][894]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-01.17.00:032][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.17.00:032][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.17.00:032][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.17.00:032][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.17.00:032][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.17.00:032][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.17.00:032][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.17.00:032][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.17.00:032][894]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-01.17.00:061][894]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital1
+[2017.09.06-01.17.00:152][894]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital1
+[2017.09.06-01.17.00:169][894]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital1
+[2017.09.06-01.17.00:171][894]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-01.17.00:258][894]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.654
+[2017.09.06-01.17.00:258][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-01.17.00:326][894]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:326][894]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:326][894]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:326][894]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:326][894]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:326][894]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:372][895]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:372][895]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:372][895]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:372][895]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:372][895]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:372][895]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:394][896]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:394][896]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:394][896]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:394][896]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:395][896]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:395][896]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:404][897]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:405][897]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:405][897]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:405][897]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:405][897]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:405][897]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:420][898]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:420][898]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:420][898]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:421][898]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:421][898]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:421][898]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:437][899]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:437][899]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:437][899]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_5
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:437][899]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:437][899]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:455][900]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:455][900]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:455][900]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:470][901]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:470][901]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:470][901]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:486][902]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:486][902]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_6
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:505][903]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:520][904]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:538][905]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:553][906]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:570][907]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:586][908]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:605][909]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.17.00:620][910]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_0.MapIcon_C_3
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-01.18.29:722][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-01.18.29:729][255]LogBlueprintUserMessages: [HeraldGameInstance_C_0] Saving ShipList due to shutdown
+[2017.09.06-01.18.30:037][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-01.18.55:014][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.024
+[2017.09.06-01.18.55:016][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase] ([1] browsable assets)...
+[2017.09.06-01.18.55:035][748]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase]
+[2017.09.06-01.18.55:035][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase]
+[2017.09.06-01.18.55:349][748]LogSavePackage: Save=301.79ms
+[2017.09.06-01.18.55:349][748]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBase_Auto2DE8F232141D226E92863B8BD4964E55E.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase_Auto2.uasset'
+[2017.09.06-01.18.55:385][748]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase_Auto2.uasset
+[2017.09.06-01.18.55:403][748]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject] ([1] browsable assets)...
+[2017.09.06-01.18.55:403][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject]
+[2017.09.06-01.18.55:709][748]LogSavePackage: Save=295.40ms
+[2017.09.06-01.18.55:709][748]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/RoomObject_Auto2B394AFB54674BB3ABCFCA5A28CB2CF16.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject_Auto2.uasset'
+[2017.09.06-01.18.55:772][748]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject_Auto2.uasset
+[2017.09.06-01.18.55:772][748]LogFileHelpers: Auto-saving content packages took 0.757
+[2017.09.06-02.06.21:781][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.029
+[2017.09.06-02.06.21:783][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType] ([1] browsable assets)...
+[2017.09.06-02.06.21:783][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType]
+[2017.09.06-02.06.21:796][ 51]LogSavePackage: Save=10.80ms
+[2017.09.06-02.06.21:796][ 51]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitType_Auto32AF418DB40FC99CF7E8AD4B5F4D3FAFC.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType_Auto3.uasset'
+[2017.09.06-02.06.21:796][ 51]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType_Auto3.uasset
+[2017.09.06-02.06.21:796][ 51]LogFileHelpers: Auto-saving content packages took 0.014
+[2017.09.06-02.06.45:695][477]BlueprintLog: New page: Compile UnitType
+[2017.09.06-02.06.46:682][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset" SILENT=true
+[2017.09.06-02.06.46:701][533]LogSavePackage: Save=15.16ms
+[2017.09.06-02.06.46:701][533]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitTypeABABD6C3491A8FB0BEACFE99C86D7EAF.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset'
+[2017.09.06-02.06.46:702][533]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset
+[2017.09.06-02.07.54:688][491]BlueprintLog: New page: Compile ShipBase
+[2017.09.06-02.07.56:008][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.56:008][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.56:009][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.56:009][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.56:009][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.56:010][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.56:010][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.56:010][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.56:010][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.57:107][491]BlueprintLog: New page: Compile ShipBase
+[2017.09.06-02.07.58:376][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.58:376][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.58:376][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.58:376][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.58:377][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.58:377][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.58:378][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.58:378][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.07.58:378][491]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.08.00:261][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset" SILENT=true
+[2017.09.06-02.08.00:578][527]LogSavePackage: Save=287.43ms
+[2017.09.06-02.08.00:578][527]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBaseDE87F82240BF467DA6D7239DFF621237.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset'
+[2017.09.06-02.08.00:582][527]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset
+[2017.09.06-02.08.03:667][712]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.06-02.08.03:744][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.08.03:744][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-02.08.03:744][712]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 5, 2017, 12:08:03 PM)
+[2017.09.06-02.08.03:915][712]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.06-02.08.03:934][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018808s)
+[2017.09.06-02.08.03:936][712]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.06-02.08.03:936][712]LogPlayLevel: PIE: World Init took: (0.001489s)
+[2017.09.06-02.08.03:936][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020794s)
+[2017.09.06-02.08.03:989][712]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.06-02.08.04:070][712]LogInit: FAudioDevice initialized.
+[2017.09.06-02.08.04:104][712]LogLoad: Game class is 'HeraldGameMode_C'
+[2017.09.06-02.08.04:107][712]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.05-19.08.04
+[2017.09.06-02.08.04:111][712]LogWorld: Bringing up level for play took: 0.004712
+[2017.09.06-02.08.04:117][712]LogScript: Warning: Accessed None trying to read property UnitType
+	ShipBase_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ShipBase_C_0
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase_C:ExecuteUbergraph_ShipBase:0BFB
+[2017.09.06-02.08.04:157][712]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property UnitType from function: 'ExecuteUbergraph_ShipBase' from node: Initialize in graph: EventGraph in object: ShipBase with description: Accessed None trying to read property UnitType
+[2017.09.06-02.08.04:157][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:157][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:157][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:157][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:157][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:157][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:157][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:157][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:157][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:158][712]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital0
+[2017.09.06-02.08.04:164][712]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital0
+[2017.09.06-02.08.04:169][712]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital0
+[2017.09.06-02.08.04:170][712]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-02.08.04:177][712]LogScript: Warning: Accessed None trying to read property UnitType
+	ShipBase_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ShipBase_C_1
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase_C:ExecuteUbergraph_ShipBase:0BFB
+[2017.09.06-02.08.04:177][712]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property UnitType from function: 'ExecuteUbergraph_ShipBase' from node: Initialize in graph: EventGraph in object: ShipBase with description: Accessed None trying to read property UnitType
+[2017.09.06-02.08.04:177][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:177][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:177][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:177][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:177][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:177][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:177][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:177][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:177][712]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.08.04:178][712]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital1
+[2017.09.06-02.08.04:186][712]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital1
+[2017.09.06-02.08.04:193][712]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital1
+[2017.09.06-02.08.04:195][712]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-02.08.04:236][712]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.368
+[2017.09.06-02.08.04:236][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.08.09:006][993]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.08.09:012][993]LogBlueprintUserMessages: [HeraldGameInstance_C_0] Saving ShipList due to shutdown
+[2017.09.06-02.08.09:043][993]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.08.47:686][280]BlueprintLog: New page: Compile UnitType
+[2017.09.06-02.08.47:808][280]LogBlueprint: Error: [Compiler ShipBase] Could not find a function named "Initialize" in 'UnitType_C'.
+Make sure 'UnitType_C' has been compiled for  Initialize
+[2017.09.06-02.08.47:869][280]LogBlueprint: Warning: [Compiler ShipBase] [7537.48] Compile of ShipBase failed. 1 Fatal Issue(s) 0 Warning(s) [in 181 ms] (/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase)
+[2017.09.06-02.08.48:489][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset" SILENT=true
+[2017.09.06-02.08.48:511][301]LogSavePackage: Save=12.87ms
+[2017.09.06-02.08.48:511][301]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitType862286254D2F83A5EA0CDCA98F02097A.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset'
+[2017.09.06-02.08.48:513][301]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset
+[2017.09.06-02.09.56:237][324]LogClass: UUserDefinedStruct.Serialize 'Ship' validation: Struct 'UserDefinedStruct /Game/Assets/DataModels/Ship.Ship' is empty
+[2017.09.06-02.10.37:240][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/DataModels/Ship" FILE="../../../../Projects/BonVoyage/Content/Assets/DataModels/Ship.uasset" SILENT=true
+[2017.09.06-02.10.37:249][762]LogSavePackage: Save=6.26ms
+[2017.09.06-02.10.37:249][762]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipB270BF6640443E4DCD3D3CBC291684A3.tmp' to '../../../../Projects/BonVoyage/Content/Assets/DataModels/Ship.uasset'
+[2017.09.06-02.10.37:251][762]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/DataModels/Ship.uasset
+[2017.09.06-02.11.02:102][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/ShipData" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset" SILENT=true
+[2017.09.06-02.11.02:108][951]LogSavePackage: Save=4.15ms
+[2017.09.06-02.11.02:109][951]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipData4CCC8F134A01C237553B3B9E318EB872.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset'
+[2017.09.06-02.11.02:111][951]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset
+[2017.09.06-02.12.11:799][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/ShipData" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset" SILENT=true
+[2017.09.06-02.12.11:811][107]LogSavePackage: Save=3.93ms
+[2017.09.06-02.12.11:811][107]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipDataD81CBDFE4A6F6F45A9B4C6A0031C02CD.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset'
+[2017.09.06-02.12.11:813][107]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset
+[2017.09.06-02.14.53:393][714]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2017.09.06-02.15.10:829][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/Unit" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/Unit.uasset" SILENT=true
+[2017.09.06-02.15.10:835][695]LogSavePackage: Save=4.73ms
+[2017.09.06-02.15.10:835][695]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Unit67BC607F4BD92F196741D5BFD5C86649.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/Unit.uasset'
+[2017.09.06-02.15.10:837][695]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/Unit.uasset
+[2017.09.06-02.15.14:252][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/UnitData" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset" SILENT=true
+[2017.09.06-02.15.14:259][880]LogSavePackage: Save=5.47ms
+[2017.09.06-02.15.14:259][880]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitDataFE4A6D094A76C7247B8CC59CA557920C.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset'
+[2017.09.06-02.15.14:260][880]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset
+[2017.09.06-02.15.20:428][237]LogMetaData: Removing '/Game/Assets/DataModels/Unit.Unit' ref from Metadata '/Game/Assets/DataModels/Ship.PackageMetaData'
+[2017.09.06-02.15.20:428][237]LogMetaData: Removing '/Game/Assets/DataModels/Unit.Unit:Mesh_126_A819835B4629EEA86DEF8E977944ECDE' ref from Metadata '/Game/Assets/DataModels/Ship.PackageMetaData'
+[2017.09.06-02.15.20:429][237]LogMetaData: Removing '/Game/Assets/DataModels/Unit.Unit:Level_112_699FC93049154E8B9C165AAC4C77C6C9' ref from Metadata '/Game/Assets/DataModels/Ship.PackageMetaData'
+[2017.09.06-02.15.20:429][237]LogMetaData: Removing '/Game/Assets/DataModels/Unit.Unit:Name_2_3730BE9D4524C4C6767858A557CC9C41' ref from Metadata '/Game/Assets/DataModels/Ship.PackageMetaData'
+[2017.09.06-02.15.20:450][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/DataModels/Unit" FILE="../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset" SILENT=true
+[2017.09.06-02.15.20:457][237]LogSavePackage: Save=5.60ms
+[2017.09.06-02.15.20:457][237]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitE32196F049A78C964E76B69A54FAA8A9.tmp' to '../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset'
+[2017.09.06-02.15.20:459][237]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset
+[2017.09.06-02.15.20:639][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/UnitData" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset" SILENT=true
+[2017.09.06-02.15.20:649][237]LogSavePackage: Save=4.85ms
+[2017.09.06-02.15.20:649][237]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitData6982DE14499F71471A5695B3CAF0E10F.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset'
+[2017.09.06-02.15.20:650][237]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset
+[2017.09.06-02.15.33:260][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/DataModels/Unit" FILE="../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset" SILENT=true
+[2017.09.06-02.15.33:271][988]LogSavePackage: Save=4.67ms
+[2017.09.06-02.15.33:271][988]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Unit48AEFF7A4AFAEE30EC533081E82852C2.tmp' to '../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset'
+[2017.09.06-02.15.33:273][988]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset
+[2017.09.06-02.15.35:000][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/UnitData" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset" SILENT=true
+[2017.09.06-02.15.35:009][ 91]LogSavePackage: Save=4.39ms
+[2017.09.06-02.15.35:009][ 91]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitData0BA71CD1404C4307370C12B707B8BE67.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset'
+[2017.09.06-02.15.35:011][ 91]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset
+[2017.09.06-02.16.02:638][743]BlueprintLog: New page: Compile UnitType
+[2017.09.06-02.16.03:456][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset" SILENT=true
+[2017.09.06-02.16.03:489][765]LogSavePackage: Save=24.13ms
+[2017.09.06-02.16.03:490][765]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitType83AC8B534D9170D1DCFD65B73BB79DD1.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset'
+[2017.09.06-02.16.03:492][765]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset
+[2017.09.06-02.16.57:743][  8]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  UpdateMesh  and was replaced as a Custom Event!
+[2017.09.06-02.18.25:652][152]BlueprintLog: New page: Compile UnitType
+[2017.09.06-02.18.25:743][152]LogBlueprint: Error: [Compiler UnitType] In use pin  Name  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.09.06-02.18.25:780][152]LogClass: Warning: Type mismatch in Name of UnitType_C - Previous (NameProperty) Current(StrProperty) for package:  FObjectReader
+[2017.09.06-02.18.26:077][152]LogBlueprint: Warning: [Compiler UnitType] [8115.68] Compile of UnitType failed. 1 Fatal Issue(s) 0 Warning(s) [in 425 ms] (/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.UnitType)
+[2017.09.06-02.18.26:514][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset" SILENT=true
+[2017.09.06-02.18.26:550][176]LogSavePackage: Save=31.58ms
+[2017.09.06-02.18.26:550][176]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitType98EF1C6E45C6D3402AC5A58D61297EF1.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset'
+[2017.09.06-02.18.26:552][176]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset
+[2017.09.06-02.18.36:901][792]LogClass: Warning: Type mismatch in Name_2_3730BE9D4524C4C6767858A557CC9C41 of Unit - Previous (NameProperty) Current(StrProperty) for package:  FObjectReader
+[2017.09.06-02.18.37:984][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/DataModels/Unit" FILE="../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset" SILENT=true
+[2017.09.06-02.18.37:994][856]LogSavePackage: Save=5.57ms
+[2017.09.06-02.18.37:995][856]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Unit8EA9B0594FEAA60519B77D87923F3FE6.tmp' to '../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset'
+[2017.09.06-02.18.37:997][856]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset
+[2017.09.06-02.19.16:434][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/DataModels/Unit" FILE="../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset" SILENT=true
+[2017.09.06-02.19.16:445][148]LogSavePackage: Save=5.71ms
+[2017.09.06-02.19.16:445][148]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Unit03BD0B2049C34AC29DF2F09433D5A47A.tmp' to '../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset'
+[2017.09.06-02.19.16:447][148]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/DataModels/Unit.uasset
+[2017.09.06-02.19.19:292][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/UnitData" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset" SILENT=true
+[2017.09.06-02.19.19:301][318]LogSavePackage: Save=4.15ms
+[2017.09.06-02.19.19:301][318]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitData7FD295D8400B5E36DD6AF2992D290B64.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset'
+[2017.09.06-02.19.19:304][318]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/UnitData.uasset
+[2017.09.06-02.19.50:149][729]LogSavePackage: Save=76.45ms
+[2017.09.06-02.19.50:150][729]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto4C400AA5343C4C94F2774789A1BE1A247.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.09.06-02.19.50:150][729]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.09.06-02.19.50:155][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.440
+[2017.09.06-02.19.50:155][729]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.440
+[2017.09.06-02.19.50:156][729]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase] ([1] browsable assets)...
+[2017.09.06-02.19.50:169][729]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase]
+[2017.09.06-02.19.50:169][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase]
+[2017.09.06-02.19.50:448][729]LogSavePackage: Save=268.49ms
+[2017.09.06-02.19.50:448][729]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBase_Auto41FA3D5A24FD60AEA775E61B17AA969ED.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase_Auto4.uasset'
+[2017.09.06-02.19.50:487][729]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase_Auto4.uasset
+[2017.09.06-02.19.50:487][729]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject] ([1] browsable assets)...
+[2017.09.06-02.19.50:487][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject]
+[2017.09.06-02.19.50:774][729]LogSavePackage: Save=275.06ms
+[2017.09.06-02.19.50:774][729]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/RoomObject_Auto41E8ECA9E4E6EF6D148E00BAC805220AD.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject_Auto4.uasset'
+[2017.09.06-02.19.50:774][729]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject_Auto4.uasset
+[2017.09.06-02.19.50:775][729]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType] ([1] browsable assets)...
+[2017.09.06-02.19.50:775][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType]
+[2017.09.06-02.19.50:811][729]LogSavePackage: Save=31.77ms
+[2017.09.06-02.19.50:811][729]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitType_Auto4F8F7847948FB6A201EF2DB972A0D038C.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType_Auto4.uasset'
+[2017.09.06-02.19.50:812][729]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType_Auto4.uasset
+[2017.09.06-02.19.50:812][729]LogFileHelpers: Auto-saving content packages took 0.656
+[2017.09.06-02.20.13:298][ 52]BlueprintLog: New page: Compile UnitType
+[2017.09.06-02.20.14:093][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset" SILENT=true
+[2017.09.06-02.20.14:128][ 72]LogSavePackage: Save=29.54ms
+[2017.09.06-02.20.14:128][ 72]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/UnitTypeD3E500284A6396D0FC5C418FD7502982.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset'
+[2017.09.06-02.20.14:136][ 72]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.uasset
+[2017.09.06-02.20.21:256][490]BlueprintLog: New page: Compile ShipBase
+[2017.09.06-02.20.22:579][490]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.20.22:579][490]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.20.22:579][490]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.20.22:579][490]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.20.22:579][490]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.20.22:580][490]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.20.22:580][490]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.20.22:580][490]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.20.22:581][490]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.20.24:292][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset" SILENT=true
+[2017.09.06-02.20.24:581][518]LogSavePackage: Save=281.95ms
+[2017.09.06-02.20.24:582][518]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBaseF2CF8F7743B7245E0CC795AD9112F575.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset'
+[2017.09.06-02.20.24:589][518]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset
+[2017.09.06-02.21.08:183][113]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.06-02.21.08:256][113]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.21.08:256][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-02.21.08:256][113]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 5, 2017, 12:21:08 PM)
+[2017.09.06-02.21.08:431][113]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.06-02.21.08:449][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018259s)
+[2017.09.06-02.21.08:450][113]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.06-02.21.08:450][113]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2017.09.06-02.21.08:450][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019726s)
+[2017.09.06-02.21.08:505][113]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.06-02.21.08:582][113]LogInit: FAudioDevice initialized.
+[2017.09.06-02.21.08:617][113]LogLoad: Game class is 'HeraldGameMode_C'
+[2017.09.06-02.21.08:620][113]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.05-19.21.08
+[2017.09.06-02.21.08:623][113]LogWorld: Bringing up level for play took: 0.004591
+[2017.09.06-02.21.08:629][113]LogScript: Warning: Accessed None trying to read property UnitType
+	ShipBase_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ShipBase_C_0
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase_C:ExecuteUbergraph_ShipBase:0BFB
+[2017.09.06-02.21.08:630][113]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property UnitType from function: 'ExecuteUbergraph_ShipBase' from node: Initialize in graph: EventGraph in object: ShipBase with description: Accessed None trying to read property UnitType
+[2017.09.06-02.21.08:630][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:630][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:630][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:630][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:630][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:630][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:630][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:630][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:630][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:631][113]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital0
+[2017.09.06-02.21.08:635][113]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital0
+[2017.09.06-02.21.08:638][113]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital0
+[2017.09.06-02.21.08:642][113]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-02.21.08:647][113]LogScript: Warning: Accessed None trying to read property UnitType
+	ShipBase_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ShipBase_C_1
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase_C:ExecuteUbergraph_ShipBase:0BFB
+[2017.09.06-02.21.08:647][113]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property UnitType from function: 'ExecuteUbergraph_ShipBase' from node: Initialize in graph: EventGraph in object: ShipBase with description: Accessed None trying to read property UnitType
+[2017.09.06-02.21.08:648][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:648][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:648][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:648][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:648][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:648][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:648][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:648][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:648][113]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.21.08:648][113]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital1
+[2017.09.06-02.21.08:655][113]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital1
+[2017.09.06-02.21.08:658][113]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital1
+[2017.09.06-02.21.08:660][113]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-02.21.08:701][113]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.098
+[2017.09.06-02.21.08:702][113]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.21.21:357][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.21.21:364][871]LogBlueprintUserMessages: [HeraldGameInstance_C_0] Saving ShipList due to shutdown
+[2017.09.06-02.21.21:394][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.22.44:932][775]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship'
+[2017.09.06-02.22.44:932][775]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship' while loading ../../../../Projects/BonVoyage/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2017.09.06-02.22.44:932][775]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode : Can't find file for asset. /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship
+[2017.09.06-02.22.44:933][775]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship'
+[2017.09.06-02.22.44:933][775]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship' while loading ../../../../Projects/BonVoyage/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset.
+[2017.09.06-02.22.44:934][775]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship'
+[2017.09.06-02.22.44:934][775]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship' while loading NULL.
+[2017.09.06-02.22.44:934][775]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship'
+[2017.09.06-02.22.44:935][775]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship' while loading NULL.
+[2017.09.06-02.22.44:935][775]LogLinker: Warning: Can't find file '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship'
+[2017.09.06-02.22.44:935][775]LoadErrors: Failed to load /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C Referenced by Default__ThirdPersonGameMode_C
+[2017.09.06-02.22.44:935][775]LogLinker: Warning: Can't find file for asset '/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship' while loading NULL.
+[2017.09.06-02.23.49:508][447]BlueprintLog: New page: Compile HeraldGameMode
+[2017.09.06-02.23.50:037][447]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.23.50:037][447]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.23.50:037][447]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.23.51:071][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/GameSystem/HeraldGameMode" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset" SILENT=true
+[2017.09.06-02.23.51:308][475]LogSavePackage: Save=225.26ms
+[2017.09.06-02.23.51:308][475]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/HeraldGameMode8F122E31470B98E7341F94A7F34B0F2C.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset'
+[2017.09.06-02.23.51:310][475]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset
+[2017.09.06-02.23.57:967][843]BlueprintLog: New page: Compile HeraldGameMode
+[2017.09.06-02.23.58:485][843]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.23.58:485][843]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.23.58:486][843]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.23.59:426][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/GameSystem/HeraldGameMode" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset" SILENT=true
+[2017.09.06-02.23.59:660][866]LogSavePackage: Save=228.83ms
+[2017.09.06-02.23.59:660][866]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/HeraldGameModeAB8336AD471F7B0FD48199BF3E69DBCD.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset'
+[2017.09.06-02.23.59:662][866]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset
+[2017.09.06-02.25.08:148][893]BlueprintLog: New page: Compile RoomObject
+[2017.09.06-02.25.09:335][897]LogSavePackage: Save=279.82ms
+[2017.09.06-02.25.09:335][897]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/RoomObjectE6FFA3A647D009AFBFDDD2A305068D06.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject.uasset'
+[2017.09.06-02.25.09:339][897]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject.uasset
+[2017.09.06-02.25.16:167][306]BlueprintLog: New page: Compile RoomObject
+[2017.09.06-02.25.17:971][350]LogSavePackage: Save=268.29ms
+[2017.09.06-02.25.17:971][350]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/RoomObjectC3170B854FD38E3AAAEF619FDBB9E672.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject.uasset'
+[2017.09.06-02.25.17:973][350]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject.uasset
+[2017.09.06-02.26.05:637][209]BlueprintLog: New page: Compile RoomObject
+[2017.09.06-02.26.07:149][235]LogSavePackage: Save=270.82ms
+[2017.09.06-02.26.07:149][235]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/RoomObject552463024C3FA9C42BDE3893C8CAA03B.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject.uasset'
+[2017.09.06-02.26.07:150][235]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/ShipComponents/RoomComponent/RoomObject.uasset
+[2017.09.06-02.26.12:816][571]BlueprintLog: New page: Compile HeraldGameMode
+[2017.09.06-02.26.13:366][571]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.13:367][571]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.13:367][571]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.14:245][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/GameSystem/HeraldGameMode" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset" SILENT=true
+[2017.09.06-02.26.14:478][591]LogSavePackage: Save=227.04ms
+[2017.09.06-02.26.14:478][591]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/HeraldGameMode74C229FC40AF09CBDF6F129E77292A34.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset'
+[2017.09.06-02.26.14:480][591]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset
+[2017.09.06-02.26.43:776][230]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.43:776][230]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.43:777][230]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.43:777][230]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.43:777][230]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.43:778][230]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.43:778][230]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.43:778][230]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.43:779][230]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.26.44:995][230]LogMetaData: Removing '/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.SKEL_ShipType_C' ref from Metadata '/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.PackageMetaData'
+[2017.09.06-02.26.44:995][230]LogMetaData: Removing '/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.ShipType_C' ref from Metadata '/Game/Assets/Blueprints/PlayableShips/Base_Ship/UnitType.PackageMetaData'
+[2017.09.06-02.26.45:017][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipType" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.uasset" SILENT=true
+[2017.09.06-02.26.45:054][230]LogSavePackage: Save=34.86ms
+[2017.09.06-02.26.45:054][230]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipType8E0309AD4C5D1DC24A59128A10A51EFB.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.uasset'
+[2017.09.06-02.26.45:056][230]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.uasset
+[2017.09.06-02.26.45:324][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset" SILENT=true
+[2017.09.06-02.26.45:618][230]LogSavePackage: Save=284.75ms
+[2017.09.06-02.26.45:618][230]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBase93A11FC74A9A7525E6589DA4EF5F373B.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset'
+[2017.09.06-02.26.45:619][230]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset
+[2017.09.06-02.26.53:582][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/ShipData" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset" SILENT=true
+[2017.09.06-02.26.53:588][689]LogSavePackage: Save=4.29ms
+[2017.09.06-02.26.53:588][689]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipData54947E6347B3BCEA2202ABAE6FC52C90.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset'
+[2017.09.06-02.26.53:590][689]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset
+[2017.09.06-02.26.53:779][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/GameSystem/HeraldGameMode" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset" SILENT=true
+[2017.09.06-02.26.54:009][689]LogSavePackage: Save=223.41ms
+[2017.09.06-02.26.54:009][689]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/HeraldGameModeD2242BE74F0F0B165EF5BAAD80A648E1.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset'
+[2017.09.06-02.26.54:011][689]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/GameSystem/HeraldGameMode.uasset
+[2017.09.06-02.27.02:202][177]LogMetaData: Removing '/Game/Assets/DataModels/Ship.Ship' ref from Metadata '/Game/Assets/DataModels/Unit.PackageMetaData'
+[2017.09.06-02.27.02:202][177]LogMetaData: Removing '/Game/Assets/DataModels/Ship.Ship:Name_127_3730BE9D4524C4C6767858A557CC9C41' ref from Metadata '/Game/Assets/DataModels/Unit.PackageMetaData'
+[2017.09.06-02.27.02:202][177]LogMetaData: Removing '/Game/Assets/DataModels/Ship.Ship:Mesh_126_A819835B4629EEA86DEF8E977944ECDE' ref from Metadata '/Game/Assets/DataModels/Unit.PackageMetaData'
+[2017.09.06-02.27.02:220][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/DataModels/Ship" FILE="../../../../Projects/BonVoyage/Content/Assets/DataModels/Ship.uasset" SILENT=true
+[2017.09.06-02.27.02:226][177]LogSavePackage: Save=4.88ms
+[2017.09.06-02.27.02:226][177]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipE6AF295447FA56F894D787A2218E2B32.tmp' to '../../../../Projects/BonVoyage/Content/Assets/DataModels/Ship.uasset'
+[2017.09.06-02.27.02:228][177]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/DataModels/Ship.uasset
+[2017.09.06-02.27.02:428][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset" SILENT=true
+[2017.09.06-02.27.02:718][177]LogSavePackage: Save=283.55ms
+[2017.09.06-02.27.02:718][177]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBase38477D0248FF8AF4343BDAAB299ACB34.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset'
+[2017.09.06-02.27.02:720][177]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset
+[2017.09.06-02.27.02:723][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipType" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.uasset" SILENT=true
+[2017.09.06-02.27.02:766][177]LogSavePackage: Save=30.61ms
+[2017.09.06-02.27.02:766][177]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipType695AF45B438F52AD472FFDB758218440.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.uasset'
+[2017.09.06-02.27.02:768][177]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.uasset
+[2017.09.06-02.27.02:771][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/ShipData" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset" SILENT=true
+[2017.09.06-02.27.02:785][177]LogSavePackage: Save=5.72ms
+[2017.09.06-02.27.02:785][177]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipData5D4B4DF547B34724ACDDDD8BB0866775.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset'
+[2017.09.06-02.27.02:785][177]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset
+[2017.09.06-02.27.36:083][161]BlueprintLog: New page: Compile ShipType
+[2017.09.06-02.27.36:910][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipType" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.uasset" SILENT=true
+[2017.09.06-02.27.36:947][182]LogSavePackage: Save=31.14ms
+[2017.09.06-02.27.36:947][182]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipTypeA85C3199411F542F3A2908A386ABEEA9.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.uasset'
+[2017.09.06-02.27.36:949][182]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipType.uasset
+[2017.09.06-02.28.42:088][ 28]BlueprintLog: New page: Compile ShipBase
+[2017.09.06-02.28.42:994][ 28]LogBlueprint: Error: [Compiler ShipBase] The type of  Out Row  is undetermined.  Connect something to  Get Data Table Row  to imply a specific type.
+[2017.09.06-02.28.43:391][ 28]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.28.43:392][ 28]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.28.43:392][ 28]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.28.43:392][ 28]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.28.43:392][ 28]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.28.43:393][ 28]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.28.43:394][ 28]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.28.43:394][ 28]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.28.43:394][ 28]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.28.44:588][ 28]LogBlueprint: Warning: [Compiler ShipBase] [8734.19] Compile of ShipBase failed. 1 Fatal Issue(s) 0 Warning(s) [in 2,499 ms] (/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase)
+[2017.09.06-02.28.44:616][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset" SILENT=true
+[2017.09.06-02.28.44:901][ 28]LogSavePackage: Save=279.33ms
+[2017.09.06-02.28.44:901][ 28]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBase69BA7F3448612B185299C3884FBC0F0D.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset'
+[2017.09.06-02.28.44:903][ 28]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset
+[2017.09.06-02.28.45:483][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset" SILENT=true
+[2017.09.06-02.28.45:758][ 51]LogSavePackage: Save=270.33ms
+[2017.09.06-02.28.45:758][ 51]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBase6CCE8438420088CB3C52F8A11F0B7486.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset'
+[2017.09.06-02.28.45:759][ 51]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset
+[2017.09.06-02.28.59:709][886]BlueprintLog: New page: Compile ShipBase
+[2017.09.06-02.29.03:025][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset" SILENT=true
+[2017.09.06-02.29.03:317][919]LogSavePackage: Save=286.83ms
+[2017.09.06-02.29.03:317][919]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBase7B2C4AC5416D347B5E8512AC1BCBF1E4.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset'
+[2017.09.06-02.29.03:319][919]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset
+[2017.09.06-02.29.12:238][454]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.06-02.29.12:315][454]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.29.12:316][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-02.29.12:316][454]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 5, 2017, 12:29:12 PM)
+[2017.09.06-02.29.12:492][454]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.06-02.29.12:512][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020526s)
+[2017.09.06-02.29.12:513][454]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.06-02.29.12:513][454]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2017.09.06-02.29.12:514][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021929s)
+[2017.09.06-02.29.12:574][454]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.06-02.29.12:656][454]LogInit: FAudioDevice initialized.
+[2017.09.06-02.29.12:687][454]LogLoad: Game class is 'HeraldGameMode_C'
+[2017.09.06-02.29.12:689][454]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.05-19.29.12
+[2017.09.06-02.29.12:693][454]LogWorld: Bringing up level for play took: 0.004582
+[2017.09.06-02.29.12:700][454]LogScript: Warning: Accessed None trying to read property UnitType
+	ShipBase_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ShipBase_C_0
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase_C:ExecuteUbergraph_ShipBase:0CD5
+[2017.09.06-02.29.12:701][454]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property UnitType from function: 'ExecuteUbergraph_ShipBase' from node: Initialize in graph: EventGraph in object: ShipBase with description: Accessed None trying to read property UnitType
+[2017.09.06-02.29.12:701][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:701][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:701][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:701][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:701][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:701][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:701][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:701][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:701][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:701][454]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital0
+[2017.09.06-02.29.12:706][454]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital0
+[2017.09.06-02.29.12:709][454]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital0
+[2017.09.06-02.29.12:710][454]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-02.29.12:716][454]LogScript: Warning: Accessed None trying to read property UnitType
+	ShipBase_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ShipBase_C_1
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase_C:ExecuteUbergraph_ShipBase:0CD5
+[2017.09.06-02.29.12:716][454]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property UnitType from function: 'ExecuteUbergraph_ShipBase' from node: Initialize in graph: EventGraph in object: ShipBase with description: Accessed None trying to read property UnitType
+[2017.09.06-02.29.12:716][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:716][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:716][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:716][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:716][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:716][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:716][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:716][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:716][454]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.12:716][454]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital1
+[2017.09.06-02.29.12:722][454]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital1
+[2017.09.06-02.29.12:726][454]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital1
+[2017.09.06-02.29.12:727][454]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-02.29.12:771][454]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.167
+[2017.09.06-02.29.12:772][454]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.29.15:873][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.29.15:879][639]LogBlueprintUserMessages: [HeraldGameInstance_C_0] Saving ShipList due to shutdown
+[2017.09.06-02.29.15:911][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.29.16:458][669]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.06-02.29.16:529][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.29.16:529][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-02.29.16:529][669]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 5, 2017, 12:29:16 PM)
+[2017.09.06-02.29.16:530][669]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.06-02.29.16:550][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019979s)
+[2017.09.06-02.29.16:551][669]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.06-02.29.16:551][669]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2017.09.06-02.29.16:551][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020994s)
+[2017.09.06-02.29.16:601][669]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.06-02.29.16:680][669]LogInit: FAudioDevice initialized.
+[2017.09.06-02.29.16:718][669]LogLoad: Game class is 'HeraldGameMode_C'
+[2017.09.06-02.29.16:720][669]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.05-19.29.16
+[2017.09.06-02.29.16:724][669]LogWorld: Bringing up level for play took: 0.004736
+[2017.09.06-02.29.16:731][669]LogScript: Warning: Accessed None trying to read property UnitType
+	ShipBase_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ShipBase_C_0
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase_C:ExecuteUbergraph_ShipBase:0CD5
+[2017.09.06-02.29.16:731][669]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property UnitType from function: 'ExecuteUbergraph_ShipBase' from node: Initialize in graph: EventGraph in object: ShipBase with description: Accessed None trying to read property UnitType
+[2017.09.06-02.29.16:731][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:731][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:731][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:732][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:732][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:732][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:732][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:732][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:732][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:732][669]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital0
+[2017.09.06-02.29.16:736][669]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital0
+[2017.09.06-02.29.16:740][669]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital0
+[2017.09.06-02.29.16:741][669]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-02.29.16:746][669]LogScript: Warning: Accessed None trying to read property UnitType
+	ShipBase_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ShipBase_C_1
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase_C:ExecuteUbergraph_ShipBase:0CD5
+[2017.09.06-02.29.16:746][669]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property UnitType from function: 'ExecuteUbergraph_ShipBase' from node: Initialize in graph: EventGraph in object: ShipBase with description: Accessed None trying to read property UnitType
+[2017.09.06-02.29.16:747][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:747][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:747][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:747][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:747][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:747][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:747][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:747][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:747][669]LogStreaming: Warning: Failed to read file '../../../../Projects/BonVoyage/Saved/SaveGames/ComponentSave1.sav' error.
+[2017.09.06-02.29.16:748][669]LogBlueprintUserMessages: [ScannerComponent] Setting stats for Scanner on Capital1
+[2017.09.06-02.29.16:751][669]LogBlueprintUserMessages: [HullComponent] Setting stats for Hull on Capital1
+[2017.09.06-02.29.16:755][669]LogBlueprintUserMessages: [ShieldComponent] Setting stats for Shields on Capital1
+[2017.09.06-02.29.16:756][669]LogBlueprintUserMessages: [CrewComponent] Not implemented
+[2017.09.06-02.29.16:806][669]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.202
+[2017.09.06-02.29.16:807][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.29.16:820][669]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:820][669]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:820][669]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:820][669]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:820][669]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:821][669]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:864][670]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:864][670]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:864][670]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:864][670]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:864][670]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:864][670]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:872][671]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:873][671]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:873][671]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:873][671]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:873][671]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:873][671]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:888][672]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:889][672]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:889][672]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:889][672]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:889][672]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:889][672]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:906][673]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:906][673]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:906][673]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:906][673]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:906][673]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:906][673]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:922][674]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:922][674]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:922][674]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_11
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:922][674]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:922][674]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:939][675]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:940][675]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:940][675]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:956][676]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:956][676]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:956][676]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:973][677]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:973][677]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_12
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.16:989][678]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.17:006][679]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.17:022][680]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.17:039][681]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.17:055][682]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.17:072][683]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.17:089][684]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.17:106][685]LogScript: Warning: Accessed None trying to read property CallFunc_SlotAsCanvasSlot_ReturnValue
+	MapIcon_C /Engine/Transient.UnrealEdEngine_0:HeraldGameInstance_C_1.MapIcon_C_9
+	Function /Game/Assets/Widgets/MapIcon.MapIcon_C:OnPaint:051D
+[2017.09.06-02.29.18:502][769]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.29.18:508][769]LogBlueprintUserMessages: [HeraldGameInstance_C_1] Saving ShipList due to shutdown
+[2017.09.06-02.29.18:539][769]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.29.38:441][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/DataTables/ShipData" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset" SILENT=true
+[2017.09.06-02.29.38:451][946]LogSavePackage: Save=4.47ms
+[2017.09.06-02.29.38:451][946]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipDataA3A065B343D5A6A995706D93710445A2.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset'
+[2017.09.06-02.29.38:453][946]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/DataTables/ShipData.uasset
+[2017.09.06-02.32.03:668][535]BlueprintLog: New page: Compile ShipBase
+[2017.09.06-02.32.04:579][535]LogBlueprint: Error: [Compiler ShipBase] Outer object is required in  Construct Object from Class
+[2017.09.06-02.32.05:009][535]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.32.05:010][535]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.32.05:010][535]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.32.05:010][535]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.32.05:010][535]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.32.05:011][535]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.32.05:011][535]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.32.05:011][535]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.32.05:012][535]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2017.09.06-02.32.06:269][535]LogBlueprint: Warning: [Compiler ShipBase] [8935.88] Compile of ShipBase failed. 1 Fatal Issue(s) 0 Warning(s) [in 2,601 ms] (/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.ShipBase)
+[2017.09.06-02.32.19:767][316]BlueprintLog: New page: Compile ShipBase
+[2017.09.06-02.32.23:221][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset" SILENT=true
+[2017.09.06-02.32.23:524][354]LogSavePackage: Save=292.43ms
+[2017.09.06-02.32.23:524][354]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipBaseE9C2BEFB40D3AC41BE4EECA7135137B5.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset'
+[2017.09.06-02.32.23:526][354]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/ShipBase.uasset
+[2017.09.06-02.32.55:779][258]LogSavePackage: Save=75.81ms
+[2017.09.06-02.32.55:779][258]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto516E2F02E4EFFC8E16716D2865E69D14C.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2017.09.06-02.32.55:780][258]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2017.09.06-02.32.55:781][258]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.427
+[2017.09.06-02.32.55:781][258]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.427
+[2017.09.06-02.32.58:248][406]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.06-02.32.58:320][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.06-02.32.58:320][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-02.32.58:320][406]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 5, 2017, 12:32:58 PM)
+[2017.09.06-02.32.58:500][406]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.06-02.32.58:518][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018238s)
+[2017.09.06-02.32.58:519][406]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.06-02.32.58:520][406]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2017.09.06-02.32.58:520][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019935s)
+[2017.09.06-02.32.58:569][406]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.06-02.32.58:646][406]LogInit: FAudioDevice initialized.
+[2017.09.06-02.32.58:676][406]LogLoad: Game class is 'HeraldGameMode_C'
+[2017.09.06-02.32.58:679][406]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.09.05-19.32.58
+[2017.09.06-02.32.58:683][406]LogWorld: Bringing up level for play took: 0.004855
+[2017.09.06-02.33.12:984][406]LogWindows: Error: === Critical error: ===
+[2017.09.06-02.33.12:985][406]LogWindows: Error: 
+[2017.09.06-02.33.12:985][406]LogWindows: Error: Fatal error!
+[2017.09.06-02.33.12:985][406]LogWindows: Error: 
+[2017.09.06-02.33.12:985][406]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000000c0
+[2017.09.06-02.33.12:985][406]LogWindows: Error: 
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-Engine.dll!UGameplayStatics::SpawnObject() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\gameplaystatics.cpp:373]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-Engine.dll!UGameplayStatics::execSpawnObject() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\classes\kismet\gameplaystatics.h:40]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4461]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:732]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2192]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::execLetObj() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2014]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:856]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4461]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1334]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::ProcessEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:699]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::ReceiveBeginPlay()
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::BeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:3162]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-Engine.dll!ACharacter::BeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\character.cpp:146]
+[2017.09.06-02.33.12:985][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:3130]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::PostActorConstruction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:2996]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::FinishSpawning() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:2902]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!UGameplayStatics::FinishSpawningActor() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\gameplaystatics.cpp:447]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!UGameplayStatics::execFinishSpawningActor() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\classes\kismet\gameplaystatics.h:40]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4461]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:732]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2192]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::execLetObj() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2014]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:856]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:856]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:856]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:856]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4461]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1334]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::ProcessEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:699]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::ReceiveBeginPlay()
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::BeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:3162]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:3130]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!AWorldSettings::NotifyBeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\worldsettings.cpp:187]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!AGameStateBase::HandleBeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\gamestatebase.cpp:177]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!UWorld::BeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\world.cpp:3435]
+[2017.09.06-02.33.12:986][406]LogWindows: Error: UE4Editor-Engine.dll!UGameInstance::StartPlayInEditorGameInstance() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\gameinstance.cpp:340]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor-UnrealEd.dll!UEditorEngine::CreatePIEGameInstance() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\playlevel.cpp:3447]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor-UnrealEd.dll!UEditorEngine::PlayInEditor() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\playlevel.cpp:2535]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor-UnrealEd.dll!UEditorEngine::StartQueuedPlayMapRequest() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\playlevel.cpp:1218]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1549]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:402]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3215]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.09.06-02.33.12:987][406]LogWindows: Error: KERNEL32.DLL!0x0000000051C72774
+[2017.09.06-02.33.12:987][406]LogWindows: Error: ntdll.dll!0x0000000053C50D51
+[2017.09.06-02.33.12:987][406]LogWindows: Error: ntdll.dll!0x0000000053C50D51
+[2017.09.06-02.33.12:987][406]LogWindows: Error: 
+[2017.09.06-02.33.13:006][406]LogExit: Executing StaticShutdownAfterError
+[2017.09.06-02.33.13:011][406]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.09.06-02.33.13:011][406]Log file closed, 09/05/17 19:33:13

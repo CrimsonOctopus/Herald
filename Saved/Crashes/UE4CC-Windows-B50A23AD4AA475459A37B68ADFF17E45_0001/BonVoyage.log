@@ -1,0 +1,956 @@
+﻿Log file open, 08/17/17 09:03:10
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BonVoyage
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2107960090) SRandInit(-2107960090).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.166833
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.17-16.03.12:375][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-16.03.12:375][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.17-16.03.12:461][  0]LogInit: Computer: CYLONRAIDER
+[2017.08.17-16.03.12:461][  0]LogInit: User: User
+[2017.08.17-16.03.12:461][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.17-16.03.12:461][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2017.08.17-16.03.12:462][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.08.17-16.03.12:462][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.17-16.03.12:462][  0]LogMemory: Process Physical Memory: 282.71 MB used, 282.71 MB peak
+[2017.08.17-16.03.12:462][  0]LogMemory: Process Virtual Memory: 291.59 MB used, 291.59 MB peak
+[2017.08.17-16.03.12:462][  0]LogMemory: Physical Memory: 6282.29 MB used,  59174.96 MB free, 65457.25 MB total
+[2017.08.17-16.03.12:462][  0]LogMemory: Virtual Memory: 717.34 MB used,  59174.96 MB free, 134217728.00 MB total
+[2017.08.17-16.03.13:219][  0]LogInit: Using OS detected language (en-US).
+[2017.08.17-16.03.13:220][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.17-16.03.13:312][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.17-16.03.16:768][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.17-16.03.17:536][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.17-16.03.17:536][  0]LogD3D11RHI:       8113/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.17-16.03.17:538][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.17-16.03.17:538][  0]LogD3D11RHI:       0/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.17-16.03.17:538][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.17-16.03.17:545][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.17-16.03.17:545][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.17-16.03.17:546][  0]LogWindows: EnumDisplayDevices:
+[2017.08.17-16.03.17:546][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.17-16.03.17:546][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.17-16.03.17:546][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.17-16.03.17:546][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.17-16.03.17:546][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.17-16.03.17:546][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.17-16.03.17:546][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.17-16.03.17:546][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.17-16.03.17:546][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.17-16.03.18:219][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.17-16.03.18:268][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.17-16.03.18:313][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Projects/BonVoyage/Intermediate/Shaders/WorkingDirectory/12080/).
+[2017.08.17-16.03.18:313][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/E51A2D70460E26EF8C724BBAD0CFB86D/'.
+[2017.08.17-16.03.18:313][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.17-16.03.21:054][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.17-16.03.21:091][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.17-16.03.21:141][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.17-16.03.21:179][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.17-16.03.21:252][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.17-16.03.21:306][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.17-16.03.21:354][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.17-16.03.21:398][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.17-16.03.21:428][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.17-16.03.21:465][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.17-16.03.21:503][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.17-16.03.21:538][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.17-16.03.21:575][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.17-16.03.21:614][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.17-16.03.21:652][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.17-16.03.21:723][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.17-16.03.21:723][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.17-16.03.21:751][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.17-16.03.21:843][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.17-16.03.21:864][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.17-16.03.21:901][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.17-16.03.21:935][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.17-16.03.21:971][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.17-16.03.22:015][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.17-16.03.22:015][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.17-16.03.22:559][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.17-16.03.23:104][  0]LogDerivedDataCache: Loaded boot cache 0.54s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.17-16.03.23:104][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.17-16.03.23:104][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.17-16.03.23:104][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.17-16.03.23:104][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.17-16.03.23:104][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.17-16.03.23:190][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.17-16.03.23:202][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.17-16.03.23:214][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.17-16.03.23:215][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.17-16.03.23:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-16.03.23:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-16.03.24:186][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.08.17-16.03.24:506][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-16.03.26:066][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.17-16.03.26:580][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.17-16.03.26:632][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.17-16.03.26:632][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.17-16.03.26:632][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.17-16.03.26:632][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.17-16.03.26:632][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.17-16.03.28:029][  0]LogNetVersion: BonVoyage , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2954532094)
+[2017.08.17-16.03.28:735][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.084498 seconds
+[2017.08.17-16.03.28:741][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.17-16.03.28:741][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.17-16.03.28:741][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.17-16.03.28:778][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.17-16.03.51:095][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.17-16.03.51:122][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.17-16.03.51:887][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.17-16.03.52:612][  0]SourceControl: Source control is disabled
+[2017.08.17-16.03.52:612][  0]SourceControl: Source control is disabled
+[2017.08.17-16.03.52:640][  0]SourceControl: Source control is disabled
+[2017.08.17-16.03.52:668][  0]SourceControl: Source control is disabled
+[2017.08.17-16.03.53:218][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.17-16.03.53:359][  0]LogOcInput: OculusInput pre-init called
+[2017.08.17-16.03.53:691][  0]LogEngine: Initializing Engine...
+[2017.08.17-16.03.53:786][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.08.17-16.03.54:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.17-16.03.54:443][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.17-16.03.54:640][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.17-16.03.54:652][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.03.54:784][  0]LogInit: FAudioDevice initialized.
+[2017.08.17-16.03.54:876][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.17-16.03.54:890][  0]LogInit: Texture streaming: Enabled
+[2017.08.17-16.03.54:963][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.17-16.03.55:166][  0]LogInit: Transaction tracking system initialized
+[2017.08.17-16.03.55:368][  0]BlueprintLog: New page: Editor Load
+[2017.08.17-16.03.55:949][  0]LocalizationService: Localization service is disabled
+[2017.08.17-16.03.56:604][  0]LogConsoleResponse: Display: 
+[2017.08.17-16.03.57:537][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.17-16.03.57:538][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.17-16.03.57:538][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.17-16.03.58:620][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/' took 0.04s
+[2017.08.17-16.03.58:693][  0]SourceControl: Source control is disabled
+[2017.08.17-16.03.58:693][  0]Cmd: MAP LOAD FILE="../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.17-16.03.58:693][  0]LightingResults: New page: Lighting Build
+[2017.08.17-16.03.58:719][  0]MapCheck: New page: Map Check
+[2017.08.17-16.03.58:719][  0]LightingResults: New page: Lighting Build
+[2017.08.17-16.03.59:457][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.052 s
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: 
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: Ensure condition failed: ChildActorTemplate == nullptr [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ChildActorComponent.cpp] [Line: 95]
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: Found unexpected ChildActorTemplate LinkerPlaceholderExportObject /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.PLACEHOLDER-INST_of_PLACEHOLDER-CLASS__MainTurret_Blueprint_C_1 when ChildActorClass is null
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: Stack: 
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000BCA23606
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000BC7AC2D2
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000BC7C4746
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B968CBA1
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8CB350
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89B8A3
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C17C9
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9E1908
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EDE30
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EE075
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89C5A5
+[2017.08.17-16.03.59:457][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB76F475
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB76E238
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8CB5DF
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89B47B
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C03F1
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89A414
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89B84B
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C17C9
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9E1908
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EDE30
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EE075
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8B2EE8
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB899319
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C03F1
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB88B671
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9A0259
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9A1959
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB874D1F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB94B44A
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB948427
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B9623CE6
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B96E5305
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B968C5E0
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8CB350
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89B8A3
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C17C9
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9E1908
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EDE30
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EE075
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC582
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8A8401
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EBB73
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89D8DE
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8B6121
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9E16AE
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EDE30
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EE075
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8B2EE8
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB899319
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C03F1
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB88B671
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9A0259
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9A1959
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB874D1F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB94B44A
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB948427
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B9623CE6
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B96E5305
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000B968C5E0
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8CB350
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89B8A3
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C17C9
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9E1908
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EDE30
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EE075
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89C5A5
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB76F475
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB76E025
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB76DE93
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB732D53
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8CB5EA
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89B47B
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C03F1
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89A414
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89B84B
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C17C9
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB9E1908
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EDE30
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EE075
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8EC73F
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89C5A5
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB76F475
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB76E238
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8CB5DF
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB89B47B
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000CB8C03F1
+[2017.08.17-16.03.59:458][  0]LogOutputDevice: Error: 
+[2017.08.17-16.03.59:464][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2017.08.17-16.03.59:743][  0]LogStats:                    SendNewReport -  0.280 s
+[2017.08.17-16.03.59:744][  0]LogStats:             FDebug::EnsureFailed -  0.339 s
+[2017.08.17-16.04.01:571][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.04.01:673][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.17-16.04.01:686][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.17-16.04.01:721][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.869ms to complete.
+[2017.08.17-16.04.01:721][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.028
+[2017.08.17-16.04.01:928][  0]LogCollectionManager: Loaded 0 collections in 0.001002 seconds
+[2017.08.17-16.04.02:001][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Saved/Collections/' took 0.01s
+[2017.08.17-16.04.02:002][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Developers/User/Collections/' took 0.01s
+[2017.08.17-16.04.02:002][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Collections/' took 0.01s
+[2017.08.17-16.04.02:002][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.08.17-16.04.02:010][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2386 classes and 500 folders.
+[2017.08.17-16.04.02:051][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.17-16.04.02:670][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.17-16.04.02:700][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.17-16.04.02:792][  0]LogSlate: Took 0.005221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.17-16.04.02:798][  0]LogSlate: Took 0.003754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.17-16.04.02:821][  0]LogSlate: Took 0.016117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.17-16.04.03:020][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.08.17-16.04.03:195][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.17-16.04.03:196][  0]LogLoad: (Engine Initialization) Total time: 54.99 seconds
+[2017.08.17-16.04.03:196][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.17-16.04.03:196][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.17-16.04.03:556][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.17-16.04.03:675][  0]LogSlate: Took 0.070691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-16.04.03:900][  1]LogAssetRegistry: Asset discovery search completed in 39.7356 seconds
+[2017.08.17-16.04.03:902][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.17-16.04.03:902][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2017.08.17-16.04.04:537][  3]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-16.07.34:560][595]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-16.07.35:324][595]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.17-16.07.35:534][595]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.08.17-16.07.36:711][595]LogSlate: Took 0.017542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.17-16.07.37:996][596]LogSlate: Took 0.056873 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.17-16.10.53:341][ 69]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.10.54:601][ 69]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.10.54:602][ 69]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.10.54:693][ 69]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.10.54:693][ 69]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.10.54:782][ 69]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.10.54:783][ 69]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.10.56:727][ 82]LogSavePackage: Save=634.26ms
+[2017.08.17-16.10.56:727][ 82]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipA21A51C141E5B2FCED466E9563323D5A.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.10.56:729][ 82]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.10.59:917][400]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.11.00:126][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.11.00:126][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.11.00:150][400]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:11:00 AM)
+[2017.08.17-16.11.00:150][400]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.11.00:199][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048973s)
+[2017.08.17-16.11.00:200][400]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.11.00:200][400]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2017.08.17-16.11.00:201][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.050630s)
+[2017.08.17-16.11.00:225][400]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.11.00:254][400]LogInit: FAudioDevice initialized.
+[2017.08.17-16.11.00:299][400]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.11.00:328][400]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.11.00
+[2017.08.17-16.11.00:349][400]LogWorld: Bringing up level for play took: 0.026321
+[2017.08.17-16.11.00:406][400]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.17-16.11.00:411][400]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.357
+[2017.08.17-16.11.00:411][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.11.04:311][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.11.04:392][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.11.22:113][135]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.11.23:558][135]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.11.23:559][135]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.11.23:644][135]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.11.23:644][135]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.11.23:729][135]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.11.23:730][135]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.11.25:068][163]LogSavePackage: Save=515.48ms
+[2017.08.17-16.11.25:069][163]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship2A57250948F13939D90970B4FB82D548.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.11.25:071][163]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.11.26:231][283]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.11.26:265][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.11.26:265][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.11.26:265][283]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:11:26 AM)
+[2017.08.17-16.11.26:265][283]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.11.26:287][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021398s)
+[2017.08.17-16.11.26:287][283]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.11.26:288][283]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2017.08.17-16.11.26:288][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022767s)
+[2017.08.17-16.11.26:308][283]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.11.26:335][283]LogInit: FAudioDevice initialized.
+[2017.08.17-16.11.26:367][283]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.11.26:370][283]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.11.26
+[2017.08.17-16.11.26:371][283]LogWorld: Bringing up level for play took: 0.003375
+[2017.08.17-16.11.26:378][283]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.323
+[2017.08.17-16.11.26:378][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.11.28:243][503]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.11.28:322][503]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.14.10:525][751]LogSavePackage: Save=136.36ms
+[2017.08.17-16.14.10:525][751]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto1429A62474842183ED044689765B1D9A2.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.08.17-16.14.10:526][751]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.08.17-16.14.10:528][751]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.496
+[2017.08.17-16.14.10:528][751]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.496
+[2017.08.17-16.14.10:555][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.17-16.14.10:578][751]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.17-16.14.10:578][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.17-16.14.11:189][751]LogSavePackage: Save=605.34ms
+[2017.08.17-16.14.11:189][751]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto15C9313644DFE766191D05AA3F0D36571.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto1.uasset'
+[2017.08.17-16.14.11:215][751]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto1.uasset
+[2017.08.17-16.14.11:215][751]LogFileHelpers: Auto-saving content packages took 0.686
+[2017.08.17-16.16.19:523][482]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.16.21:335][482]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.16.21:336][482]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.16.21:426][482]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.16.21:427][482]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.16.21:516][482]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.16.21:516][482]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.16.23:208][607]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.16.23:243][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.16.23:243][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.16.23:243][607]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:16:23 AM)
+[2017.08.17-16.16.23:243][607]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.16.23:265][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022246s)
+[2017.08.17-16.16.23:266][607]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.16.23:266][607]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2017.08.17-16.16.23:266][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023444s)
+[2017.08.17-16.16.23:286][607]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.16.23:313][607]LogInit: FAudioDevice initialized.
+[2017.08.17-16.16.23:344][607]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.16.23:347][607]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.16.23
+[2017.08.17-16.16.23:349][607]LogWorld: Bringing up level for play took: 0.003737
+[2017.08.17-16.16.23:361][607]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.694
+[2017.08.17-16.16.23:362][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.16.45:869][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.16.45:953][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.18.12:010][920]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.18.14:012][920]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.18.14:013][920]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.18.14:103][920]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.18.14:103][920]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.18.14:193][920]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.18.14:194][920]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.18.14:884][920]LogSavePackage: Save=528.11ms
+[2017.08.17-16.18.14:884][920]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship24D9D3A046B90B6DE95A689261CF11DC.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.18.14:888][920]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.18.16:179][954]LogSavePackage: Save=523.04ms
+[2017.08.17-16.18.16:179][954]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipC5348B784A21CC9E1A7753B30524B429.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.18.16:180][954]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.18.17:588][104]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.18.17:624][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.18.17:624][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.18.17:624][104]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:18:17 AM)
+[2017.08.17-16.18.17:624][104]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.18.17:645][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021284s)
+[2017.08.17-16.18.17:646][104]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.18.17:646][104]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2017.08.17-16.18.17:647][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022558s)
+[2017.08.17-16.18.17:666][104]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.18.17:693][104]LogInit: FAudioDevice initialized.
+[2017.08.17-16.18.17:732][104]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.18.17:738][104]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.18.17
+[2017.08.17-16.18.17:740][104]LogWorld: Bringing up level for play took: 0.005936
+[2017.08.17-16.18.17:752][104]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.303
+[2017.08.17-16.18.17:752][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.18.37:277][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.18.37:363][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.19.02:196][128]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.19.04:486][128]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.19.04:487][128]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.19.04:576][128]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.19.04:577][128]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.19.04:662][128]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.19.04:663][128]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.19.06:119][159]LogSavePackage: Save=552.90ms
+[2017.08.17-16.19.06:119][159]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipB1CAE6444810018A04B21395F4189B8F.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.19.06:121][159]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.19.07:636][305]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.19.07:672][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.19.07:672][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.19.07:672][305]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:19:07 AM)
+[2017.08.17-16.19.07:672][305]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.19.07:689][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017001s)
+[2017.08.17-16.19.07:690][305]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.19.07:690][305]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2017.08.17-16.19.07:691][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018570s)
+[2017.08.17-16.19.07:710][305]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.19.07:738][305]LogInit: FAudioDevice initialized.
+[2017.08.17-16.19.07:772][305]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.19.07:775][305]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.19.07
+[2017.08.17-16.19.07:776][305]LogWorld: Bringing up level for play took: 0.002963
+[2017.08.17-16.19.07:785][305]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.269
+[2017.08.17-16.19.07:786][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.19.20:237][794]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.19.20:318][794]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.19.24:137][ 35]LogEditorTransaction: Undo Move Node
+[2017.08.17-16.19.25:046][ 69]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.25:767][ 91]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.26:449][111]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.27:044][123]LogEditorTransaction: Undo Move Node
+[2017.08.17-16.19.27:549][128]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.27:985][129]LogEditorTransaction: Undo Move Node
+[2017.08.17-16.19.28:873][164]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.29:615][188]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.30:281][207]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.30:724][208]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.31:617][243]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.32:471][275]LogEditorTransaction: Undo Move Node
+[2017.08.17-16.19.33:315][307]LogEditorTransaction: Undo Move Node
+[2017.08.17-16.19.34:149][337]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.17-16.19.34:964][367]LogEditorTransaction: Undo Delete current selection
+[2017.08.17-16.19.36:095][421]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.37:277][511]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.38:129][543]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.38:911][570]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.39:740][600]LogEditorTransaction: Undo Create Pin Link
+[2017.08.17-16.19.40:587][631]LogEditorTransaction: Undo Delete current selection
+[2017.08.17-16.19.41:490][666]LogEditorTransaction: Undo Move Nodes
+[2017.08.17-16.19.42:800][731]LogEditorTransaction: Undo Add Node
+[2017.08.17-16.19.43:667][763]LogEditorTransaction: Undo Delete current selection
+[2017.08.17-16.22.21:116][581]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.22.24:847][581]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.22.24:847][581]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.22.24:985][581]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.22.24:986][581]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.22.25:122][581]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.22.25:122][581]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.22.26:884][629]LogSavePackage: Save=575.07ms
+[2017.08.17-16.22.26:884][629]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipB522F76145F04D06C8D9F485F518258B.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.22.26:886][629]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.22.28:749][819]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.22.28:785][819]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.22.28:785][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.22.28:785][819]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:22:28 AM)
+[2017.08.17-16.22.28:785][819]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.22.28:807][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022230s)
+[2017.08.17-16.22.28:808][819]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.22.28:808][819]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2017.08.17-16.22.28:809][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023502s)
+[2017.08.17-16.22.28:828][819]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.22.28:854][819]LogInit: FAudioDevice initialized.
+[2017.08.17-16.22.28:884][819]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.22.28:887][819]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.22.28
+[2017.08.17-16.22.28:888][819]LogWorld: Bringing up level for play took: 0.003072
+[2017.08.17-16.22.28:893][819]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.839
+[2017.08.17-16.22.28:894][819]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.22.31:574][133]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.22.31:656][133]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.23.27:114][367]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.23.29:890][367]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.23.29:891][367]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.23.29:987][367]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.23.29:987][367]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.23.30:076][367]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.23.30:076][367]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.23.31:307][377]LogSavePackage: Save=574.47ms
+[2017.08.17-16.23.31:307][377]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship0C5A4C1643B696AB10F18D8906CC630C.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.23.31:310][377]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.23.33:049][555]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.23.33:086][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.23.33:086][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.23.33:086][555]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:23:33 AM)
+[2017.08.17-16.23.33:086][555]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.23.33:105][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018788s)
+[2017.08.17-16.23.33:106][555]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.23.33:106][555]LogPlayLevel: PIE: World Init took: (0.001436s)
+[2017.08.17-16.23.33:107][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020659s)
+[2017.08.17-16.23.33:127][555]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.23.33:154][555]LogInit: FAudioDevice initialized.
+[2017.08.17-16.23.33:186][555]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.23.33:191][555]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.23.33
+[2017.08.17-16.23.33:193][555]LogWorld: Bringing up level for play took: 0.005776
+[2017.08.17-16.23.33:204][555]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.851
+[2017.08.17-16.23.33:204][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.28.48:353][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.28.48:447][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.29.37:660][240]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.29.40:782][240]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.29.40:782][240]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.29.40:890][240]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.29.40:891][240]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.29.40:981][240]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.29.40:981][240]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.29.42:075][246]LogSavePackage: Save=528.37ms
+[2017.08.17-16.29.42:075][246]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship47FF245543BBE2C03ACB6682EC750B2E.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.29.42:077][246]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.29.43:867][432]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.29.43:902][432]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.29.43:902][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.29.43:902][432]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:29:43 AM)
+[2017.08.17-16.29.43:902][432]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.29.43:923][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020467s)
+[2017.08.17-16.29.43:923][432]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.29.43:924][432]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2017.08.17-16.29.43:924][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021916s)
+[2017.08.17-16.29.43:945][432]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.29.43:972][432]LogInit: FAudioDevice initialized.
+[2017.08.17-16.29.44:003][432]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.29.44:006][432]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.29.44
+[2017.08.17-16.29.44:008][432]LogWorld: Bringing up level for play took: 0.003598
+[2017.08.17-16.29.44:013][432]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.041
+[2017.08.17-16.29.44:014][432]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.30.40:779][932]LogEditorViewport: Clicking on Actor (context menu): Base_Ship_C (Base_Ship)
+[2017.08.17-16.30.48:546][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.30.48:686][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.30.49:197][247]LogEditorViewport: Clicking Background
+[2017.08.17-16.31.58:419][275]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.32.01:728][275]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.01:728][275]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.01:818][275]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.01:819][275]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.01:907][275]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.01:907][275]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.03:401][305]LogSavePackage: Save=541.20ms
+[2017.08.17-16.32.03:401][305]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipFF3654544E87B0AC1193CAA3DA79C9D7.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.32.03:403][305]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.32.04:853][460]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.32.04:888][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.32.04:888][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.32.04:889][460]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:32:04 AM)
+[2017.08.17-16.32.04:889][460]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.32.04:906][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017000s)
+[2017.08.17-16.32.04:906][460]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.32.04:907][460]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2017.08.17-16.32.04:907][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018302s)
+[2017.08.17-16.32.04:927][460]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.32.04:954][460]LogInit: FAudioDevice initialized.
+[2017.08.17-16.32.04:985][460]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.32.04:990][460]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.32.04
+[2017.08.17-16.32.04:994][460]LogWorld: Bringing up level for play took: 0.007189
+[2017.08.17-16.32.05:007][460]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.952
+[2017.08.17-16.32.05:008][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.32.07:478][751]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.32.07:563][751]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.32.19:748][517]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.32.23:450][517]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.23:450][517]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.23:540][517]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.23:540][517]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.23:634][517]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.23:635][517]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.32.25:070][545]LogSavePackage: Save=541.84ms
+[2017.08.17-16.32.25:070][545]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship71493B944AE8EA09C4777797ABA9EF32.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.32.25:072][545]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.32.26:745][712]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.32.26:781][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.32.26:781][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.32.26:781][712]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:32:26 AM)
+[2017.08.17-16.32.26:782][712]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.32.26:799][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017342s)
+[2017.08.17-16.32.26:800][712]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.32.26:800][712]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2017.08.17-16.32.26:800][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018711s)
+[2017.08.17-16.32.26:821][712]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.32.26:847][712]LogInit: FAudioDevice initialized.
+[2017.08.17-16.32.26:880][712]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.32.26:884][712]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.17-09.32.26
+[2017.08.17-16.32.26:885][712]LogWorld: Bringing up level for play took: 0.003420
+[2017.08.17-16.32.26:895][712]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.84
+[2017.08.17-16.32.26:895][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.33.14:347][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.33.14:433][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.33.25:464][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:465][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:465][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:465][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:466][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:466][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:467][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:467][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:468][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:468][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:469][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:469][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:470][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:470][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:470][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:471][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:471][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:472][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:472][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:473][700]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-16.33.25:488][700]LogEditorActor: Deleted 20 Actors (0.025 secs)
+[2017.08.17-16.33.29:027][ 99]LogSavePackage: Save=111.40ms
+[2017.08.17-16.33.29:027][ 99]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap6934634340026CEEF348F39A5ACCEA35.tmp' to '../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.08.17-16.33.29:030][ 99]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.08.17-16.33.29:095][ 99]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.248
+[2017.08.17-16.35.31:752][713]LogSavePackage: Save=5.43ms
+[2017.08.17-16.35.31:752][713]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/FogBrightnessLUTD3EBA23F40E69B556323D7B994AF9CE0.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/FogBrightnessLUT.uasset'
+[2017.08.17-16.35.31:753][713]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/FogBrightnessLUT.uasset
+[2017.08.17-16.35.46:722][573]LogSavePackage: Save=4.87ms
+[2017.08.17-16.35.46:722][573]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/HealthbarSizeCurverD2F0F68440D5F949F38E0489113E356D.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/HealthbarSizeCurver.uasset'
+[2017.08.17-16.35.46:724][573]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/HealthbarSizeCurver.uasset
+[2017.08.17-16.40.40:844][  0]LogEditorTransaction: Undo Attach Component
+[2017.08.17-16.40.40:862][  0]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Base_Ship_C_1.CharacterMesh0) Component already registered.
+[2017.08.17-16.40.40:865][  0]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Base_Ship_C_1.CharMoveComp) Component already registered.
+[2017.08.17-16.40.40:867][  0]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.Base_Ship_C_1.Arrow) Component already registered.
+[2017.08.17-16.40.40:868][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_706.CharacterMesh0) Component already registered.
+[2017.08.17-16.40.40:870][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_706.CharMoveComp) Component already registered.
+[2017.08.17-16.40.40:873][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_706.Arrow) Component already registered.
+[2017.08.17-16.40.40:875][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship2.CharacterMesh0) Component already registered.
+[2017.08.17-16.40.40:877][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship2.CharMoveComp) Component already registered.
+[2017.08.17-16.40.40:880][  0]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship2.Arrow) Component already registered.
+[2017.08.17-16.43.31:626][147]LogSavePackage: Save=169.77ms
+[2017.08.17-16.43.31:626][147]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto2AEBCAF254A9C18493613B1852D6B3BF9.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.08.17-16.43.31:627][147]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.08.17-16.43.31:629][147]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.542
+[2017.08.17-16.43.31:629][147]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.542
+[2017.08.17-16.43.31:631][147]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.17-16.43.31:643][147]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.17-16.43.31:643][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.17-16.43.32:169][147]LogSavePackage: Save=519.20ms
+[2017.08.17-16.43.32:169][147]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto2305F981F4D7B27436FF2528A2648BA90.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto2.uasset'
+[2017.08.17-16.43.32:170][147]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto2.uasset
+[2017.08.17-16.43.32:170][147]LogFileHelpers: Auto-saving content packages took 0.540
+[2017.08.17-16.44.13:546][621]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.44.15:671][621]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.15:672][621]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.15:766][621]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.15:766][621]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.15:859][621]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.15:860][621]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.17:341][666]LogSavePackage: Save=523.92ms
+[2017.08.17-16.44.17:341][666]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipF4FC0470461CB555C8ECB8A3FFC7E7F8.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.44.17:346][666]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.44.52:737][670]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.44.55:134][670]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.55:135][670]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.55:227][670]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.55:228][670]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.55:318][670]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.55:318][670]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.44.56:433][673]LogSavePackage: Save=528.37ms
+[2017.08.17-16.44.56:433][673]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship71531A8D432A24531511F2A030E27DC0.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.44.56:435][673]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.45.33:636][736]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.45.36:307][736]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.45.36:308][736]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.45.36:399][736]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.45.36:399][736]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.45.36:492][736]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.45.36:492][736]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.45.37:664][745]LogSavePackage: Save=531.51ms
+[2017.08.17-16.45.37:664][745]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship2DAD237942E95A8335431D9FAC0C9A28.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.45.37:666][745]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.45.44:214][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.45.44:250][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.45.44:250][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.45.44:250][ 93]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:45:44 AM)
+[2017.08.17-16.45.44:250][ 93]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.45.44:271][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020890s)
+[2017.08.17-16.45.44:272][ 93]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.45.44:273][ 93]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2017.08.17-16.45.44:273][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022437s)
+[2017.08.17-16.45.44:293][ 93]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.45.44:321][ 93]LogInit: FAudioDevice initialized.
+[2017.08.17-16.45.44:357][ 93]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.45.44:364][ 93]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.17-09.45.44
+[2017.08.17-16.45.44:366][ 93]LogWorld: Bringing up level for play took: 0.007207
+[2017.08.17-16.45.44:379][ 93]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.324
+[2017.08.17-16.45.44:380][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.45.52:229][562]LogBlueprintUserMessages: [Base_Ship_C_0] Weapon System 0 targetting Base_Ship
+[2017.08.17-16.45.52:230][562]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.45.52:230][562]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.45.52:230][562]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.45.52:230][562]LogBlueprintUserMessages: [Base_Ship_706] 80/100
+[2017.08.17-16.45.52:230][562]LogBlueprintUserMessages: [Base_Ship_706] 93/100
+[2017.08.17-16.45.55:247][743]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.45.55:247][743]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.45.55:247][743]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 missed Base_Ship.
+[2017.08.17-16.45.58:262][924]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.45.58:263][924]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.45.58:263][924]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.45.58:263][924]LogBlueprintUserMessages: [Base_Ship_706] 60/100
+[2017.08.17-16.45.58:263][924]LogBlueprintUserMessages: [Base_Ship_706] 82/100
+[2017.08.17-16.46.01:279][105]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.46.01:279][105]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.46.01:279][105]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.46.01:280][105]LogBlueprintUserMessages: [Base_Ship_706] 40/100
+[2017.08.17-16.46.01:280][105]LogBlueprintUserMessages: [Base_Ship_706] 67/100
+[2017.08.17-16.46.04:296][286]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.46.04:296][286]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.46.04:296][286]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 missed Base_Ship.
+[2017.08.17-16.46.07:313][467]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.46.07:313][467]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.46.07:313][467]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 missed Base_Ship.
+[2017.08.17-16.46.10:330][648]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.46.10:330][648]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.46.10:330][648]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.46.10:330][648]LogBlueprintUserMessages: [Base_Ship_706] 20/100
+[2017.08.17-16.46.10:330][648]LogBlueprintUserMessages: [Base_Ship_706] 48/100
+[2017.08.17-16.46.13:347][829]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.46.13:347][829]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.46.13:347][829]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.46.13:347][829]LogBlueprintUserMessages: [Base_Ship_706] 0/100
+[2017.08.17-16.46.13:347][829]LogBlueprintUserMessages: [Base_Ship_706] 25/100
+[2017.08.17-16.46.16:464][ 16]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.46.16:552][ 16]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.46.18:965][113]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.08.17-16.46.18:967][113]LogMaterial: Missing cached shader map for material HealthbarMaterial, compiling. 
+[2017.08.17-16.46.19:216][113]LogMaterial: Missing cached shader map for material HealthbarMaterial, compiling. 
+[2017.08.17-16.46.19:225][113]LogMaterial: Missing cached shader map for material HealthbarMaterial, compiling. 
+[2017.08.17-16.46.19:268][113]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
+[2017.08.17-16.46.19:279][113]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.08.17-16.46.20:273][149]MaterialEditorStats: Default UI Pixel Shader: 22 instructions
+[2017.08.17-16.46.20:273][149]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2017.08.17-16.46.20:273][149]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2017.08.17-16.46.20:273][149]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.17-16.46.20:273][149]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.17-16.46.24:741][416]LogMaterial: Missing cached shader map for material HealthbarMaterial, compiling. 
+[2017.08.17-16.46.24:753][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.08.17-16.46.25:251][444]MaterialEditorStats: Default UI Pixel Shader: 22 instructions
+[2017.08.17-16.46.25:251][444]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2017.08.17-16.46.25:251][444]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2017.08.17-16.46.25:251][444]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.17-16.46.25:251][444]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.17-16.46.26:016][490]LogMaterialEditor: Saving and Compiling material HealthbarMaterial
+[2017.08.17-16.46.26:464][490]LogMaterial: Missing cached shader map for material HealthbarMaterial, compiling. 
+[2017.08.17-16.46.26:496][490]LogMaterial: Missing cached shader map for material HealthbarMaterial, compiling. 
+[2017.08.17-16.46.26:519][490]LogMaterial: Missing cached shader map for material HealthbarMaterial, compiling. 
+[2017.08.17-16.46.26:553][490]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2017.08.17-16.46.27:918][490]LogSavePackage: Save=16.47ms
+[2017.08.17-16.46.27:918][490]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/HealthbarMaterial1DC8F3CE448D481F6231CCB73B7025D2.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/HealthbarMaterial.uasset'
+[2017.08.17-16.46.27:920][490]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/HealthbarMaterial.uasset
+[2017.08.17-16.46.30:812][663]LogMaterialEditor: Saving and Compiling material HealthbarMaterial
+[2017.08.17-16.46.30:834][663]LogSavePackage: Save=8.65ms
+[2017.08.17-16.46.30:834][663]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/HealthbarMaterial299CE9C54E46005FDBA86496C23301A8.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/HealthbarMaterial.uasset'
+[2017.08.17-16.46.30:835][663]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/HealthbarMaterial.uasset
+[2017.08.17-16.46.57:554][262]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.47.00:575][262]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_619 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.47.00:575][262]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_622 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.47.00:682][262]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_624 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.47.00:682][262]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_626 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.47.00:774][262]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.47.00:774][262]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.47.01:534][262]LogSavePackage: Save=571.03ms
+[2017.08.17-16.47.01:534][262]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipE12ABF1443BAC8A358F5678D9917F5FE.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.47.01:538][262]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.47.02:652][293]LogSavePackage: Save=523.74ms
+[2017.08.17-16.47.02:652][293]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship4A68E5A2463F7C1EADCEE78A962B75D6.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.17-16.47.02:653][293]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.17-16.47.05:017][435]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-16.47.05:051][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.47.05:052][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.47.05:052][435]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 2:47:05 AM)
+[2017.08.17-16.47.05:052][435]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-16.47.05:069][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017613s)
+[2017.08.17-16.47.05:071][435]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-16.47.05:071][435]LogPlayLevel: PIE: World Init took: (0.001370s)
+[2017.08.17-16.47.05:071][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019470s)
+[2017.08.17-16.47.05:093][435]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.47.05:119][435]LogInit: FAudioDevice initialized.
+[2017.08.17-16.47.05:154][435]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-16.47.05:161][435]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.17-09.47.05
+[2017.08.17-16.47.05:163][435]LogWorld: Bringing up level for play took: 0.006985
+[2017.08.17-16.47.05:177][435]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.122
+[2017.08.17-16.47.05:177][435]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.47.09:986][721]LogBlueprintUserMessages: [Base_Ship_C_0] Weapon System 0 targetting Base_Ship
+[2017.08.17-16.47.11:353][803]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.11:353][803]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.11:353][803]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 missed Base_Ship.
+[2017.08.17-16.47.14:370][984]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.14:370][984]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.14:370][984]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 missed Base_Ship.
+[2017.08.17-16.47.17:387][165]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.17:387][165]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.17:387][165]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 missed Base_Ship.
+[2017.08.17-16.47.20:403][346]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.20:403][346]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.20:403][346]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.47.20:404][346]LogBlueprintUserMessages: [Base_Ship_706] 80/100
+[2017.08.17-16.47.20:404][346]LogBlueprintUserMessages: [Base_Ship_706] 93/100
+[2017.08.17-16.47.23:421][527]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.23:421][527]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.23:421][527]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 missed Base_Ship.
+[2017.08.17-16.47.26:438][708]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.26:438][708]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.26:438][708]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.47.26:439][708]LogBlueprintUserMessages: [Base_Ship_706] 60/100
+[2017.08.17-16.47.26:439][708]LogBlueprintUserMessages: [Base_Ship_706] 82/100
+[2017.08.17-16.47.29:454][889]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.29:454][889]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.29:455][889]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.47.29:455][889]LogBlueprintUserMessages: [Base_Ship_706] 40/100
+[2017.08.17-16.47.29:455][889]LogBlueprintUserMessages: [Base_Ship_706] 67/100
+[2017.08.17-16.47.32:471][ 70]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.32:471][ 70]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.32:471][ 70]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.47.32:472][ 70]LogBlueprintUserMessages: [Base_Ship_706] 20/100
+[2017.08.17-16.47.32:472][ 70]LogBlueprintUserMessages: [Base_Ship_706] 48/100
+[2017.08.17-16.47.35:488][251]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.35:489][251]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.35:489][251]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 missed Base_Ship.
+[2017.08.17-16.47.39:269][476]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.39:269][476]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.39:269][476]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.47.39:270][476]LogBlueprintUserMessages: [Base_Ship_706] 0/100
+[2017.08.17-16.47.39:270][476]LogBlueprintUserMessages: [Base_Ship_706] 25/100
+[2017.08.17-16.47.42:286][657]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Firing
+[2017.08.17-16.47.42:286][657]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Cooldown
+[2017.08.17-16.47.42:286][657]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_0] Turret0 hit Base_Ship.
+[2017.08.17-16.47.42:286][657]LogBlueprintUserMessages: [Base_Ship_706] 2/100
+[2017.08.17-16.47.44:622][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.47.44:676][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-16.48.49:925][663]BlueprintLog: New page: Compile Base_Ship
+[2017.08.17-16.48.50:192][663]LogBlueprint: Error: [Compiler Base_Ship] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.17-16.48.50:192][663]LogBlueprint: Error: [Compiler Base_Ship] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.17-16.48.50:207][663]LogBlueprint: Error: [Compiler Base_Ship] Variable node  Get RelativeLocation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.08.17-16.48.53:710][663]LogBlueprint: Warning: [Compiler Base_Ship] [2745.51] Compile of Base_Ship failed. 3 Fatal Issue(s) 0 Warning(s) [in 3,784 ms] (/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship)
+[2017.08.17-16.54.45:293][607]LogSavePackage: Save=115.71ms
+[2017.08.17-16.54.45:293][607]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto36F4A5F59456A7F711D6E6EAC84364AAC.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2017.08.17-16.54.45:294][607]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2017.08.17-16.54.45:296][607]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.439
+[2017.08.17-16.54.45:296][607]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.439
+[2017.08.17-16.54.45:298][607]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.17-16.54.45:316][607]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.17-16.54.45:316][607]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.17-16.54.45:839][607]LogSavePackage: Save=515.46ms
+[2017.08.17-16.54.45:839][607]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto3DDA0DFD64825399B03EF59B4AA69D989.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto3.uasset'
+[2017.08.17-16.54.45:840][607]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto3.uasset
+[2017.08.17-16.54.45:841][607]LogFileHelpers: Auto-saving content packages took 0.544
+[2017.08.17-17.03.58:160][608]BlueprintLog: New page: Compile Base_Ship

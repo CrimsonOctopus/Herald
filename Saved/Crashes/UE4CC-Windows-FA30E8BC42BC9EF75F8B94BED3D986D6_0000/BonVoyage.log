@@ -1,0 +1,1035 @@
+﻿Log file open, 08/17/17 11:24:33
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BonVoyage
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2106397573) SRandInit(-2106397573).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.163050
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: UE4Editor-BonVoyage.dll
+Running D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage Development Win64 -project="D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Creating makefile for BonVoyage (no existing makefile)
+Performing full C++ include scan (no include cache file)
+@progress push 5%
+@progress pop
+Performing 9 actions (4 in parallel)
+[2/9] Resource ModuleVersionResource.rc.inl
+[3/9] Resource PCLaunch.rc
+SharedPCH.Engine.cpp
+BonVoyage.cpp
+IRCManager.cpp
+IRCManager.gen.cpp
+BonVoyage.init.gen.cpp
+[8/9] Link UE4Editor-BonVoyage.dll
+[9/9] Link UE4Editor-BonVoyage.lib
+   Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage.exp
+   Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage.suppressed.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage.suppressed.exp
+Total build time: 31.85 seconds (Local executor: 26.39 seconds)
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.17-18.25.08:826][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-18.25.08:826][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.17-18.25.08:847][  0]LogInit: Computer: CYLONRAIDER
+[2017.08.17-18.25.08:847][  0]LogInit: User: User
+[2017.08.17-18.25.08:847][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.17-18.25.08:847][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2017.08.17-18.25.08:847][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.08.17-18.25.08:847][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.17-18.25.08:847][  0]LogMemory: Process Physical Memory: 286.44 MB used, 286.44 MB peak
+[2017.08.17-18.25.08:847][  0]LogMemory: Process Virtual Memory: 292.30 MB used, 292.30 MB peak
+[2017.08.17-18.25.08:847][  0]LogMemory: Physical Memory: 10591.34 MB used,  54865.91 MB free, 65457.25 MB total
+[2017.08.17-18.25.08:847][  0]LogMemory: Virtual Memory: 757.56 MB used,  54865.91 MB free, 134217728.00 MB total
+[2017.08.17-18.25.08:952][  0]LogInit: Using OS detected language (en-US).
+[2017.08.17-18.25.08:952][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.17-18.25.08:954][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.17-18.25.09:577][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.17-18.25.10:176][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.17-18.25.10:176][  0]LogD3D11RHI:       8113/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.17-18.25.10:177][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.17-18.25.10:178][  0]LogD3D11RHI:       0/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.17-18.25.10:178][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.17-18.25.10:184][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.17-18.25.10:184][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.17-18.25.10:184][  0]LogWindows: EnumDisplayDevices:
+[2017.08.17-18.25.10:184][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.17-18.25.10:184][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.17-18.25.10:184][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.17-18.25.10:184][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.17-18.25.10:184][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.17-18.25.10:184][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.17-18.25.10:184][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.17-18.25.10:184][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.17-18.25.10:184][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.17-18.25.10:746][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.17-18.25.10:793][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.17-18.25.10:836][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../Projects/BonVoyage/Intermediate/Shaders/WorkingDirectory/7072/).
+[2017.08.17-18.25.10:836][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/F0889A3A4B918A05A2301C94885D5C22/'.
+[2017.08.17-18.25.10:836][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.17-18.25.11:709][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.17-18.25.11:743][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.17-18.25.11:778][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.17-18.25.11:812][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.17-18.25.11:848][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.17-18.25.11:881][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.17-18.25.11:915][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.17-18.25.11:949][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.17-18.25.11:977][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.17-18.25.12:012][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.17-18.25.12:045][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.17-18.25.12:079][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.17-18.25.12:111][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.17-18.25.12:144][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.17-18.25.12:177][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.17-18.25.12:244][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.17-18.25.12:244][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.17-18.25.12:267][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.17-18.25.12:335][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.17-18.25.12:356][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.17-18.25.12:390][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.17-18.25.12:423][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.17-18.25.12:456][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.17-18.25.12:495][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.17-18.25.12:495][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.17-18.25.12:791][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.17-18.25.12:878][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.17-18.25.12:878][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.17-18.25.12:878][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.17-18.25.12:878][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.17-18.25.12:878][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.17-18.25.12:878][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.17-18.25.12:894][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.17-18.25.12:906][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.17-18.25.12:918][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.17-18.25.12:919][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.17-18.25.12:919][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-18.25.12:919][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-18.25.13:158][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.08.17-18.25.13:254][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-18.25.13:383][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.17-18.25.13:602][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.17-18.25.13:626][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.17-18.25.13:626][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.17-18.25.13:626][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.17-18.25.13:626][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.17-18.25.13:626][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.17-18.25.13:938][  0]LogNetVersion: BonVoyage , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2954532094)
+[2017.08.17-18.25.14:104][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.036338 seconds
+[2017.08.17-18.25.14:110][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.17-18.25.14:110][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.17-18.25.14:110][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.17-18.25.14:147][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.17-18.25.16:094][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.17-18.25.16:123][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.17-18.25.16:606][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.17-18.25.16:897][  0]SourceControl: Source control is disabled
+[2017.08.17-18.25.16:897][  0]SourceControl: Source control is disabled
+[2017.08.17-18.25.16:925][  0]SourceControl: Source control is disabled
+[2017.08.17-18.25.16:954][  0]SourceControl: Source control is disabled
+[2017.08.17-18.25.17:288][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.17-18.25.17:436][  0]LogOcInput: OculusInput pre-init called
+[2017.08.17-18.25.17:609][  0]LogEngine: Initializing Engine...
+[2017.08.17-18.25.17:634][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.08.17-18.25.17:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.17-18.25.17:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.17-18.25.17:963][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.17-18.25.17:970][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-18.25.18:123][  0]LogInit: FAudioDevice initialized.
+[2017.08.17-18.25.18:207][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.17-18.25.18:220][  0]LogInit: Texture streaming: Enabled
+[2017.08.17-18.25.18:290][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.17-18.25.18:424][  0]LogInit: Transaction tracking system initialized
+[2017.08.17-18.25.18:614][  0]BlueprintLog: New page: Editor Load
+[2017.08.17-18.25.19:162][  0]LocalizationService: Localization service is disabled
+[2017.08.17-18.25.19:612][  0]LogConsoleResponse: Display: 
+[2017.08.17-18.25.19:774][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.17-18.25.19:775][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.17-18.25.19:775][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.17-18.25.20:418][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/' took 0.01s
+[2017.08.17-18.25.20:418][  0]SourceControl: Source control is disabled
+[2017.08.17-18.25.20:418][  0]Cmd: MAP LOAD FILE="../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.17-18.25.20:418][  0]LightingResults: New page: Lighting Build
+[2017.08.17-18.25.20:443][  0]MapCheck: New page: Map Check
+[2017.08.17-18.25.20:443][  0]LightingResults: New page: Lighting Build
+[2017.08.17-18.25.21:153][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-18.25.21:179][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.17-18.25.21:193][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.17-18.25.21:227][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.356ms to complete.
+[2017.08.17-18.25.21:227][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.809
+[2017.08.17-18.25.21:290][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.17-18.25.21:363][  0]LogCollectionManager: Loaded 0 collections in 0.001070 seconds
+[2017.08.17-18.25.21:426][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Saved/Collections/' took 0.01s
+[2017.08.17-18.25.21:426][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Developers/User/Collections/' took 0.01s
+[2017.08.17-18.25.21:426][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Collections/' took 0.01s
+[2017.08.17-18.25.21:426][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.17-18.25.21:436][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2387 classes and 502 folders.
+[2017.08.17-18.25.21:476][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.08.17-18.25.21:509][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.08.17-18.25.21:537][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.17-18.25.21:560][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.17-18.25.21:563][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.17-18.25.21:568][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.17-18.25.21:673][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.08.17-18.25.21:815][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.17-18.25.21:816][  0]LogLoad: (Engine Initialization) Total time: 49.12 seconds
+[2017.08.17-18.25.21:816][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.17-18.25.21:816][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.17-18.25.21:858][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.17-18.25.21:900][  0]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-18.25.21:910][  1]LogAssetRegistry: Asset discovery search completed in 8.7733 seconds
+[2017.08.17-18.25.21:911][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.17-18.25.21:911][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2017.08.17-18.30.42:793][697]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-18.30.46:575][697]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/Unreal/Projects/BonVoyage/Source/BonVoyage/IRCManager.h'
+[2017.08.17-18.30.46:691][697]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/Unreal/Projects/BonVoyage/Source/BonVoyage/IRCManager.cpp'
+[2017.08.17-18.48.36:071][882]Candidate modules for hot reload:
+[2017.08.17-18.48.36:071][882]  BonVoyage
+[2017.08.17-18.48.36:072][882]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 8238 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-18.48.36:073][882]Warning: Starting HotReload took  0.0s.
+[2017.08.17-18.48.49:521][689]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 4:48:49 AM
+[2017.08.17-18.48.49:521][689]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-18.48.49:521][689]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-18.48.49:521][689]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-18.48.49:521][689]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 9.0211705 seconds
+[2017.08.17-18.48.49:521][689]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Source\BonVoyage\IRCManager.cpp(1) : error: Expected IRCManager.h to be first header included.
+[2017.08.17-18.48.49:521][689]CompilerResultsLog: Build canceled.
+[2017.08.17-18.48.49:521][689]LogMainFrame: MainFrame: Module compiling took 13.454 seconds
+[2017.08.17-18.48.49:521][689]Warning: HotReload failed, recompile failed
+[2017.08.17-18.49.13:418][229]Candidate modules for hot reload:
+[2017.08.17-18.49.13:418][229]  BonVoyage
+[2017.08.17-18.49.13:418][229]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 8080 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-18.49.13:420][229]Warning: Starting HotReload took  0.0s.
+[2017.08.17-18.49.29:531][196]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 4:49:29 AM
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-18.49.29:532][196]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 9.2902945 seconds
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: BonVoyage.cpp
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: BonVoyage.init.gen.cpp
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: IRCManager.gen.cpp
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Source\BonVoyage\IRCManager.cpp(92) : error C3861: 'ReceivedChatMessage': identifier not found
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Source\BonVoyage\IRCManager.cpp(100) : error C2039: 'ReceivedChatMessage': is not a member of 'AIRCManager'
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: Error: d:\unreal\projects\bonvoyage\source\bonvoyage\IRCManager.h(12) : note: see declaration of 'AIRCManager'
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal\Projects\BonVoyage\Binaries\Win64\UE4Editor-BonVoyage-8080.dll
+[2017.08.17-18.49.29:532][196]CompilerResultsLog: Total build time: 15.86 seconds (Local executor: 0.00 seconds)
+[2017.08.17-18.49.29:532][196]LogMainFrame: MainFrame: Module compiling took 16.118 seconds
+[2017.08.17-18.49.29:532][196]Warning: HotReload failed, recompile failed
+[2017.08.17-18.49.43:577][734]Candidate modules for hot reload:
+[2017.08.17-18.49.43:577][734]  BonVoyage
+[2017.08.17-18.49.43:577][734]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 7278 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-18.49.43:579][734]Warning: Starting HotReload took  0.0s.
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 4:49:59 AM
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-18.49.59:573][694]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 9.2691512 seconds
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: IRCManager.gen.cpp
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Source\BonVoyage\IRCManager.cpp(92) : error C3861: 'ReceivedChatMessage': identifier not found
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Source\BonVoyage\IRCManager.cpp(100) : error C2039: 'ReceivedChatMessage': is not a member of 'AIRCManager'
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: Error: d:\unreal\projects\bonvoyage\source\bonvoyage\IRCManager.h(12) : note: see declaration of 'AIRCManager'
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal\Projects\BonVoyage\Binaries\Win64\UE4Editor-BonVoyage-7278.dll
+[2017.08.17-18.49.59:573][694]CompilerResultsLog: Total build time: 15.75 seconds (Local executor: 0.00 seconds)
+[2017.08.17-18.49.59:573][694]LogMainFrame: MainFrame: Module compiling took 16.000 seconds
+[2017.08.17-18.49.59:573][694]Warning: HotReload failed, recompile failed
+[2017.08.17-18.50.46:551][403]Candidate modules for hot reload:
+[2017.08.17-18.50.46:551][403]  BonVoyage
+[2017.08.17-18.50.46:551][403]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 4226 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-18.50.46:553][403]Warning: Starting HotReload took  0.0s.
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 4:51:02 AM
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-18.51.02:482][359]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 9.2903799 seconds
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: IRCManager.gen.cpp
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Source\BonVoyage\IRCManager.cpp(102) : error C2065: 'UserName': undeclared identifier
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Source\BonVoyage\IRCManager.cpp(102) : error C2065: 'message': undeclared identifier
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal\Projects\BonVoyage\Binaries\Win64\UE4Editor-BonVoyage-4226.dll
+[2017.08.17-18.51.02:482][359]CompilerResultsLog: Total build time: 15.70 seconds (Local executor: 0.00 seconds)
+[2017.08.17-18.51.02:482][359]LogMainFrame: MainFrame: Module compiling took 15.936 seconds
+[2017.08.17-18.51.02:483][359]Warning: HotReload failed, recompile failed
+[2017.08.17-18.51.20:725][783]Candidate modules for hot reload:
+[2017.08.17-18.51.20:725][783]  BonVoyage
+[2017.08.17-18.51.20:725][783]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 135 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-18.51.20:726][783]Warning: Starting HotReload took  0.0s.
+[2017.08.17-18.51.37:820][809]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 4:51:37 AM
+[2017.08.17-18.51.37:820][809]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-18.51.37:820][809]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-18.51.37:820][809]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-18.51.37:820][809]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 9.2835267 seconds
+[2017.08.17-18.51.37:820][809]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.08.17-18.51.37:820][809]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-18.51.37:820][809]CompilerResultsLog: [2/3] Link UE4Editor-BonVoyage-135.dll
+[2017.08.17-18.51.37:820][809]CompilerResultsLog: [3/3] Link UE4Editor-BonVoyage-135.lib
+[2017.08.17-18.51.37:820][809]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-135.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-135.exp
+[2017.08.17-18.51.37:820][809]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-135.suppressed.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-135.suppressed.exp
+[2017.08.17-18.51.37:820][809]CompilerResultsLog: Total build time: 16.85 seconds (Local executor: 3.26 seconds)
+[2017.08.17-18.51.37:820][809]LogMainFrame: MainFrame: Module compiling took 17.102 seconds
+[2017.08.17-18.51.37:870][809]LogClass: Could not find existing class IRCManager in package /Script/BonVoyage for HotReload, assuming new class
+[2017.08.17-18.51.37:875][809]LogHotReload: Re-instancing IRCManager after hot-reload.
+[2017.08.17-18.51.37:917][809]LogContentBrowser: Native class hierarchy updated for 'BonVoyage' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.08.17-18.51.37:918][809]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.17-18.51.37:931][809]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2389 classes and 506 folders.
+[2017.08.17-18.51.37:939][809]Display: HotReload took 17.2s.
+[2017.08.17-18.51.45:562][266]LogEditor: Attempting to add actor of class 'IRCManager' to level at -830.00,-380.00,130.00
+[2017.08.17-18.52.02:107][257]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-18.52.02:107][257]LogEditorActor: Deleted Actor: MainTurret_Blueprint_C
+[2017.08.17-18.52.02:117][257]LogEditorActor: Deleted 2 Actors (0.015 secs)
+[2017.08.17-18.52.11:582][825]LogEditor: Attempting to add actor of class 'IRCManager' to level at -820.00,-670.00,130.00
+[2017.08.17-18.52.12:767][896]LogEditor: Attempting to add actor of class 'IRCManager' to level at -470.00,330.00,130.00
+[2017.08.17-18.52.46:570][505]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-18.52.46:628][505]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.52.46:628][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-18.52.46:628][505]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 4:52:46 AM)
+[2017.08.17-18.52.46:628][505]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-18.52.46:652][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023468s)
+[2017.08.17-18.52.46:653][505]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-18.52.46:653][505]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2017.08.17-18.52.46:653][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025079s)
+[2017.08.17-18.52.46:666][505]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-18.52.46:695][505]LogInit: FAudioDevice initialized.
+[2017.08.17-18.52.46:739][505]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-18.52.46:743][505]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.17-11.52.46
+[2017.08.17-18.52.46:744][505]LogWorld: Bringing up level for play took: 0.003094
+[2017.08.17-18.52.46:777][505]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2017.08.17-18.52.46:864][505]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.81
+[2017.08.17-18.52.46:865][505]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.52.59:896][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.52.59:933][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.53.20:925][590]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Unreal/Projects/BonVoyage/Source/BonVoyage/IRCManager.h'
+[2017.08.17-18.53.38:768][767]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-18.53.47:914][794]LogSavePackage: Save=111.07ms
+[2017.08.17-18.53.47:914][794]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto1C4D3C7764C443D11D50190B55212BE89.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.08.17-18.53.47:915][794]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.08.17-18.53.47:920][794]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.141
+[2017.08.17-18.53.47:920][794]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2017.08.17-18.53.56:754][916]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-18.53.56:790][916]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.53.56:790][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-18.53.56:790][916]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 4:53:56 AM)
+[2017.08.17-18.53.56:790][916]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-18.53.56:810][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019922s)
+[2017.08.17-18.53.56:811][916]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-18.53.56:811][916]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.08.17-18.53.56:811][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021009s)
+[2017.08.17-18.53.56:823][916]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-18.53.56:852][916]LogInit: FAudioDevice initialized.
+[2017.08.17-18.53.56:886][916]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-18.53.56:889][916]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.17-11.53.56
+[2017.08.17-18.53.56:890][916]LogWorld: Bringing up level for play took: 0.002356
+[2017.08.17-18.53.56:931][916]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.876
+[2017.08.17-18.53.56:931][916]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.53.57:936][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.53.57:974][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.53.58:738][ 19]Candidate modules for hot reload:
+[2017.08.17-18.53.58:738][ 19]  BonVoyage
+[2017.08.17-18.53.58:738][ 19]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 1107 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-18.53.58:739][ 19]Warning: Starting HotReload took  0.0s.
+[2017.08.17-18.54.14:399][408]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 4:54:14 AM
+[2017.08.17-18.54.14:399][408]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-18.54.14:399][408]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-18.54.14:399][408]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-18.54.14:399][408]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 8.2161802 seconds
+[2017.08.17-18.54.14:399][408]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.08.17-18.54.14:399][408]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-18.54.14:399][408]CompilerResultsLog: [2/3] Link UE4Editor-BonVoyage-1107.dll
+[2017.08.17-18.54.14:399][408]CompilerResultsLog: [3/3] Link UE4Editor-BonVoyage-1107.lib
+[2017.08.17-18.54.14:399][408]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-1107.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-1107.exp
+[2017.08.17-18.54.14:399][408]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-1107.suppressed.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-1107.suppressed.exp
+[2017.08.17-18.54.14:400][408]CompilerResultsLog: Total build time: 15.43 seconds (Local executor: 3.27 seconds)
+[2017.08.17-18.54.14:400][408]LogMainFrame: MainFrame: Module compiling took 15.666 seconds
+[2017.08.17-18.54.14:449][408]LogContentBrowser: Native class hierarchy updated for 'BonVoyage' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.17-18.54.14:451][408]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.17-18.54.14:516][408]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2389 classes and 506 folders.
+[2017.08.17-18.54.14:516][408]Display: HotReload took 15.8s.
+[2017.08.17-18.54.16:630][535]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-18.54.16:666][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.54.16:666][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-18.54.16:667][535]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 4:54:16 AM)
+[2017.08.17-18.54.16:667][535]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-18.54.16:683][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016170s)
+[2017.08.17-18.54.16:684][535]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-18.54.16:684][535]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2017.08.17-18.54.16:684][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017429s)
+[2017.08.17-18.54.16:696][535]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-18.54.16:724][535]LogInit: FAudioDevice initialized.
+[2017.08.17-18.54.16:755][535]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-18.54.16:759][535]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.17-11.54.16
+[2017.08.17-18.54.16:759][535]LogWorld: Bringing up level for play took: 0.002965
+[2017.08.17-18.54.16:806][535]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.751
+[2017.08.17-18.54.16:806][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.54.22:479][570]LogTemp: Warning: crimsonoctopus: Test
+[2017.08.17-18.54.26:281][684]LogTemp: Warning: crimsonoctopus: Test
+[2017.08.17-18.54.32:359][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.54.32:394][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.54.49:822][940]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.08.17-18.54.57:064][373]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-18.54.57:100][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.54.57:101][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-18.54.57:101][373]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 4:54:57 AM)
+[2017.08.17-18.54.57:102][373]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-18.54.57:123][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021214s)
+[2017.08.17-18.54.57:124][373]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-18.54.57:125][373]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2017.08.17-18.54.57:125][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023508s)
+[2017.08.17-18.54.57:136][373]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-18.54.57:165][373]LogInit: FAudioDevice initialized.
+[2017.08.17-18.54.57:196][373]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-18.54.57:200][373]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.17-11.54.57
+[2017.08.17-18.54.57:200][373]LogWorld: Bringing up level for play took: 0.002927
+[2017.08.17-18.54.57:247][373]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.808
+[2017.08.17-18.54.57:247][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.55.02:010][429]LogTemp: Warning: crimsonoctopus: Test1
+[2017.08.17-18.55.04:745][479]LogTemp: Warning: crimsonoctopus: Test2
+[2017.08.17-18.55.12:855][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.55.12:892][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-18.56.57:618][548]Cmd: SELECT NONE
+[2017.08.17-18.56.59:967][689]Cmd: SELECT NONE
+[2017.08.17-19.05.04:832][781]Candidate modules for hot reload:
+[2017.08.17-19.05.04:832][781]  BonVoyage
+[2017.08.17-19.05.04:832][781]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 6218 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.05.04:834][781]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.05.21:577][786]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:05:21 AM
+[2017.08.17-19.05.21:578][786]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.05.21:578][786]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-19.05.21:578][786]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-19.05.21:578][786]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 9.0358723 seconds
+[2017.08.17-19.05.21:579][786]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.08.17-19.05.21:579][786]CompilerResultsLog: BonVoyage.init.gen.cpp
+[2017.08.17-19.05.21:579][786]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-19.05.21:579][786]CompilerResultsLog: IRCManager.gen.cpp
+[2017.08.17-19.05.21:579][786]CompilerResultsLog: [4/5] Link UE4Editor-BonVoyage-6218.dll
+[2017.08.17-19.05.21:579][786]CompilerResultsLog: [5/5] Link UE4Editor-BonVoyage-6218.lib
+[2017.08.17-19.05.21:579][786]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-6218.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-6218.exp
+[2017.08.17-19.05.21:580][786]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-6218.suppressed.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-6218.suppressed.exp
+[2017.08.17-19.05.21:580][786]CompilerResultsLog: Total build time: 16.51 seconds (Local executor: 3.37 seconds)
+[2017.08.17-19.05.21:580][786]LogMainFrame: MainFrame: Module compiling took 16.751 seconds
+[2017.08.17-19.05.21:628][786]LogClass: Could not find existing class IRCManager in package /Script/BonVoyage for HotReload, assuming new class
+[2017.08.17-19.05.21:633][786]LogHotReload: Re-instancing IRCManager after hot-reload.
+[2017.08.17-19.05.21:678][786]LogContentBrowser: Native class hierarchy updated for 'BonVoyage' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.17-19.05.21:680][786]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.17-19.05.21:693][786]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2389 classes and 506 folders.
+[2017.08.17-19.05.21:693][786]Display: HotReload took 16.9s.
+[2017.08.17-19.06.03:504][915]LogSavePackage: Save=107.55ms
+[2017.08.17-19.06.03:504][915]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto2E6CBB7F040BB625FB2E3088603F1B4A5.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.08.17-19.06.03:505][915]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.08.17-19.06.03:510][915]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.141
+[2017.08.17-19.06.03:511][915]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2017.08.17-19.06.14:337][232]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 113 classes and 0 folders.
+[2017.08.17-19.06.17:439][371]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.17-19.12.03:667][851]Candidate modules for hot reload:
+[2017.08.17-19.12.03:667][851]  BonVoyage
+[2017.08.17-19.12.03:667][851]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 5445 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.12.03:669][851]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.12.20:425][186]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:12:20 AM
+[2017.08.17-19.12.20:426][186]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.12.20:426][186]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-19.12.20:426][186]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-19.12.20:426][186]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 8.800035 seconds
+[2017.08.17-19.12.20:426][186]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.08.17-19.12.20:426][186]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-19.12.20:426][186]CompilerResultsLog: [2/3] Link UE4Editor-BonVoyage-5445.dll
+[2017.08.17-19.12.20:426][186]CompilerResultsLog: [3/3] Link UE4Editor-BonVoyage-5445.lib
+[2017.08.17-19.12.20:426][186]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-5445.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-5445.exp
+[2017.08.17-19.12.20:427][186]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-5445.suppressed.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-5445.suppressed.exp
+[2017.08.17-19.12.20:427][186]CompilerResultsLog: Total build time: 16.30 seconds (Local executor: 3.26 seconds)
+[2017.08.17-19.12.20:427][186]LogMainFrame: MainFrame: Module compiling took 16.763 seconds
+[2017.08.17-19.12.20:490][186]LogContentBrowser: Native class hierarchy updated for 'BonVoyage' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.17-19.12.20:492][186]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.17-19.12.20:802][186]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2389 classes and 506 folders.
+[2017.08.17-19.12.20:802][186]Display: HotReload took 17.1s.
+[2017.08.17-19.12.33:231][362]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.17-19.12.33:285][362]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-19.12.33:286][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-19.12.33:286][362]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 17, 2017, 5:12:33 AM)
+[2017.08.17-19.12.33:286][362]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.17-19.12.33:308][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022037s)
+[2017.08.17-19.12.33:309][362]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.17-19.12.33:309][362]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2017.08.17-19.12.33:310][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023806s)
+[2017.08.17-19.12.33:361][362]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-19.12.33:389][362]LogInit: FAudioDevice initialized.
+[2017.08.17-19.12.33:422][362]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.17-19.12.33:426][362]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.17-12.12.33
+[2017.08.17-19.12.33:427][362]LogWorld: Bringing up level for play took: 0.003283
+[2017.08.17-19.12.33:469][362]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.586
+[2017.08.17-19.12.33:469][362]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-19.12.43:651][592]LogTemp: Warning: crimsonoctopus: !!
+[2017.08.17-19.12.47:200][653]LogTemp: Warning: crimsonoctopus: !!test
+[2017.08.17-19.12.56:369][785]LogTemp: Warning: crimsonoctopus: !!Hallo
+[2017.08.17-19.12.59:480][953]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-19.12.59:521][953]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.17-19.16.30:514][ 29]LogSavePackage: Save=109.22ms
+[2017.08.17-19.16.30:514][ 29]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto31CE3611C48897E22E11A26A1BFDEA636.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2017.08.17-19.16.30:516][ 29]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2017.08.17-19.16.30:520][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.146
+[2017.08.17-19.16.30:521][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.146
+[2017.08.17-19.16.30:522][ 29]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IRCManager_Blueprint] ([1] browsable assets)...
+[2017.08.17-19.16.30:523][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/IRCManager_Blueprint]
+[2017.08.17-19.16.30:523][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IRCManager_Blueprint" FILE="../../../../Projects/BonVoyage/Saved/Autosaves/Game/IRCManager_Blueprint_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.17-19.16.30:536][ 29]LogSavePackage: Save=11.25ms
+[2017.08.17-19.16.30:537][ 29]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/IRCManager_Blueprint_Auto3D081713E465D799E711F9685CA5C67D6.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/IRCManager_Blueprint_Auto3.uasset'
+[2017.08.17-19.16.30:537][ 29]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/IRCManager_Blueprint_Auto3.uasset
+[2017.08.17-19.16.30:538][ 29]LogFileHelpers: Auto-saving content packages took 0.016
+[2017.08.17-19.20.30:322][127]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.17-19.21.26:426][704]Candidate modules for hot reload:
+[2017.08.17-19.21.26:426][704]  BonVoyage
+[2017.08.17-19.21.26:427][704]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 142 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.21.26:429][704]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.21.42:432][923]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:21:42 AM
+[2017.08.17-19.21.42:432][923]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.21.42:432][923]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-19.21.42:432][923]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-19.21.42:433][923]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 8.2376803 seconds
+[2017.08.17-19.21.42:433][923]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.08.17-19.21.42:433][923]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-19.21.42:433][923]CompilerResultsLog: [2/3] Link UE4Editor-BonVoyage-142.dll
+[2017.08.17-19.21.42:433][923]CompilerResultsLog: [3/3] Link UE4Editor-BonVoyage-142.lib
+[2017.08.17-19.21.42:433][923]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-142.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-142.exp
+[2017.08.17-19.21.42:433][923]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-142.suppressed.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-142.suppressed.exp
+[2017.08.17-19.21.42:434][923]CompilerResultsLog: Total build time: 15.57 seconds (Local executor: 3.16 seconds)
+[2017.08.17-19.21.42:434][923]LogMainFrame: MainFrame: Module compiling took 16.011 seconds
+[2017.08.17-19.21.42:495][923]LogContentBrowser: Native class hierarchy updated for 'BonVoyage' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.17-19.21.42:497][923]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.17-19.21.42:790][923]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2389 classes and 506 folders.
+[2017.08.17-19.21.42:791][923]Display: HotReload took 16.4s.
+[2017.08.17-19.22.32:431][358]BlueprintLog: New page: Compile IRCManager_Blueprint
+[2017.08.17-19.22.33:319][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IRCManager_Blueprint" FILE="../../../../Projects/BonVoyage/Content/IRCManager_Blueprint.uasset" SILENT=true
+[2017.08.17-19.22.33:332][387]LogSavePackage: Save=11.69ms
+[2017.08.17-19.22.33:332][387]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/IRCManager_BlueprintB9D815854FD7376D820AB99C79AF6B2D.tmp' to '../../../../Projects/BonVoyage/Content/IRCManager_Blueprint.uasset'
+[2017.08.17-19.22.33:337][387]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/IRCManager_Blueprint.uasset
+[2017.08.17-19.22.46:770][170]Candidate modules for hot reload:
+[2017.08.17-19.22.46:771][170]  BonVoyage
+[2017.08.17-19.22.46:771][170]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 208 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.22.46:773][170]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.22.50:932][420]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:22:50 AM
+[2017.08.17-19.22.50:933][420]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.22.50:933][420]CompilerResultsLog: Target is up to date
+[2017.08.17-19.22.50:933][420]CompilerResultsLog: Total build time: 3.92 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.08.17-19.22.50:933][420]LogMainFrame: MainFrame: Module compiling took 4.167 seconds
+[2017.08.17-19.22.51:218][420]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2389 classes and 506 folders.
+[2017.08.17-19.22.51:218][420]Display: HotReload took  4.5s.
+[2017.08.17-19.24.06:448][753]Candidate modules for hot reload:
+[2017.08.17-19.24.06:448][753]  BonVoyage
+[2017.08.17-19.24.06:448][753]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 4908 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.24.06:450][753]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.24.19:661][546]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:24:19 AM
+[2017.08.17-19.24.19:661][546]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.24.19:661][546]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-19.24.19:661][546]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-19.24.19:662][546]CompilerResultsLog: Error: D:/Unreal/Projects/BonVoyage/Source/BonVoyage/IRCManager.h(45)  : LogCompile: Error: BlueprintPure specifier is not allowed for functions with no return value and no output parameters.
+[2017.08.17-19.24.19:662][546]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'BonVoyageEditor' (platform: Win64, module info: D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2017.08.17-19.24.19:662][546]LogMainFrame: MainFrame: Module compiling took 13.219 seconds
+[2017.08.17-19.24.19:662][546]Warning: HotReload failed, recompile failed
+[2017.08.17-19.24.45:255][884]Candidate modules for hot reload:
+[2017.08.17-19.24.45:255][884]  BonVoyage
+[2017.08.17-19.24.45:255][884]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 4317 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.24.45:258][884]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.25.02:302][907]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:25:02 AM
+[2017.08.17-19.25.02:303][907]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.25.02:303][907]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-19.25.02:303][907]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-19.25.02:303][907]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 9.1696815 seconds
+[2017.08.17-19.25.02:303][907]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.08.17-19.25.02:303][907]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-19.25.02:303][907]CompilerResultsLog: BonVoyage.init.gen.cpp
+[2017.08.17-19.25.02:303][907]CompilerResultsLog: IRCManager.gen.cpp
+[2017.08.17-19.25.02:303][907]CompilerResultsLog: [4/5] Link UE4Editor-BonVoyage-4317.dll
+[2017.08.17-19.25.02:303][907]CompilerResultsLog: [5/5] Link UE4Editor-BonVoyage-4317.lib
+[2017.08.17-19.25.02:303][907]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-4317.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-4317.exp
+[2017.08.17-19.25.02:304][907]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-4317.suppressed.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-4317.suppressed.exp
+[2017.08.17-19.25.02:304][907]CompilerResultsLog: Total build time: 16.81 seconds (Local executor: 3.46 seconds)
+[2017.08.17-19.25.02:304][907]LogMainFrame: MainFrame: Module compiling took 17.055 seconds
+[2017.08.17-19.25.02:398][907]LogClass: Could not find existing class IRCManager in package /Script/BonVoyage for HotReload, assuming new class
+[2017.08.17-19.25.02:399][907]LogClass: Function ReceivedChatMessage is new.
+[2017.08.17-19.25.02:407][907]LogHotReload: Re-instancing IRCManager after hot-reload.
+[2017.08.17-19.25.02:709][907]LogContentBrowser: Native class hierarchy updated for 'BonVoyage' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.17-19.25.02:713][907]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.17-19.25.02:970][907]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2389 classes and 506 folders.
+[2017.08.17-19.25.02:970][907]Display: HotReload took 17.7s.
+[2017.08.17-19.26.31:458][778]LogSavePackage: Save=117.76ms
+[2017.08.17-19.26.31:458][778]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto4155AB4674E12D4B9C1BD9BB4431ECD9E.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.08.17-19.26.31:459][778]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.08.17-19.26.31:461][778]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.246
+[2017.08.17-19.26.31:461][778]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.246
+[2017.08.17-19.26.31:464][778]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IRCManager_Blueprint] ([1] browsable assets)...
+[2017.08.17-19.26.31:464][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/IRCManager_Blueprint]
+[2017.08.17-19.26.31:464][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IRCManager_Blueprint" FILE="../../../../Projects/BonVoyage/Saved/Autosaves/Game/IRCManager_Blueprint_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.17-19.26.31:483][778]LogSavePackage: Save=11.04ms
+[2017.08.17-19.26.31:483][778]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/IRCManager_Blueprint_Auto4B999749241A92D84FBC3528A26AC6B40.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/IRCManager_Blueprint_Auto4.uasset'
+[2017.08.17-19.26.31:483][778]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/IRCManager_Blueprint_Auto4.uasset
+[2017.08.17-19.26.31:484][778]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.08.17-19.30.21:083][513]BlueprintLog: New page: Compile IRCManager_Blueprint
+[2017.08.17-19.30.21:815][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IRCManager_Blueprint" FILE="../../../../Projects/BonVoyage/Content/IRCManager_Blueprint.uasset" SILENT=true
+[2017.08.17-19.30.21:830][535]LogSavePackage: Save=11.72ms
+[2017.08.17-19.30.21:831][535]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/IRCManager_Blueprint58E7D95A41F418900960708A46C86D9F.tmp' to '../../../../Projects/BonVoyage/Content/IRCManager_Blueprint.uasset'
+[2017.08.17-19.30.21:835][535]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/IRCManager_Blueprint.uasset
+[2017.08.17-19.30.24:461][692]Candidate modules for hot reload:
+[2017.08.17-19.30.24:461][692]  BonVoyage
+[2017.08.17-19.30.24:461][692]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 543 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.30.24:463][692]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.30.38:224][518]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:30:38 AM
+[2017.08.17-19.30.38:224][518]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.30.38:224][518]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-19.30.38:224][518]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-19.30.38:224][518]CompilerResultsLog: Error: D:/Unreal/Projects/BonVoyage/Source/BonVoyage/IRCManager.h(48)  : LogCompile: Error: A Private function cannot be a BlueprintImplementableEvent!
+[2017.08.17-19.30.38:225][518]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'BonVoyageEditor' (platform: Win64, module info: D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2017.08.17-19.30.38:225][518]LogMainFrame: MainFrame: Module compiling took 13.769 seconds
+[2017.08.17-19.30.38:225][518]Warning: HotReload failed, recompile failed
+[2017.08.17-19.31.15:501][266]Candidate modules for hot reload:
+[2017.08.17-19.31.15:501][266]  BonVoyage
+[2017.08.17-19.31.15:501][266]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 7196 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.31.15:503][266]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.31.31:980][255]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:31:31 AM
+[2017.08.17-19.31.31:981][255]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.31.31:981][255]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-19.31.31:981][255]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-19.31.31:981][255]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 9.2839194 seconds
+[2017.08.17-19.31.31:981][255]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.08.17-19.31.31:981][255]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-19.31.31:981][255]CompilerResultsLog: BonVoyage.init.gen.cpp
+[2017.08.17-19.31.31:982][255]CompilerResultsLog: IRCManager.gen.cpp
+[2017.08.17-19.31.31:982][255]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Inc\BonVoyage\IRCManager.gen.cpp(25) : error C2511: 'void AIRCManager::HandleChatMessage(const FString &,const FString &)': overloaded member function not found in 'AIRCManager'
+[2017.08.17-19.31.31:982][255]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Source\BonVoyage\IRCManager.h(12) : note: see declaration of 'AIRCManager'
+[2017.08.17-19.31.31:982][255]CompilerResultsLog: Error: D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Inc\BonVoyage\IRCManager.gen.cpp(29) : error C2352: 'UObject::FindFunctionChecked': illegal call of non-static member function
+[2017.08.17-19.31.31:982][255]CompilerResultsLog: Error: D:\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(863) : note: see declaration of 'UObject::FindFunctionChecked'
+[2017.08.17-19.31.31:982][255]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Unreal\Projects\BonVoyage\Binaries\Win64\UE4Editor-BonVoyage-7196.dll
+[2017.08.17-19.31.31:983][255]CompilerResultsLog: Total build time: 16.24 seconds (Local executor: 0.00 seconds)
+[2017.08.17-19.31.31:983][255]LogMainFrame: MainFrame: Module compiling took 16.486 seconds
+[2017.08.17-19.31.31:983][255]Warning: HotReload failed, recompile failed
+[2017.08.17-19.32.06:224][789]Candidate modules for hot reload:
+[2017.08.17-19.32.06:224][789]  BonVoyage
+[2017.08.17-19.32.06:224][789]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 2008 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.32.06:226][789]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.32.22:442][888]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:32:22 AM
+[2017.08.17-19.32.22:442][888]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.32.22:442][888]CompilerResultsLog: Parsing headers for BonVoyageEditor
+[2017.08.17-19.32.22:442][888]CompilerResultsLog:   Running UnrealHeaderTool "D:\Unreal\Projects\BonVoyage\BonVoyage.uproject" "D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\BonVoyageEditor\Development\BonVoyageEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.17-19.32.22:442][888]CompilerResultsLog: Reflection code generated for BonVoyageEditor in 8.5850932 seconds
+[2017.08.17-19.32.22:443][888]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.08.17-19.32.22:443][888]CompilerResultsLog: IRCManager.cpp
+[2017.08.17-19.32.22:443][888]CompilerResultsLog: IRCManager.gen.cpp
+[2017.08.17-19.32.22:443][888]CompilerResultsLog: BonVoyage.init.gen.cpp
+[2017.08.17-19.32.22:443][888]CompilerResultsLog: [4/5] Link UE4Editor-BonVoyage-2008.dll
+[2017.08.17-19.32.22:444][888]CompilerResultsLog: [5/5] Link UE4Editor-BonVoyage-2008.lib
+[2017.08.17-19.32.22:444][888]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-2008.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-2008.exp
+[2017.08.17-19.32.22:444][888]CompilerResultsLog:    Creating library D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-2008.suppressed.lib and object D:\Unreal\Projects\BonVoyage\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BonVoyage-2008.suppressed.exp
+[2017.08.17-19.32.22:444][888]CompilerResultsLog: Total build time: 15.92 seconds (Local executor: 3.26 seconds)
+[2017.08.17-19.32.22:445][888]LogMainFrame: MainFrame: Module compiling took 16.224 seconds
+[2017.08.17-19.32.22:499][888]LogClass: Could not find existing class IRCManager in package /Script/BonVoyage for HotReload, assuming new class
+[2017.08.17-19.32.22:507][888]LogHotReload: Re-instancing IRCManager after hot-reload.
+[2017.08.17-19.32.22:747][888]LogContentBrowser: Native class hierarchy updated for 'BonVoyage' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.17-19.32.22:750][888]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.17-19.32.23:004][888]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2389 classes and 506 folders.
+[2017.08.17-19.32.23:005][888]Display: HotReload took 16.8s.
+[2017.08.17-19.33.30:512][315]Candidate modules for hot reload:
+[2017.08.17-19.33.30:512][315]  BonVoyage
+[2017.08.17-19.33.30:512][315]Launching UnrealBuildTool... [D:/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe BonVoyage -ModuleWithSuffix BonVoyage 3948 Win64 Development -editorrecompile -canskiplink "D:/Unreal/Projects/BonVoyage/BonVoyage.uproject" ]
+[2017.08.17-19.33.30:514][315]Warning: Starting HotReload took  0.0s.
+[2017.08.17-19.33.34:708][567]CompilerResultsLog: New page: Compilation - Aug 17, 2017, 5:33:34 AM
+[2017.08.17-19.33.34:708][567]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.17-19.33.34:708][567]CompilerResultsLog: Target is up to date
+[2017.08.17-19.33.34:708][567]CompilerResultsLog: Total build time: 3.96 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.08.17-19.33.34:708][567]LogMainFrame: MainFrame: Module compiling took 4.201 seconds
+[2017.08.17-19.33.35:007][567]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2389 classes and 506 folders.
+[2017.08.17-19.33.35:007][567]Display: HotReload took  4.5s.
+[2017.08.17-19.44.36:154][810]LogSavePackage: Save=122.85ms
+[2017.08.17-19.44.36:154][810]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap14D047504619EF26CB9C078F156C8F79.tmp' to '../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.08.17-19.44.36:159][810]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.08.17-19.44.36:229][810]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.297
+[2017.08.17-19.44.36:416][810]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.17-19.44.36:614][811]Cmd: QUIT_EDITOR
+[2017.08.17-19.44.37:131][811]LogExit: Preparing to exit.
+[2017.08.17-19.44.37:849][811]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/BonVoyage/Content/' was aborted.
+[2017.08.17-19.44.37:882][811]LogExit: Editor shut down
+[2017.08.17-19.44.37:886][811]LogExit: Transaction tracking system shut down
+[2017.08.17-19.44.38:080][811]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.17-19.44.38:081][811]LogDirectoryWatcher: A directory notification for '../../../../Projects/BonVoyage/Content/' was aborted.
+[2017.08.17-19.44.38:081][811]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.17-19.44.38:081][811]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.08.17-19.44.38:081][811]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.08.17-19.44.38:167][811]LogExit: Object subsystem successfully closed.
+[2017.08.17-19.44.38:187][811]LogD3D11RHI: Shutdown
+[2017.08.17-19.44.38:187][811]LogD3D11RHI: CleanupD3DDevice
+[2017.08.17-19.44.38:260][811]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.17-19.44.38:268][811]LogModuleManager: Shutting down and abandoning module BonVoyage (545)
+[2017.08.17-19.44.38:268][811]LogModuleManager: Shutting down and abandoning module BlueprintGraph (541)
+[2017.08.17-19.44.38:268][811]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (539)
+[2017.08.17-19.44.38:268][811]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (535)
+[2017.08.17-19.44.38:268][811]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.08.17-19.44.38:268][811]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.08.17-19.44.38:268][811]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.08.17-19.44.38:268][811]LogDirectoryWatcher: A directory notification for 'D:/Unreal/UE_4.17/FeaturePacks/' was aborted.
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.08.17-19.44.38:269][811]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/BonVoyage/Content/Collections/' was aborted.
+[2017.08.17-19.44.38:269][811]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/BonVoyage/Content/Developers/User/Collections/' was aborted.
+[2017.08.17-19.44.38:269][811]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/BonVoyage/Saved/Collections/' was aborted.
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.08.17-19.44.38:269][811]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.08.17-19.44.38:270][811]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.08.17-19.44.39:199][811]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.08.17-19.44.39:200][811]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.08.17-19.44.39:200][811]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.08.17-19.44.39:200][811]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.08.17-19.44.39:200][811]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.08.17-19.44.39:200][811]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.08.17-19.44.39:200][811]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.08.17-19.44.39:200][811]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.08.17-19.44.39:200][811]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.08.17-19.44.39:262][811]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.08.17-19.44.39:269][811]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module UObjectPlugin (292)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (290)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (288)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module GitSourceControl (286)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module SourceControl (285)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (282)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (280)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (278)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module Paper2DEditor (276)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module MeshPaint (275)
+[2017.08.17-19.44.39:458][811]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
+[2017.08.17-19.44.39:459][811]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
+[2017.08.17-19.44.39:459][811]LogModuleManager: Shutting down and abandoning module MainFrame (270)
+[2017.08.17-19.44.39:459][811]LogModuleManager: Shutting down and abandoning module HotReload (269)
+[2017.08.17-19.44.39:459][811]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/BonVoyage/Binaries/Win64' was aborted.
+[2017.08.17-19.44.39:460][811]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
+[2017.08.17-19.44.39:460][811]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
+[2017.08.17-19.44.39:460][811]LogModuleManager: Shutting down and abandoning module PhysXVehicles (258)
+[2017.08.17-19.44.39:460][811]LogModuleManager: Shutting down and abandoning module OculusEditor (256)
+[2017.08.17-19.44.39:460][811]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
+[2017.08.17-19.44.39:460][811]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
+[2017.08.17-19.44.39:460][811]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
+[2017.08.17-19.44.39:460][811]LogModuleManager: Shutting down and abandoning module UdpMessaging (248)
+[2017.08.17-19.44.39:561][811]LogModuleManager: Shutting down and abandoning module TcpMessaging (246)
+[2017.08.17-19.44.39:662][811]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (244)
+[2017.08.17-19.44.39:662][811]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (242)
+[2017.08.17-19.44.39:662][811]LogModuleManager: Shutting down and abandoning module FacialAnimation (240)
+[2017.08.17-19.44.39:662][811]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (238)
+[2017.08.17-19.44.39:662][811]LogModuleManager: Shutting down and abandoning module GraphEditor (237)
+[2017.08.17-19.44.39:662][811]LogModuleManager: Shutting down and abandoning module ContentBrowser (235)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (232)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module Paper2D (230)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (228)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module WmfMedia (226)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module PacketHandler (224)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (222)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (220)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module MediaAssets (214)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module VREditor (212)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module StringTableEditor (210)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (208)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (206)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module FunctionalTesting (204)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (202)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (201)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module UMG (198)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module UMGEditor (197)
+[2017.08.17-19.44.39:663][811]LogModuleManager: Shutting down and abandoning module Sequencer (196)
+[2017.08.17-19.44.39:664][811]LogModuleManager: Shutting down and abandoning module MessageLog (193)
+[2017.08.17-19.44.39:664][811]LogModuleManager: Shutting down and abandoning module SlateReflector (188)
+[2017.08.17-19.44.39:664][811]LogModuleManager: Shutting down and abandoning module Slate (186)
+[2017.08.17-19.44.39:664][811]LogModuleManager: Shutting down and abandoning module EditorStyle (184)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module MRMesh (182)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (180)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (178)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module XAudio2 (176)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module Networking (174)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module Core (170)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module KismetCompiler (166)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module LevelSequence (164)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (148)
+[2017.08.17-19.44.39:667][811]LogModuleManager: Shutting down and abandoning module DerivedDataCache (146)
+[2017.08.17-19.44.39:684][811]LogDerivedDataCache: Shutdown
+[2017.08.17-19.44.39:684][811]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
+[2017.08.17-19.44.39:684][811]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
+[2017.08.17-19.44.39:684][811]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
+[2017.08.17-19.44.39:684][811]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
+[2017.08.17-19.44.39:684][811]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
+[2017.08.17-19.44.39:684][811]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
+[2017.08.17-19.44.39:684][811]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (113)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (111)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (109)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (107)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (105)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module Messaging (103)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (101)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (99)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (83)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (81)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (79)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (77)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (75)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (73)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (71)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (69)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (67)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (65)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module InputCore (62)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module Settings (60)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module PhysXCooking (58)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module SteamVR (56)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module OculusHMD (54)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (52)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2017.08.17-19.44.39:685][811]LogOnline: Display: Unloading online subsystem: NULL
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2017.08.17-19.44.39:685][811]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2017.08.17-19.44.39:685][811]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.17-19.44.39:685][811]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAA235F1C-4047-82DF-BA38-C792949996AF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=059a0cc9489bccdc2d61ad84fac9bb4b%7Ce2aca822f3ae41fea72c66cd0702cc64%7C3d6ca19f-5ee7-468a-83f9-1f084ade8ee1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.17-19.44.39:695][811]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2017.08.17-19.44.39:696][811]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2017.08.17-19.44.39:696][811]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.08.17-19.44.39:696][811]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.08.17-19.44.39:696][811]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.08.17-19.44.39:697][811]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.08.17-19.44.39:697][811]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.08.17-19.44.39:697][811]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.08.17-19.44.39:697][811]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.08.17-19.44.39:697][811]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.08.17-19.44.39:697][811]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.08.17-19.44.39:698][811]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.08.17-19.44.39:698][811]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.08.17-19.44.39:698][811]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.08.17-19.44.39:698][811]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.08.17-19.44.39:698][811]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.08.17-19.44.39:698][811]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.08.17-19.44.39:698][811]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.17-19.44.39:698][811]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.17-19.44.39:698][811]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.17-19.44.39:701][811]LogExit: Exiting.
+[2017.08.17-19.44.39:737][811]Log file closed, 08/17/17 12:44:39

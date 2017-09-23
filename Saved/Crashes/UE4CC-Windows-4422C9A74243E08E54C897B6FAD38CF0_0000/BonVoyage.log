@@ -1,0 +1,855 @@
+﻿Log file open, 08/19/17 09:19:31
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BonVoyage
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-282071746) SRandInit(-282071746).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.163938
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.19-16.19.33:374][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.19-16.19.33:374][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.19-16.19.33:433][  0]LogInit: Computer: CYLONRAIDER
+[2017.08.19-16.19.33:433][  0]LogInit: User: User
+[2017.08.19-16.19.33:433][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.19-16.19.33:433][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2017.08.19-16.19.33:434][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.08.19-16.19.33:434][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.19-16.19.33:434][  0]LogMemory: Process Physical Memory: 283.04 MB used, 283.04 MB peak
+[2017.08.19-16.19.33:434][  0]LogMemory: Process Virtual Memory: 279.58 MB used, 279.58 MB peak
+[2017.08.19-16.19.33:434][  0]LogMemory: Physical Memory: 6578.84 MB used,  58878.41 MB free, 65457.25 MB total
+[2017.08.19-16.19.33:434][  0]LogMemory: Virtual Memory: 701.71 MB used,  58878.41 MB free, 134217728.00 MB total
+[2017.08.19-16.19.33:567][  0]LogInit: Using OS detected language (en-US).
+[2017.08.19-16.19.33:567][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.19-16.19.33:570][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.19-16.19.34:222][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.19-16.19.34:844][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.19-16.19.34:845][  0]LogD3D11RHI:       8113/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.19-16.19.34:846][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.19-16.19.34:846][  0]LogD3D11RHI:       0/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.19-16.19.34:846][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.19-16.19.34:852][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.19-16.19.34:852][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.19-16.19.34:852][  0]LogWindows: EnumDisplayDevices:
+[2017.08.19-16.19.34:852][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.19-16.19.34:852][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.19-16.19.34:852][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.19-16.19.34:852][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.19-16.19.34:852][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.19-16.19.34:852][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.19-16.19.34:852][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.19-16.19.34:852][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.19-16.19.34:852][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.19-16.19.35:444][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.19-16.19.35:473][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.19-16.19.35:516][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Projects/BonVoyage/Intermediate/Shaders/WorkingDirectory/13580/).
+[2017.08.19-16.19.35:516][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/4EF54B3247C9FE15DE49BE896BE44D55/'.
+[2017.08.19-16.19.35:516][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.19-16.19.36:418][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.19-16.19.36:459][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.19-16.19.36:517][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.19-16.19.36:575][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.19-16.19.36:610][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.19-16.19.36:647][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.19-16.19.36:684][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.19-16.19.36:723][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.19-16.19.36:752][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.19-16.19.36:786][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.19-16.19.36:820][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.19-16.19.36:854][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.19-16.19.36:889][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.19-16.19.36:924][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.19-16.19.36:959][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.19-16.19.37:038][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.19-16.19.37:039][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.19-16.19.37:070][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.19-16.19.37:150][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.19-16.19.37:187][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.19-16.19.37:224][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.19-16.19.37:258][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.19-16.19.37:293][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.19-16.19.37:327][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.19-16.19.37:327][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.19-16.19.37:661][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.19-16.19.37:754][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.19-16.19.37:754][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.19-16.19.37:754][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.19-16.19.37:754][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.19-16.19.37:754][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.19-16.19.37:754][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.19-16.19.37:771][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.19-16.19.37:783][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.19-16.19.37:793][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.19-16.19.37:793][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.19-16.19.37:794][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.19-16.19.37:794][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.19-16.19.38:729][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2017.08.19-16.19.38:831][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.19-16.19.38:964][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.19-16.19.39:180][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.19-16.19.39:206][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.19-16.19.39:206][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.19-16.19.39:206][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.19-16.19.39:206][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.19-16.19.39:206][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.19-16.19.39:553][  0]LogNetVersion: BonVoyage , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2954532094)
+[2017.08.19-16.19.39:838][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.140789 seconds
+[2017.08.19-16.19.39:857][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.19-16.19.39:857][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.19-16.19.39:857][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.19-16.19.39:915][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.19-16.19.41:942][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.19-16.19.41:973][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.19-16.19.42:453][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.19-16.19.42:748][  0]SourceControl: Source control is disabled
+[2017.08.19-16.19.42:748][  0]SourceControl: Source control is disabled
+[2017.08.19-16.19.42:776][  0]SourceControl: Source control is disabled
+[2017.08.19-16.19.42:805][  0]SourceControl: Source control is disabled
+[2017.08.19-16.19.43:205][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.19-16.19.43:390][  0]LogOcInput: OculusInput pre-init called
+[2017.08.19-16.19.43:642][  0]LogEngine: Initializing Engine...
+[2017.08.19-16.19.43:664][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.08.19-16.19.43:907][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.19-16.19.43:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.19-16.19.43:993][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.19-16.19.44:001][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.19-16.19.44:035][  0]LogInit: FAudioDevice initialized.
+[2017.08.19-16.19.44:125][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.19-16.19.44:142][  0]LogInit: Texture streaming: Enabled
+[2017.08.19-16.19.44:217][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.19-16.19.44:402][  0]LogInit: Transaction tracking system initialized
+[2017.08.19-16.19.44:599][  0]BlueprintLog: New page: Editor Load
+[2017.08.19-16.19.45:177][  0]LocalizationService: Localization service is disabled
+[2017.08.19-16.19.45:633][  0]LogConsoleResponse: Display: 
+[2017.08.19-16.19.45:886][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.19-16.19.45:886][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.19-16.19.45:887][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.19-16.19.46:527][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/' took 0.03s
+[2017.08.19-16.19.46:558][  0]SourceControl: Source control is disabled
+[2017.08.19-16.19.46:559][  0]Cmd: MAP LOAD FILE="../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.19-16.19.46:559][  0]LightingResults: New page: Lighting Build
+[2017.08.19-16.19.46:585][  0]MapCheck: New page: Map Check
+[2017.08.19-16.19.46:585][  0]LightingResults: New page: Lighting Build
+[2017.08.19-16.19.49:965][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.19-16.19.50:072][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.19-16.19.50:088][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.19-16.19.50:124][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.532ms to complete.
+[2017.08.19-16.19.50:124][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.566
+[2017.08.19-16.19.50:596][  0]LogCollectionManager: Loaded 0 collections in 0.000919 seconds
+[2017.08.19-16.19.50:737][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Saved/Collections/' took 0.01s
+[2017.08.19-16.19.50:737][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Developers/User/Collections/' took 0.01s
+[2017.08.19-16.19.50:737][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Collections/' took 0.01s
+[2017.08.19-16.19.50:737][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.08.19-16.19.50:757][  0]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 2387 classes and 502 folders.
+[2017.08.19-16.19.50:816][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.08.19-16.19.51:766][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.08.19-16.19.51:878][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.08.19-16.19.52:301][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.19-16.19.52:321][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.19-16.19.52:359][  0]LogSlate: Took 0.015375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.19-16.19.52:683][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.08.19-16.19.52:963][  0]LogSlate: Took 0.022960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.19-16.19.53:091][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.19-16.19.53:091][  0]LogLoad: (Engine Initialization) Total time: 22.87 seconds
+[2017.08.19-16.19.53:092][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.19-16.19.53:092][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.19-16.19.53:466][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.19-16.19.54:109][  2]LogAssetRegistry: Asset discovery search completed in 15.4031 seconds
+[2017.08.19-16.19.54:111][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.19-16.19.54:111][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000119 seconds (updated 0 objects)
+[2017.08.19-16.19.54:442][  3]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.19-16.33.45:631][794]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.19-16.33.46:502][794]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 113 classes and 0 folders.
+[2017.08.19-16.33.48:064][794]LogSlate: Took 0.013618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.19-16.34.07:477][858]LogSlate: Took 0.036763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.19-16.34.22:383][641]LogSavePackage: Save=1134.15ms
+[2017.08.19-16.34.22:383][641]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship3A2375D446B8F430EB6CDCAB8E0440A7.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.19-16.34.22:384][641]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.19-16.34.22:385][641]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.19-16.34.23:056][679]BlueprintLog: New page: Compile Base_Ship
+[2017.08.19-16.34.24:444][679]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.34.24:444][679]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_794 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.34.24:532][679]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.34.24:532][679]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.34.25:913][754]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.19-16.34.26:080][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.34.26:081][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.19-16.34.26:113][754]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 19, 2017, 2:34:26 AM)
+[2017.08.19-16.34.26:113][754]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.19-16.34.26:145][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031150s)
+[2017.08.19-16.34.26:145][754]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.19-16.34.26:145][754]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.08.19-16.34.26:146][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032343s)
+[2017.08.19-16.34.26:165][754]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.19-16.34.26:195][754]LogInit: FAudioDevice initialized.
+[2017.08.19-16.34.26:254][754]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.19-16.34.26:292][754]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.19-09.34.26
+[2017.08.19-16.34.26:362][754]LogWorld: Bringing up level for play took: 0.072273
+[2017.08.19-16.34.26:410][754]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.08.19-16.34.26:489][754]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Bridge
+[2017.08.19-16.34.26:490][754]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engineering
+[2017.08.19-16.34.26:490][754]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engines
+[2017.08.19-16.34.26:490][754]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Bridge
+[2017.08.19-16.34.26:490][754]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Engineering
+[2017.08.19-16.34.26:490][754]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Engines
+[2017.08.19-16.34.26:558][754]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.889
+[2017.08.19-16.34.26:559][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.34.26:562][754]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.26:562][754]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.26:562][754]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.34.29:240][912]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.29:240][912]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.29:240][912]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.34.29:240][912]LogBlueprintUserMessages: [Base_Ship_C_0] 98/100
+[2017.08.19-16.34.32:797][935]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.32:797][935]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.32:797][935]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.34.32:798][935]LogBlueprintUserMessages: [Base_Ship_C_0] 96/100
+[2017.08.19-16.34.36:129][945]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.36:129][945]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.36:129][945]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.34.36:129][945]LogBlueprintUserMessages: [Base_Ship_C_0] 94/100
+[2017.08.19-16.34.38:463][952]LogTemp: Warning: crimsonoctopus: !!
+[2017.08.19-16.34.38:463][952]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Bridge
+[2017.08.19-16.34.38:463][952]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for  Bridge
+[2017.08.19-16.34.38:463][952]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for  Engineering
+[2017.08.19-16.34.38:463][952]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for  Engines
+[2017.08.19-16.34.39:140][993]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.39:140][993]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.39:141][993]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.34.39:141][993]LogBlueprintUserMessages: [Base_Ship_C_0] 92/100
+[2017.08.19-16.34.42:158][174]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.42:158][174]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.42:158][174]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.34.42:158][174]LogBlueprintUserMessages: [Base_Ship_C_0] 90/100
+[2017.08.19-16.34.45:174][355]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.45:174][355]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.45:174][355]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.34.45:175][355]LogBlueprintUserMessages: [Base_Ship_C_0] 88/100
+[2017.08.19-16.34.48:191][536]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.48:191][536]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.48:191][536]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.34.48:192][536]LogBlueprintUserMessages: [Base_Ship_C_0] 86/100
+[2017.08.19-16.34.51:208][717]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.51:208][717]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.51:208][717]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.34.54:225][898]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.54:225][898]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.54:225][898]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.34.54:225][898]LogBlueprintUserMessages: [Base_Ship_C_0] 84/100
+[2017.08.19-16.34.54:225][898]LogBlueprintUserMessages: [Base_Ship_C_0] Engines has 1
+[2017.08.19-16.34.54:225][898]LogBlueprintUserMessages: [Base_Ship_C_0] 97/100
+[2017.08.19-16.34.57:241][ 79]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.34.57:241][ 79]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.34.57:241][ 79]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.34.57:242][ 79]LogBlueprintUserMessages: [Base_Ship_C_0] 82/100
+[2017.08.19-16.35.00:258][260]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.00:258][260]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.00:258][260]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.00:258][260]LogBlueprintUserMessages: [Base_Ship_C_0] 80/100
+[2017.08.19-16.35.03:275][441]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.03:275][441]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.03:275][441]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.03:276][441]LogBlueprintUserMessages: [Base_Ship_C_0] 78/100
+[2017.08.19-16.35.03:276][441]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.35.03:276][441]LogBlueprintUserMessages: [Base_Ship_C_0] 93.4/100
+[2017.08.19-16.35.06:292][622]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.06:292][622]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.06:292][622]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.06:292][622]LogBlueprintUserMessages: [Base_Ship_C_0] 76/100
+[2017.08.19-16.35.09:308][803]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.09:308][803]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.09:309][803]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.09:309][803]LogBlueprintUserMessages: [Base_Ship_C_0] 74/100
+[2017.08.19-16.35.12:326][870]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.12:326][870]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.12:326][870]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.12:326][870]LogBlueprintUserMessages: [Base_Ship_C_0] 72/100
+[2017.08.19-16.35.15:343][ 51]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.15:343][ 51]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.15:343][ 51]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.35.18:359][232]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.18:360][232]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.18:360][232]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.18:360][232]LogBlueprintUserMessages: [Base_Ship_C_0] 70/100
+[2017.08.19-16.35.18:360][232]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.35.18:360][232]LogBlueprintUserMessages: [Base_Ship_C_0] 89/100
+[2017.08.19-16.35.21:377][413]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.21:377][413]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.21:377][413]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.35.24:393][594]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.24:393][594]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.24:393][594]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.35.27:417][775]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.27:417][775]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.27:417][775]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.27:417][775]LogBlueprintUserMessages: [Base_Ship_C_0] 68/100
+[2017.08.19-16.35.30:433][956]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.30:433][956]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.30:434][956]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.35.33:450][137]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.33:451][137]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.33:451][137]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.35.36:468][318]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.36:468][318]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.36:468][318]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.35.39:485][499]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.39:485][499]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.39:485][499]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.39:486][499]LogBlueprintUserMessages: [Base_Ship_C_0] 66/100
+[2017.08.19-16.35.39:486][499]LogBlueprintUserMessages: [Base_Ship_C_0] Engineering has 0
+[2017.08.19-16.35.39:486][499]LogBlueprintUserMessages: [Base_Ship_C_0] 84.2/100
+[2017.08.19-16.35.42:502][680]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.42:502][680]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.42:502][680]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.42:503][680]LogBlueprintUserMessages: [Base_Ship_C_0] 64/100
+[2017.08.19-16.35.42:503][680]LogBlueprintUserMessages: [Base_Ship_C_0] 79.2/100
+[2017.08.19-16.35.45:519][861]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.45:519][861]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.45:519][861]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.35.48:535][ 42]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.48:535][ 42]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.48:536][ 42]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.35.48:536][ 42]LogBlueprintUserMessages: [Base_Ship_C_0] 62/100
+[2017.08.19-16.35.51:553][223]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.51:553][223]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.51:553][223]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.35.54:569][404]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.54:569][404]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.54:569][404]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.35.57:586][585]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.35.57:586][585]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.35.57:586][585]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.36.00:603][766]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.00:603][766]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.00:603][766]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.36.03:620][947]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.03:620][947]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.03:620][947]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.36.06:637][128]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.06:637][128]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.06:637][128]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.06:638][128]LogBlueprintUserMessages: [Base_Ship_C_0] 60/100
+[2017.08.19-16.36.06:638][128]LogBlueprintUserMessages: [Base_Ship_C_0] 73.8/100
+[2017.08.19-16.36.09:654][309]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.09:654][309]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.09:654][309]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.09:655][309]LogBlueprintUserMessages: [Base_Ship_C_0] 58/100
+[2017.08.19-16.36.12:671][490]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.12:671][490]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.12:671][490]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.36.15:688][671]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.15:688][671]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.15:688][671]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.36.18:705][852]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.18:705][852]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.18:705][852]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.36.21:722][ 33]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.21:722][ 33]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.21:722][ 33]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.21:722][ 33]LogBlueprintUserMessages: [Base_Ship_C_0] 56/100
+[2017.08.19-16.36.21:722][ 33]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.36.21:722][ 33]LogBlueprintUserMessages: [Base_Ship_C_0] 68/100
+[2017.08.19-16.36.24:739][214]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.24:739][214]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.24:739][214]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.24:739][214]LogBlueprintUserMessages: [Base_Ship_C_0] 54/100
+[2017.08.19-16.36.27:764][395]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.27:764][395]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.27:764][395]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.36.30:781][576]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.30:781][576]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.30:781][576]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.36.33:798][757]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.33:798][757]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.33:798][757]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.33:798][757]LogBlueprintUserMessages: [Base_Ship_C_0] 52/100
+[2017.08.19-16.36.33:799][757]LogBlueprintUserMessages: [Base_Ship_C_0] 61.8/100
+[2017.08.19-16.36.36:815][938]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.36:815][938]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.36:815][938]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.36:816][938]LogBlueprintUserMessages: [Base_Ship_C_0] 50/100
+[2017.08.19-16.36.36:816][938]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.36.36:816][938]LogBlueprintUserMessages: [Base_Ship_C_0] 55.4/100
+[2017.08.19-16.36.39:832][119]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.39:832][119]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.39:832][119]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.39:832][119]LogBlueprintUserMessages: [Base_Ship_C_0] 48/100
+[2017.08.19-16.36.42:849][300]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.42:849][300]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.42:849][300]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.42:850][300]LogBlueprintUserMessages: [Base_Ship_C_0] 46/100
+[2017.08.19-16.36.42:850][300]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.36.42:850][300]LogBlueprintUserMessages: [Base_Ship_C_0] 48.6/100
+[2017.08.19-16.36.45:866][481]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.45:866][481]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.45:866][481]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.45:866][481]LogBlueprintUserMessages: [Base_Ship_C_0] 44/100
+[2017.08.19-16.36.48:883][662]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.48:883][662]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.48:883][662]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.36.51:900][843]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.51:900][843]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.51:900][843]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.51:900][843]LogBlueprintUserMessages: [Base_Ship_C_0] 42/100
+[2017.08.19-16.36.54:916][ 24]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.54:916][ 24]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.54:916][ 24]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.54:916][ 24]LogBlueprintUserMessages: [Base_Ship_C_0] 40/100
+[2017.08.19-16.36.54:917][ 24]LogBlueprintUserMessages: [Base_Ship_C_0] Engines has 1
+[2017.08.19-16.36.54:917][ 24]LogBlueprintUserMessages: [Base_Ship_C_0] crimsonoctopus hit for  damage!
+[2017.08.19-16.36.54:917][ 24]LogBlueprintUserMessages: [Base_Ship_C_0] 41.2/100
+[2017.08.19-16.36.57:933][205]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.36.57:933][205]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.36.57:933][205]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.36.57:933][205]LogBlueprintUserMessages: [Base_Ship_C_0] 38/100
+[2017.08.19-16.36.57:934][205]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.36.57:934][205]LogBlueprintUserMessages: [Base_Ship_C_0] 33.6/100
+[2017.08.19-16.36.58:518][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.36.58:592][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.37.50:334][326]LogEditorTransaction: Undo Create Pin Link
+[2017.08.19-16.39.55:039][655]LogSavePackage: Save=98.70ms
+[2017.08.19-16.39.55:039][655]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto13E7A38CC44FF7E4A1C15069EC4E8AD61.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.08.19-16.39.55:039][655]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.08.19-16.39.55:041][655]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.482
+[2017.08.19-16.39.55:041][655]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.482
+[2017.08.19-16.39.55:116][655]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.19-16.39.55:130][655]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.19-16.39.55:130][655]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.19-16.39.56:246][655]LogSavePackage: Save=1107.75ms
+[2017.08.19-16.39.56:246][655]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto139E10A004BF9AC4D27430D94C0479FE5.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto1.uasset'
+[2017.08.19-16.39.56:297][655]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto1.uasset
+[2017.08.19-16.39.56:298][655]LogFileHelpers: Auto-saving content packages took 1.256
+[2017.08.19-16.40.35:761][894]LogSavePackage: Save=1097.49ms
+[2017.08.19-16.40.35:761][894]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship5F25EABF4B2204568048CCB7FAC238C1.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.19-16.40.35:768][894]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.19-16.40.36:155][917]BlueprintLog: New page: Compile Base_Ship
+[2017.08.19-16.40.37:728][917]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.40.37:729][917]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_794 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.40.37:827][917]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.40.37:828][917]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.40.39:890][ 21]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.19-16.40.39:940][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.40.39:940][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.19-16.40.39:940][ 21]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 19, 2017, 2:40:39 AM)
+[2017.08.19-16.40.39:940][ 21]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.19-16.40.39:961][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021423s)
+[2017.08.19-16.40.39:962][ 21]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.19-16.40.39:962][ 21]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2017.08.19-16.40.39:963][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022744s)
+[2017.08.19-16.40.39:986][ 21]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.19-16.40.40:017][ 21]LogInit: FAudioDevice initialized.
+[2017.08.19-16.40.40:051][ 21]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.19-16.40.40:054][ 21]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.19-09.40.40
+[2017.08.19-16.40.40:055][ 21]LogWorld: Bringing up level for play took: 0.002402
+[2017.08.19-16.40.40:060][ 21]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Bridge
+[2017.08.19-16.40.40:060][ 21]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engineering
+[2017.08.19-16.40.40:060][ 21]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engines
+[2017.08.19-16.40.40:060][ 21]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Bridge
+[2017.08.19-16.40.40:061][ 21]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Engineering
+[2017.08.19-16.40.40:061][ 21]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Engines
+[2017.08.19-16.40.40:100][ 21]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.432
+[2017.08.19-16.40.40:101][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.40.40:103][ 21]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.40.40:103][ 21]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.40.40:103][ 21]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 missed Base_Ship.
+[2017.08.19-16.40.42:923][188]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.40.42:923][188]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.40.42:923][188]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.40.42:923][188]LogBlueprintUserMessages: [Base_Ship_C_0] 98/100
+[2017.08.19-16.40.43:340][213]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.40.43:387][213]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.40.54:614][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_29.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:614][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_30.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:614][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_28.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:617][780]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_800.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:619][780]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_801.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:619][780]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_799.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:620][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_39.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:620][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_40.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:620][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_38.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:623][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_48.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:626][780]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_813.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:628][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_55.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:628][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_56.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:630][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_54.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:630][780]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_814.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:630][780]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_812.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:631][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_50.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.54:631][780]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_49.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.56:024][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Blueprints/Weapons/MainTurret_Blueprint" FILE="../../../../Projects/BonVoyage/Content/Assets/Blueprints/Weapons/MainTurret_Blueprint.uasset" SILENT=true
+[2017.08.19-16.40.56:234][848]LogSavePackage: Save=200.41ms
+[2017.08.19-16.40.56:234][848]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/MainTurret_BlueprintC9D877CB41E19C5D30642FAB52C807B1.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/Weapons/MainTurret_Blueprint.uasset'
+[2017.08.19-16.40.56:236][848]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/Weapons/MainTurret_Blueprint.uasset
+[2017.08.19-16.40.56:615][867]BlueprintLog: New page: Compile MainTurret_Blueprint
+[2017.08.19-16.40.57:038][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_5.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.57:038][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_3.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.57:038][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_4.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.58:200][867]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.40.58:200][867]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_794 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.40.58:291][867]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.40.58:292][867]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-16.40.58:409][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_16.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.58:409][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_17.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.58:409][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_15.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.58:413][867]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_793.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.58:413][867]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_795.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.58:415][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_31.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.58:415][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_32.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.58:415][867]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_796.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.40.58:415][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_33.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-16.41.00:045][937]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.19-16.41.00:092][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.41.00:092][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.19-16.41.00:092][937]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 19, 2017, 2:41:00 AM)
+[2017.08.19-16.41.00:092][937]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.19-16.41.00:108][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016073s)
+[2017.08.19-16.41.00:109][937]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.19-16.41.00:109][937]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2017.08.19-16.41.00:110][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017570s)
+[2017.08.19-16.41.00:200][937]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.19-16.41.00:231][937]LogInit: FAudioDevice initialized.
+[2017.08.19-16.41.00:263][937]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.19-16.41.00:267][937]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.19-09.41.00
+[2017.08.19-16.41.00:267][937]LogWorld: Bringing up level for play took: 0.002619
+[2017.08.19-16.41.00:273][937]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Bridge
+[2017.08.19-16.41.00:274][937]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engineering
+[2017.08.19-16.41.00:274][937]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engines
+[2017.08.19-16.41.00:274][937]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Bridge
+[2017.08.19-16.41.00:274][937]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Engineering
+[2017.08.19-16.41.00:274][937]LogBlueprintUserMessages: [Base_Ship_C_0] Widget exists for Engines
+[2017.08.19-16.41.00:310][937]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.641
+[2017.08.19-16.41.00:311][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.41.00:313][937]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.00:313][937]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.00:313][937]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.00:314][937]LogBlueprintUserMessages: [Base_Ship_C_0] 98/100
+[2017.08.19-16.41.03:070][102]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.03:070][102]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.03:070][102]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.03:071][102]LogBlueprintUserMessages: [Base_Ship_C_0] 96/100
+[2017.08.19-16.41.06:087][283]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.06:087][283]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.06:087][283]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.06:088][283]LogBlueprintUserMessages: [Base_Ship_C_0] 94/100
+[2017.08.19-16.41.09:104][464]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.09:104][464]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.09:105][464]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.09:105][464]LogBlueprintUserMessages: [Base_Ship_C_0] 92/100
+[2017.08.19-16.41.09:105][464]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.41.09:105][464]LogBlueprintUserMessages: [Base_Ship_C_0] 97.8/100
+[2017.08.19-16.41.12:122][645]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.12:122][645]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.12:122][645]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.12:122][645]LogBlueprintUserMessages: [Base_Ship_C_0] 90/100
+[2017.08.19-16.41.12:122][645]LogBlueprintUserMessages: [Base_Ship_C_0] 95.4/100
+[2017.08.19-16.41.15:139][826]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.15:139][826]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.15:139][826]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.15:139][826]LogBlueprintUserMessages: [Base_Ship_C_0] 88/100
+[2017.08.19-16.41.18:156][  7]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.18:156][  7]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.18:157][  7]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.18:157][  7]LogBlueprintUserMessages: [Base_Ship_C_0] 86/100
+[2017.08.19-16.41.21:173][188]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.21:173][188]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.21:173][188]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.21:173][188]LogBlueprintUserMessages: [Base_Ship_C_0] 84/100
+[2017.08.19-16.41.24:189][369]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.24:189][369]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.24:189][369]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.24:189][369]LogBlueprintUserMessages: [Base_Ship_C_0] 82/100
+[2017.08.19-16.41.27:206][550]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.27:206][550]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.27:206][550]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.27:207][550]LogBlueprintUserMessages: [Base_Ship_C_0] 80/100
+[2017.08.19-16.41.30:223][731]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.30:223][731]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.30:223][731]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.30:223][731]LogBlueprintUserMessages: [Base_Ship_C_0] 78/100
+[2017.08.19-16.41.33:239][912]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.33:240][912]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.33:240][912]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.33:240][912]LogBlueprintUserMessages: [Base_Ship_C_0] 76/100
+[2017.08.19-16.41.36:256][ 93]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.36:257][ 93]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.36:257][ 93]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.36:257][ 93]LogBlueprintUserMessages: [Base_Ship_C_0] 74/100
+[2017.08.19-16.41.39:273][274]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.39:273][274]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.39:274][274]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.39:274][274]LogBlueprintUserMessages: [Base_Ship_C_0] 72/100
+[2017.08.19-16.41.42:290][455]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.42:290][455]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.42:290][455]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.42:290][455]LogBlueprintUserMessages: [Base_Ship_C_0] 70/100
+[2017.08.19-16.41.45:307][636]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.45:307][636]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.45:307][636]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.45:308][636]LogBlueprintUserMessages: [Base_Ship_C_0] 68/100
+[2017.08.19-16.41.48:325][817]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.48:325][817]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.48:325][817]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.48:325][817]LogBlueprintUserMessages: [Base_Ship_C_0] 66/100
+[2017.08.19-16.41.51:341][998]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.51:341][998]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.51:341][998]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.51:342][998]LogBlueprintUserMessages: [Base_Ship_C_0] 64/100
+[2017.08.19-16.41.51:342][998]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.41.51:342][998]LogBlueprintUserMessages: [Base_Ship_C_0] 90.4/100
+[2017.08.19-16.41.54:358][179]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.54:358][179]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.54:358][179]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.54:359][179]LogBlueprintUserMessages: [Base_Ship_C_0] 62/100
+[2017.08.19-16.41.54:359][179]LogBlueprintUserMessages: [Base_Ship_C_0] Engineering has 0
+[2017.08.19-16.41.54:359][179]LogBlueprintUserMessages: [Base_Ship_C_0] 85.2/100
+[2017.08.19-16.41.57:376][360]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.41.57:376][360]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.41.57:376][360]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.41.57:376][360]LogBlueprintUserMessages: [Base_Ship_C_0] 60/100
+[2017.08.19-16.41.57:376][360]LogBlueprintUserMessages: [Base_Ship_C_0] 79.8/100
+[2017.08.19-16.42.00:402][541]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.00:402][541]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.00:402][541]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.00:403][541]LogBlueprintUserMessages: [Base_Ship_C_0] 58/100
+[2017.08.19-16.42.03:419][722]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.03:419][722]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.03:419][722]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.03:420][722]LogBlueprintUserMessages: [Base_Ship_C_0] 56/100
+[2017.08.19-16.42.06:437][903]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.06:437][903]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.06:437][903]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.06:437][903]LogBlueprintUserMessages: [Base_Ship_C_0] 54/100
+[2017.08.19-16.42.06:437][903]LogBlueprintUserMessages: [Base_Ship_C_0] 73.8/100
+[2017.08.19-16.42.09:453][ 84]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.09:453][ 84]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.09:454][ 84]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.09:454][ 84]LogBlueprintUserMessages: [Base_Ship_C_0] 52/100
+[2017.08.19-16.42.09:454][ 84]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.42.09:454][ 84]LogBlueprintUserMessages: [Base_Ship_C_0] 67.6/100
+[2017.08.19-16.42.12:470][265]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.12:470][265]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.12:470][265]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.12:471][265]LogBlueprintUserMessages: [Base_Ship_C_0] 50/100
+[2017.08.19-16.42.15:487][446]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.15:487][446]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.15:487][446]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.15:488][446]LogBlueprintUserMessages: [Base_Ship_C_0] 48/100
+[2017.08.19-16.42.18:504][627]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.18:504][627]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.18:504][627]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.18:505][627]LogBlueprintUserMessages: [Base_Ship_C_0] 46/100
+[2017.08.19-16.42.18:505][627]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.42.18:505][627]LogBlueprintUserMessages: [Base_Ship_C_0] 60.8/100
+[2017.08.19-16.42.21:520][808]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.21:521][808]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.21:521][808]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.21:521][808]LogBlueprintUserMessages: [Base_Ship_C_0] 44/100
+[2017.08.19-16.42.24:537][989]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.24:537][989]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.24:537][989]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.24:538][989]LogBlueprintUserMessages: [Base_Ship_C_0] 42/100
+[2017.08.19-16.42.27:554][170]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.27:554][170]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.27:554][170]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.27:555][170]LogBlueprintUserMessages: [Base_Ship_C_0] 40/100
+[2017.08.19-16.42.27:555][170]LogBlueprintUserMessages: [Base_Ship_C_0] Engineering has 0
+[2017.08.19-16.42.27:555][170]LogBlueprintUserMessages: [Base_Ship_C_0] 53.4/100
+[2017.08.19-16.42.30:571][351]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.30:571][351]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.30:571][351]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.30:571][351]LogBlueprintUserMessages: [Base_Ship_C_0] 38/100
+[2017.08.19-16.42.30:571][351]LogBlueprintUserMessages: [Base_Ship_C_0] Bridge has 0
+[2017.08.19-16.42.30:571][351]LogBlueprintUserMessages: [Base_Ship_C_0] 45.8/100
+[2017.08.19-16.42.33:588][532]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Firing
+[2017.08.19-16.42.33:588][532]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Cooldown
+[2017.08.19-16.42.33:588][532]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792] Turret0 hit Base_Ship.
+[2017.08.19-16.42.33:589][532]LogBlueprintUserMessages: [Base_Ship_C_0] 36/100
+[2017.08.19-16.42.34:856][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.42.34:914][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.19-16.49.30:523][448]LogEditorTransaction: Undo Delete current selection
+[2017.08.19-16.49.54:353][810]LogSlate: Took 0.019346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.19-16.56.56:270][748]LogSavePackage: Save=115.91ms
+[2017.08.19-16.56.56:270][748]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto293754DDF46D644D7EA5226979FC34D87.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.08.19-16.56.56:270][748]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.08.19-16.56.56:271][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.486
+[2017.08.19-16.56.56:272][748]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.486
+[2017.08.19-16.56.56:274][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.19-16.56.56:289][748]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.19-16.56.56:289][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.19-16.56.57:471][748]LogSavePackage: Save=1139.12ms
+[2017.08.19-16.56.57:472][748]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto263CFC75741F3AA89D08B6CAB1CF082EE.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto2.uasset'
+[2017.08.19-16.56.57:473][748]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto2.uasset
+[2017.08.19-16.56.57:474][748]LogFileHelpers: Auto-saving content packages took 1.201
+[2017.08.19-17.07.33:423][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Room" FILE="../../../../Projects/BonVoyage/Content/Assets/Room.uasset" SILENT=true
+[2017.08.19-17.07.33:435][834]LogSavePackage: Save=5.35ms
+[2017.08.19-17.07.33:435][834]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/RoomD0139F8345A41EF901DD8B90E7C56936.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Room.uasset'
+[2017.08.19-17.07.33:438][834]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Room.uasset
+[2017.08.19-17.12.36:232][732]LogEditorTransaction: Undo Create Pin Link
+[2017.08.19-17.12.36:688][753]LogEditorTransaction: Undo Create Pin Link
+[2017.08.19-17.12.37:030][768]LogEditorTransaction: Undo Move Node
+[2017.08.19-17.12.37:452][788]LogEditorTransaction: Undo Add Node
+[2017.08.19-17.13.42:487][617]LogSavePackage: Save=1074.87ms
+[2017.08.19-17.13.42:488][617]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship9242972E4BE96E2E6B858783ACE72753.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.19-17.13.42:492][617]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.19-17.13.42:678][628]BlueprintLog: New page: Compile Base_Ship
+[2017.08.19-17.13.43:292][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_5.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.43:292][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_3.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.43:292][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_4.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.45:794][628]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-17.13.45:795][628]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_794 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-17.13.45:955][628]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-17.13.45:956][628]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-17.13.46:181][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_25.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.46:181][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_26.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.46:181][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_24.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.46:185][628]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_793.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.46:185][628]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_795.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.46:188][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_41.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.46:188][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_42.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.46:188][628]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_796.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.13.46:188][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_43.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.10:267][969]LogSavePackage: Save=1117.85ms
+[2017.08.19-17.14.10:267][969]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipCB28CF974B3FAF809C6976B4FE687F16.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.19-17.14.10:270][969]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.19-17.14.10:886][  6]BlueprintLog: New page: Compile Base_Ship
+[2017.08.19-17.14.11:466][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_5.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.11:466][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_3.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.11:466][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_4.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.13:417][  6]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_792 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-17.14.13:417][  6]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_794 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-17.14.13:529][  6]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-17.14.13:530][  6]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_2:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.19-17.14.13:672][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_24.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.13:672][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_25.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.13:672][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_23.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.13:678][  6]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_793.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.13:678][  6]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_795.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.13:680][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_41.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.13:680][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_42.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.13:680][  6]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_796.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.14.13:680][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_43.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.22.03:621][660]LogEditorTransaction: Undo Create Pin Link
+[2017.08.19-17.27.15:393][180]LogEditorTransaction: Undo Add Node
+[2017.08.19-17.28.56:013][ 82]LogSavePackage: Save=1123.67ms
+[2017.08.19-17.28.56:013][ 82]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship1EBEF2194F7E2C243FC2E183AB7D5D11.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.19-17.28.56:018][ 82]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.19-17.30.11:876][488]LogSavePackage: Save=1123.85ms
+[2017.08.19-17.30.11:876][488]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship8121ADB447C35D2826F056B2385C2F01.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.19-17.30.11:878][488]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.19-17.30.12:433][521]BlueprintLog: New page: Compile Base_Ship
+[2017.08.19-17.30.12:917][521]LogBlueprint: Error: [Compiler Base_Ship] The  Struct Ref  pin must be connected to the struct that you wish to set.
+[2017.08.19-17.30.12:917][521]LogBlueprint: Error: [Compiler Base_Ship] The  Struct Ref  pin must be connected to the struct that you wish to set.
+[2017.08.19-17.30.12:917][521]LogBlueprint: Error: [Compiler Base_Ship] The  Struct Ref  pin must be connected to the struct that you wish to set.
+[2017.08.19-17.30.12:917][521]LogBlueprint: Error: [Compiler Base_Ship] The  Struct Ref  pin must be connected to the struct that you wish to set.
+[2017.08.19-17.30.16:318][521]LogBlueprint: Warning: [Compiler Base_Ship] [4246.09] Compile of Base_Ship failed. 4 Fatal Issue(s) 0 Warning(s) [in 3,884 ms] (/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship)
+[2017.08.19-17.31.02:097][169]LogSavePackage: Save=1054.91ms
+[2017.08.19-17.31.02:097][169]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipA2D8CE16427DB35F28D43C9ADDA5B3FD.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.19-17.31.02:101][169]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.19-17.31.03:037][225]BlueprintLog: New page: Compile Base_Ship
+[2017.08.19-17.31.03:622][225]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_5.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.31.03:622][225]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_3.Turret) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.19-17.31.03:622][225]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MainTurret_Blueprint_C_CHILDACTOR_4.Turret) Trying to register component with IsPendingKill() == true. Aborting.

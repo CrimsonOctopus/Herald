@@ -1,0 +1,432 @@
+﻿Log file open, 08/27/17 09:22:49
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BonVoyage
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1128680027) SRandInit(-1128680027).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.172445
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.27-16.22.50:670][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.27-16.22.50:670][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.27-16.22.50:748][  0]LogInit: Computer: CYLONRAIDER
+[2017.08.27-16.22.50:748][  0]LogInit: User: User
+[2017.08.27-16.22.50:748][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.27-16.22.50:748][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.08.27-16.22.50:749][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.08.27-16.22.50:749][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.27-16.22.50:749][  0]LogMemory: Process Physical Memory: 285.06 MB used, 285.06 MB peak
+[2017.08.27-16.22.50:749][  0]LogMemory: Process Virtual Memory: 278.67 MB used, 278.67 MB peak
+[2017.08.27-16.22.50:749][  0]LogMemory: Physical Memory: 6548.79 MB used,  58908.46 MB free, 65457.25 MB total
+[2017.08.27-16.22.50:749][  0]LogMemory: Virtual Memory: 704.41 MB used,  58908.46 MB free, 134217728.00 MB total
+[2017.08.27-16.22.51:085][  0]LogInit: Using OS detected language (en-US).
+[2017.08.27-16.22.51:085][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.27-16.22.51:087][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.27-16.22.51:786][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.27-16.22.52:440][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.27-16.22.52:440][  0]LogD3D11RHI:       8113/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.27-16.22.52:442][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.27-16.22.52:442][  0]LogD3D11RHI:       0/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.27-16.22.52:442][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.27-16.22.52:450][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.27-16.22.52:450][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.27-16.22.52:450][  0]LogWindows: EnumDisplayDevices:
+[2017.08.27-16.22.52:450][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.27-16.22.52:451][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.27-16.22.52:451][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.27-16.22.52:451][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.27-16.22.52:451][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.27-16.22.52:451][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.27-16.22.52:451][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.27-16.22.52:451][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.27-16.22.52:451][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.27-16.22.53:068][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.27-16.22.53:097][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.27-16.22.53:141][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../Projects/BonVoyage/Intermediate/Shaders/WorkingDirectory/9304/).
+[2017.08.27-16.22.53:141][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/38E5CC324DAEAD1B72DBF5996FDBF5EE/'.
+[2017.08.27-16.22.53:141][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.27-16.22.54:018][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.27-16.22.54:054][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.27-16.22.54:091][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.27-16.22.54:131][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.27-16.22.54:171][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.27-16.22.54:208][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.27-16.22.54:247][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.27-16.22.54:286][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.27-16.22.54:316][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.27-16.22.54:353][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.27-16.22.54:388][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.27-16.22.54:425][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.27-16.22.54:461][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.27-16.22.54:497][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.27-16.22.54:535][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.27-16.22.54:605][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.27-16.22.54:605][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.27-16.22.54:631][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.27-16.22.54:704][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.27-16.22.54:726][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.27-16.22.54:765][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.27-16.22.54:802][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.27-16.22.54:839][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.27-16.22.54:875][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.27-16.22.54:875][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.27-16.22.55:213][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.27-16.22.55:306][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.27-16.22.55:306][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.27-16.22.55:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.27-16.22.55:306][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.27-16.22.55:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.27-16.22.55:306][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.27-16.22.55:323][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.27-16.22.55:335][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.27-16.22.55:345][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.27-16.22.55:346][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.27-16.22.55:346][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.27-16.22.55:346][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.27-16.22.56:138][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2017.08.27-16.22.56:240][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.27-16.22.56:528][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.27-16.22.56:555][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.27-16.22.56:555][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.27-16.22.56:555][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.27-16.22.56:555][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.27-16.22.56:555][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.27-16.22.56:563][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.27-16.22.57:025][  0]LogNetVersion: BonVoyage , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2954532094)
+[2017.08.27-16.22.57:295][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.112021 seconds
+[2017.08.27-16.22.57:301][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.27-16.22.57:301][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.08.27-16.22.57:301][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.27-16.22.57:341][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.27-16.22.59:460][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.27-16.22.59:490][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.27-16.23.00:017][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.27-16.23.00:311][  0]SourceControl: Source control is disabled
+[2017.08.27-16.23.00:311][  0]SourceControl: Source control is disabled
+[2017.08.27-16.23.00:346][  0]SourceControl: Source control is disabled
+[2017.08.27-16.23.00:378][  0]SourceControl: Source control is disabled
+[2017.08.27-16.23.00:775][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.27-16.23.00:938][  0]LogOcInput: OculusInput pre-init called
+[2017.08.27-16.23.01:219][  0]LogEngine: Initializing Engine...
+[2017.08.27-16.23.01:237][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.08.27-16.23.01:469][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.27-16.23.01:469][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.27-16.23.01:555][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.27-16.23.01:581][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.08.27-16.23.01:640][  0]LogInit: FAudioDevice initialized.
+[2017.08.27-16.23.01:730][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.27-16.23.01:746][  0]LogInit: Texture streaming: Enabled
+[2017.08.27-16.23.01:822][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.27-16.23.01:996][  0]LogInit: Transaction tracking system initialized
+[2017.08.27-16.23.02:204][  0]BlueprintLog: New page: Editor Load
+[2017.08.27-16.23.02:791][  0]LocalizationService: Localization service is disabled
+[2017.08.27-16.23.03:269][  0]LogConsoleResponse: Display: 
+[2017.08.27-16.23.03:528][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.27-16.23.03:528][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.27-16.23.03:528][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.27-16.23.04:247][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/' took 0.10s
+[2017.08.27-16.23.04:247][  0]SourceControl: Source control is disabled
+[2017.08.27-16.23.04:247][  0]Cmd: MAP LOAD FILE="../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.27-16.23.04:248][  0]LightingResults: New page: Lighting Build
+[2017.08.27-16.23.04:277][  0]MapCheck: New page: Map Check
+[2017.08.27-16.23.04:277][  0]LightingResults: New page: Lighting Build
+[2017.08.27-16.23.09:949][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.27-16.23.10:170][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.27-16.23.10:191][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.27-16.23.10:231][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.414ms to complete.
+[2017.08.27-16.23.10:231][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.984
+[2017.08.27-16.23.10:747][  0]LogCollectionManager: Loaded 0 collections in 0.001224 seconds
+[2017.08.27-16.23.10:882][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Saved/Collections/' took 0.01s
+[2017.08.27-16.23.10:882][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Developers/User/Collections/' took 0.01s
+[2017.08.27-16.23.10:882][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Collections/' took 0.01s
+[2017.08.27-16.23.10:882][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.27-16.23.10:893][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2387 classes and 502 folders.
+[2017.08.27-16.23.10:960][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.08.27-16.23.11:914][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.08.27-16.23.12:018][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.27-16.23.12:878][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.27-16.23.12:893][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.27-16.23.12:935][  0]LogSlate: Took 0.014155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.27-16.23.12:960][  0]LogSlate: Took 0.015569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.08.27-16.23.13:350][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.08.27-16.23.13:748][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.27-16.23.13:748][  0]LogLoad: (Engine Initialization) Total time: 26.82 seconds
+[2017.08.27-16.23.13:748][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.27-16.23.13:749][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.27-16.23.14:139][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.27-16.23.14:429][  1]LogAssetRegistry: Asset discovery search completed in 18.3120 seconds
+[2017.08.27-16.23.14:431][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.27-16.23.14:431][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000169 seconds (updated 0 objects)
+[2017.08.27-16.32.54:633][124]LogSlate: Took 0.021515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.27-16.32.56:565][229]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.27-16.32.57:119][229]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.27-16.32.57:365][229]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 113 classes and 0 folders.
+[2017.08.27-16.32.59:015][229]LogSlate: Took 0.018763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.27-16.32.59:668][230]LogSlate: Took 0.015405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.27-16.33.21:047][473]LogEditorTransaction: Undo Delete current selection
+[2017.08.27-16.33.21:060][473]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_4678.CharacterMesh0) Component already registered.
+[2017.08.27-16.33.21:064][473]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_4678.CollisionCylinder) Component already registered.
+[2017.08.27-16.33.21:074][473]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.Base_Ship_C_1.CharacterMesh0) Component already registered.
+[2017.08.27-16.33.21:076][473]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_1:PersistentLevel.Base_Ship_C_1.CollisionCylinder) Component already registered.
+[2017.08.27-16.33.21:219][473]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.27-16.33.23:226][579]LogEditorTransaction: Redo Delete current selection
+[2017.08.27-16.42.16:468][877]LogSavePackage: Save=432.66ms
+[2017.08.27-16.42.16:468][877]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto1083583064422E24FEC52A1A4F4E607D2.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.08.27-16.42.16:469][877]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.08.27-16.42.16:524][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.120
+[2017.08.27-16.42.16:524][877]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.120
+[2017.08.27-16.42.16:575][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.27-16.42.16:601][877]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.27-16.42.16:601][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.27-16.42.18:987][877]LogSavePackage: Save=2378.23ms
+[2017.08.27-16.42.18:987][877]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto19B3688034BB0FB40ACE6719297BB2319.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto1.uasset'
+[2017.08.27-16.42.19:000][877]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto1.uasset
+[2017.08.27-16.42.19:001][877]LogFileHelpers: Auto-saving content packages took 2.473
+[2017.08.27-17.00.32:613][749]LogSavePackage: Save=2404.94ms
+[2017.08.27-17.00.32:614][749]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipD5F12D7E4979589F5207CE836A44CBAD.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.27-17.00.32:619][749]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.27-17.09.21:908][515]LogSavePackage: Save=2308.47ms
+[2017.08.27-17.09.21:908][515]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship9A00BEBB4C71318789821696ADB26DD5.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.27-17.09.21:911][515]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.27-17.09.22:469][548]BlueprintLog: New page: Compile Base_Ship
+[2017.08.27-17.09.38:107][548]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_252 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.27-17.09.38:108][548]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_254 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.27-17.09.38:214][548]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_1:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.27-17.09.38:214][548]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_1:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.27-17.09.39:152][549]LogSavePackage: Save=390.73ms
+[2017.08.27-17.09.39:152][549]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto283387F3842DF96593B8D1A8EE59A4A32.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.08.27-17.09.39:153][549]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.08.27-17.09.39:155][549]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.464
+[2017.08.27-17.09.39:155][549]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.464
+[2017.08.27-17.19.39:329][915]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.019
+[2017.08.27-17.19.39:332][915]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.27-17.19.39:352][915]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.27-17.19.39:352][915]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.27-17.19.41:692][915]LogSavePackage: Save=2328.86ms
+[2017.08.27-17.19.41:693][915]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto3A91015D74837C1BF59F6778547FB4456.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto3.uasset'
+[2017.08.27-17.19.41:703][915]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto3.uasset
+[2017.08.27-17.19.41:703][915]LogFileHelpers: Auto-saving content packages took 2.373
+[2017.08.27-18.57.48:735][915]BlueprintLog: New page: Compile Base_Ship
+[2017.08.27-18.58.05:568][915]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_252 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.27-18.58.05:569][915]LogActor: Warning: MainTurret_Blueprint_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_254 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.27-18.58.05:693][915]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_1:PersistentLevel.Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.27-18.58.05:693][915]LogActor: Warning: MainTurret_Blueprint_C /Engine/Transient.World_1:PersistentLevel.ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.27-18.58.06:692][916]LogSavePackage: Save=459.31ms
+[2017.08.27-18.58.06:692][916]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto4F80C5DB147B12655A5FBB18F4D45E013.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.08.27-18.58.06:693][916]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.08.27-18.58.06:695][916]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.543
+[2017.08.27-18.58.06:695][916]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.543
+[2017.08.27-18.58.06:697][916]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.27-18.58.06:712][916]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.27-18.58.06:712][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.27-18.58.09:134][916]LogSavePackage: Save=2412.85ms
+[2017.08.27-18.58.09:134][916]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto42B0639244AB740250CD6E2832AD2B99D.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto4.uasset'
+[2017.08.27-18.58.09:161][916]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto4.uasset
+[2017.08.27-18.58.09:161][916]LogFileHelpers: Auto-saving content packages took 2.466
+[2017.08.27-19.04.14:871][202]LogSlate: Took 0.019706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.27-19.08.16:559][662]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.023
+[2017.08.27-19.08.16:839][662]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/UI/RoomRecord] ([1] browsable assets)...
+[2017.08.27-19.08.16:841][662]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/RoomRecord]
+[2017.08.27-19.08.16:841][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/RoomRecord" FILE="../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/RoomRecord_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.27-19.08.16:874][662]LogSavePackage: Save=26.12ms
+[2017.08.27-19.08.16:875][662]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/RoomRecord_Auto5567CE95846F9CB2958D7AC99E170B5F3.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/RoomRecord_Auto5.uasset'
+[2017.08.27-19.08.16:887][662]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/RoomRecord_Auto5.uasset
+[2017.08.27-19.08.16:888][662]LogFileHelpers: Auto-saving content packages took 0.328
+[2017.08.27-19.21.20:310][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/RoomRecord" FILE="../../../../Projects/BonVoyage/Content/Assets/UI/RoomRecord.uasset" SILENT=true
+[2017.08.27-19.21.20:355][777]LogSavePackage: Save=36.86ms
+[2017.08.27-19.21.20:355][777]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/RoomRecordD15B0416466E51C0D4AB1EB76D4DFBB6.tmp' to '../../../../Projects/BonVoyage/Content/Assets/UI/RoomRecord.uasset'
+[2017.08.27-19.21.20:357][777]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/UI/RoomRecord.uasset
+[2017.08.27-19.21.20:975][814]BlueprintLog: New page: Compile RoomRecord
+[2017.08.27-19.22.19:298][874]LogSavePackage: Save=385.05ms
+[2017.08.27-19.22.19:298][874]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto663539846491F50B9B427508F4E85D934.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2017.08.27-19.22.19:299][874]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap
+[2017.08.27-19.22.19:301][874]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.703
+[2017.08.27-19.22.19:302][874]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.703
+[2017.08.27-19.22.19:305][874]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.27-19.22.19:324][874]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.27-19.22.19:324][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.27-19.22.21:649][874]LogSavePackage: Save=2316.36ms
+[2017.08.27-19.22.21:649][874]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto6880DDD51440A85E6E97C0194B0660EAC.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto6.uasset'
+[2017.08.27-19.22.21:687][874]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto6.uasset
+[2017.08.27-19.22.21:688][874]LogFileHelpers: Auto-saving content packages took 2.385
+[2017.08.27-19.26.40:429][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Crew" FILE="../../../../Projects/BonVoyage/Content/Assets/Crew.uasset" SILENT=true
+[2017.08.27-19.26.40:715][870]LogSavePackage: Save=279.87ms
+[2017.08.27-19.26.40:715][870]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Crew35A5FB6349529063C2A81CB97A3A95E8.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Crew.uasset'
+[2017.08.27-19.26.40:726][870]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Crew.uasset
+[2017.08.27-19.28.02:494][223]LogSavePackage: Save=2206.26ms
+[2017.08.27-19.28.02:494][223]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship8E2EF2184477546F09F5899C538F6BCD.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.27-19.28.02:499][223]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.27-19.28.03:738][297]BlueprintLog: New page: Compile Base_Ship
+[2017.08.27-19.28.04:769][297]LogBlueprint: Error: [Compiler Base_Ship] In use pin  Armor  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.27-19.28.04:769][297]LogBlueprint: Error: [Compiler Base_Ship] In use pin  Weapon  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.27-19.28.04:769][297]LogBlueprint: Error: [Compiler Base_Ship] In use pin  Armor  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.27-19.28.04:769][297]LogBlueprint: Error: [Compiler Base_Ship] In use pin  Weapon  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.08.27-19.28.04:862][297]LogBlueprint: Error: [Compiler Base_Ship] Failed to find a struct member for  Armor
+[2017.08.27-19.28.04:863][297]LogBlueprint: Error: [Compiler Base_Ship] Failed to find a struct member for  Weapon
+[2017.08.27-19.29.11:281][297]LogBlueprint: Warning: [Compiler Base_Ship] [1181.80] Compile of Base_Ship failed. 6 Fatal Issue(s) 0 Warning(s) [in 67,542 ms] (/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship)
+[2017.08.27-19.32.22:595][722]LogSavePackage: Save=382.27ms
+[2017.08.27-19.32.22:595][722]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto7736E0139406B48293F7FB98D2BEF84E2.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap'
+[2017.08.27-19.32.22:596][722]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap
+[2017.08.27-19.32.22:598][722]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.706
+[2017.08.27-19.32.22:599][722]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.706
+[2017.08.27-19.32.44:234][675]BlueprintLog: New page: Compile Base_Ship
+[2017.08.27-19.33.26:940][675]LogWindows: Error: === Critical error: ===
+[2017.08.27-19.33.26:941][675]LogWindows: Error: 
+[2017.08.27-19.33.26:941][675]LogWindows: Error: Fatal error!
+[2017.08.27-19.33.26:941][675]LogWindows: Error: 
+[2017.08.27-19.33.26:941][675]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2017.08.27-19.33.26:941][675]LogWindows: Error: 
+[2017.08.27-19.33.26:941][675]LogWindows: Error: UE4Editor-CoreUObject.dll!UObjectBaseUtility::IsA() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbaseutility.cpp:278]
+[2017.08.27-19.33.26:941][675]LogWindows: Error: UE4Editor-CoreUObject.dll!UObjectProperty::SerializeItem() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\propertyobject.cpp:70]
+[2017.08.27-19.33.26:941][675]LogWindows: Error: UE4Editor-CoreUObject.dll!FPropertyTag::SerializeTaggedProperty() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\propertytag.cpp:188]
+[2017.08.27-19.33.26:941][675]LogWindows: Error: UE4Editor-CoreUObject.dll!UStruct::SerializeTaggedProperties() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:1073]
+[2017.08.27-19.33.26:942][675]LogWindows: Error: UE4Editor-Engine.dll!FComponentPropertyReader::FComponentPropertyReader() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\componentinstancedatacache.cpp:139]
+[2017.08.27-19.33.26:942][675]LogWindows: Error: UE4Editor-Engine.dll!FActorComponentInstanceData::ApplyToComponent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\componentinstancedatacache.cpp:274]
+[2017.08.27-19.33.26:942][675]LogWindows: Error: UE4Editor-Engine.dll!FSceneComponentInstanceData::ApplyToComponent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:2117]
+[2017.08.27-19.33.26:942][675]LogWindows: Error: UE4Editor-Engine.dll!FChildActorComponentInstanceData::ApplyToComponent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\components\childactorcomponent.cpp:308]
+[2017.08.27-19.33.26:942][675]LogWindows: Error: UE4Editor-Engine.dll!FComponentInstanceDataCache::ApplyToActor() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\componentinstancedatacache.cpp:379]
+[2017.08.27-19.33.26:943][675]LogWindows: Error: UE4Editor-Engine.dll!AActor::ExecuteConstruction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actorconstruction.cpp:788]
+[2017.08.27-19.33.26:943][675]LogWindows: Error: UE4Editor-Engine.dll!AActor::RerunConstructionScripts() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actorconstruction.cpp:494]
+[2017.08.27-19.33.26:943][675]LogWindows: Error: UE4Editor-UnrealEd.dll!FActorReplacementHelper::Finalize() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1187]
+[2017.08.27-19.33.26:943][675]LogWindows: Error: UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:2006]
+[2017.08.27-19.33.26:943][675]LogWindows: Error: UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::BatchReplaceInstancesOfClass() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1474]
+[2017.08.27-19.33.26:944][675]LogWindows: Error: UE4Editor-Kismet.dll!FBlueprintCompilationManagerImpl::FlushReinstancingQueueImpl() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\kismet\private\blueprintcompilationmanager.cpp:948]
+[2017.08.27-19.33.26:944][675]LogWindows: Error: UE4Editor-Kismet.dll!FBlueprintCompilationManagerImpl::CompileSynchronouslyImpl() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\kismet\private\blueprintcompilationmanager.cpp:191]
+[2017.08.27-19.33.26:944][675]LogWindows: Error: UE4Editor-UnrealEd.dll!FKismetEditorUtilities::CompileBlueprint() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\kismet2\kismet2.cpp:750]
+[2017.08.27-19.33.26:944][675]LogWindows: Error: UE4Editor-Kismet.dll!FBlueprintEditor::Compile() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\kismet\private\blueprinteditor.cpp:3291]
+[2017.08.27-19.33.26:944][675]LogWindows: Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.08.27-19.33.26:945][675]LogWindows: Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:434]
+[2017.08.27-19.33.26:945][675]LogWindows: Error: UE4Editor-Slate.dll!FUICommandList::ExecuteAction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:97]
+[2017.08.27-19.33.26:945][675]LogWindows: Error: UE4Editor-Slate.dll!SToolBarButtonBlock::OnClicked() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\slate\private\framework\multibox\stoolbarbuttonblock.cpp:305]
+[2017.08.27-19.33.26:945][675]LogWindows: Error: UE4Editor-Slate.dll!TMemberFunctionCaller<SToolBarButtonBlock,FReply (__cdecl SToolBarButtonBlock::*)(void) __ptr64>::operator()<>() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:165]
+[2017.08.27-19.33.26:945][675]LogWindows: Error: UE4Editor-Slate.dll!UE4Tuple_Private::TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SToolBarButtonBlock,FReply (__cdecl SToolBarButtonBlock::*)(void) __ptr64> >() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\public\templates\tuple.h:497]
+[2017.08.27-19.33.26:946][675]LogWindows: Error: UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SToolBarButtonBlock,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.08.27-19.33.26:946][675]LogWindows: Error: UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:537]
+[2017.08.27-19.33.26:946][675]LogWindows: Error: UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:282]
+[2017.08.27-19.33.26:946][675]LogWindows: Error: UE4Editor-Slate.dll!<lambda_1002768c627006711ef2f351a87ec0e7>::operator()() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5199]
+[2017.08.27-19.33.26:947][675]LogWindows: Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_1002768c627006711ef2f351a87ec0e7> >() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:232]
+[2017.08.27-19.33.26:947][675]LogWindows: Error: UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5188]
+[2017.08.27-19.33.26:947][675]LogWindows: Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5690]
+[2017.08.27-19.33.26:947][675]LogWindows: Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5670]
+[2017.08.27-19.33.26:947][675]LogWindows: Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1718]
+[2017.08.27-19.33.26:948][675]LogWindows: Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2161]
+[2017.08.27-19.33.26:948][675]LogWindows: Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:881]
+[2017.08.27-19.33.26:948][675]LogWindows: Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:721]
+[2017.08.27-19.33.26:948][675]LogWindows: Error: USER32.dll!0x000000005193BC50
+[2017.08.27-19.33.26:948][675]LogWindows: Error: USER32.dll!0x000000005193B5CF
+[2017.08.27-19.33.26:948][675]LogWindows: Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:1009]
+[2017.08.27-19.33.26:949][675]LogWindows: Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3151]
+[2017.08.27-19.33.26:949][675]LogWindows: Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.08.27-19.33.26:949][675]LogWindows: Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.08.27-19.33.26:949][675]LogWindows: Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.08.27-19.33.26:950][675]LogWindows: Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2017.08.27-19.33.26:950][675]LogWindows: Error: KERNEL32.DLL!0x0000000051C72774
+[2017.08.27-19.33.26:950][675]LogWindows: Error: ntdll.dll!0x0000000053C50D51
+[2017.08.27-19.33.26:950][675]LogWindows: Error: ntdll.dll!0x0000000053C50D51
+[2017.08.27-19.33.26:950][675]LogWindows: Error: 
+[2017.08.27-19.33.26:964][675]LogExit: Executing StaticShutdownAfterError
+[2017.08.27-19.33.26:970][675]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.08.27-19.33.26:970][675]Log file closed, 08/27/17 12:33:26

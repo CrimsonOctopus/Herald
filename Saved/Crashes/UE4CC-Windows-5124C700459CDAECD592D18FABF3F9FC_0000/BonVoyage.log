@@ -1,0 +1,783 @@
+﻿Log file open, 08/24/17 11:35:45
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BonVoyage
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1408155140) SRandInit(-1408155140).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.206988
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.24-18.35.47:604][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.24-18.35.47:604][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.24-18.35.47:636][  0]LogInit: Computer: CYLONRAIDER
+[2017.08.24-18.35.47:636][  0]LogInit: User: User
+[2017.08.24-18.35.47:636][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.24-18.35.47:636][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.08.24-18.35.47:636][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.08.24-18.35.47:636][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.24-18.35.47:636][  0]LogMemory: Process Physical Memory: 284.94 MB used, 284.94 MB peak
+[2017.08.24-18.35.47:636][  0]LogMemory: Process Virtual Memory: 278.52 MB used, 278.52 MB peak
+[2017.08.24-18.35.47:636][  0]LogMemory: Physical Memory: 6403.70 MB used,  59053.55 MB free, 65457.25 MB total
+[2017.08.24-18.35.47:636][  0]LogMemory: Virtual Memory: 704.41 MB used,  59053.55 MB free, 134217728.00 MB total
+[2017.08.24-18.35.47:760][  0]LogInit: Using OS detected language (en-US).
+[2017.08.24-18.35.47:760][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.24-18.35.47:763][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.24-18.35.48:503][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.24-18.35.49:131][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.24-18.35.49:131][  0]LogD3D11RHI:       8113/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.24-18.35.49:132][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.24-18.35.49:132][  0]LogD3D11RHI:       0/0/32728 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.24-18.35.49:132][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.24-18.35.49:139][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.24-18.35.49:139][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.24-18.35.49:139][  0]LogWindows: EnumDisplayDevices:
+[2017.08.24-18.35.49:139][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.24-18.35.49:139][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.24-18.35.49:139][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.24-18.35.49:139][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.24-18.35.49:140][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.24-18.35.49:140][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.24-18.35.49:140][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.24-18.35.49:140][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.24-18.35.49:140][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.24-18.35.49:783][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.24-18.35.49:812][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.24-18.35.49:855][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Projects/BonVoyage/Intermediate/Shaders/WorkingDirectory/13820/).
+[2017.08.24-18.35.49:855][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/601321464C18DDF51E42A19F94E7ADC8/'.
+[2017.08.24-18.35.49:855][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.24-18.35.50:795][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.24-18.35.50:833][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.24-18.35.50:871][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.24-18.35.50:908][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.24-18.35.50:945][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.24-18.35.50:983][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.24-18.35.51:020][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.24-18.35.51:059][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.24-18.35.51:089][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.24-18.35.51:127][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.24-18.35.51:162][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.24-18.35.51:198][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.24-18.35.51:232][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.24-18.35.51:267][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.24-18.35.51:302][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.24-18.35.51:374][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.24-18.35.51:374][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.24-18.35.51:401][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.24-18.35.51:472][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.24-18.35.51:496][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.24-18.35.51:531][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.24-18.35.51:567][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.24-18.35.51:605][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.24-18.35.51:642][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.24-18.35.51:642][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.24-18.35.51:988][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.24-18.35.52:099][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.24-18.35.52:099][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.24-18.35.52:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.24-18.35.52:099][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.24-18.35.52:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/BonVoyage/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.24-18.35.52:099][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.24-18.35.52:116][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.24-18.35.52:128][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.24-18.35.52:141][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.24-18.35.52:142][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.24-18.35.52:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.24-18.35.52:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.24-18.35.53:077][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.08.24-18.35.53:195][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.24-18.35.53:393][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.24-18.35.53:651][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.24-18.35.53:679][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.24-18.35.53:679][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.24-18.35.53:679][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.24-18.35.53:679][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.24-18.35.53:679][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.24-18.35.54:076][  0]LogNetVersion: BonVoyage , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2954532094)
+[2017.08.24-18.35.54:500][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.247793 seconds
+[2017.08.24-18.35.54:513][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.24-18.35.54:513][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.24-18.35.54:513][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.24-18.35.54:568][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.24-18.35.56:753][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.24-18.35.56:782][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.24-18.35.57:413][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.24-18.35.57:720][  0]SourceControl: Source control is disabled
+[2017.08.24-18.35.57:720][  0]SourceControl: Source control is disabled
+[2017.08.24-18.35.57:754][  0]SourceControl: Source control is disabled
+[2017.08.24-18.35.57:786][  0]SourceControl: Source control is disabled
+[2017.08.24-18.35.58:193][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.24-18.35.58:351][  0]LogOcInput: OculusInput pre-init called
+[2017.08.24-18.35.58:576][  0]LogEngine: Initializing Engine...
+[2017.08.24-18.35.58:597][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.08.24-18.35.58:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.24-18.35.58:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.24-18.35.58:928][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.24-18.35.58:935][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.24-18.35.59:011][  0]LogInit: FAudioDevice initialized.
+[2017.08.24-18.35.59:102][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.24-18.35.59:119][  0]LogInit: Texture streaming: Enabled
+[2017.08.24-18.35.59:196][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.24-18.35.59:361][  0]LogInit: Transaction tracking system initialized
+[2017.08.24-18.35.59:565][  0]BlueprintLog: New page: Editor Load
+[2017.08.24-18.36.00:167][  0]LocalizationService: Localization service is disabled
+[2017.08.24-18.36.00:651][  0]LogConsoleResponse: Display: 
+[2017.08.24-18.36.00:882][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.24-18.36.00:882][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.24-18.36.00:883][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.24-18.36.01:569][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/' took 0.09s
+[2017.08.24-18.36.01:601][  0]SourceControl: Source control is disabled
+[2017.08.24-18.36.01:601][  0]Cmd: MAP LOAD FILE="../../../../Projects/BonVoyage/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.24-18.36.01:601][  0]LightingResults: New page: Lighting Build
+[2017.08.24-18.36.01:629][  0]MapCheck: New page: Map Check
+[2017.08.24-18.36.01:629][  0]LightingResults: New page: Lighting Build
+[2017.08.24-18.36.07:042][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.24-18.36.07:272][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.24-18.36.07:292][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.24-18.36.07:332][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.501ms to complete.
+[2017.08.24-18.36.07:332][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.731
+[2017.08.24-18.36.07:905][  0]LogCollectionManager: Loaded 0 collections in 0.001848 seconds
+[2017.08.24-18.36.08:081][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Saved/Collections/' took 0.01s
+[2017.08.24-18.36.08:081][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Developers/User/Collections/' took 0.01s
+[2017.08.24-18.36.08:081][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/BonVoyage/Content/Collections/' took 0.01s
+[2017.08.24-18.36.08:081][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.08.24-18.36.08:092][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2387 classes and 502 folders.
+[2017.08.24-18.36.08:218][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.08.24-18.36.09:213][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.08.24-18.36.09:327][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.24-18.36.10:213][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.24-18.36.10:226][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.24-18.36.10:285][  0]LogSlate: Took 0.014460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.24-18.36.10:646][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.08.24-18.36.10:988][  0]LogSlate: Took 0.019366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.24-18.36.11:129][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.24-18.36.11:129][  0]LogLoad: (Engine Initialization) Total time: 27.72 seconds
+[2017.08.24-18.36.11:129][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.24-18.36.11:129][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.24-18.36.11:556][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.08.24-18.36.11:842][  1]LogAssetRegistry: Asset discovery search completed in 18.7877 seconds
+[2017.08.24-18.36.11:844][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.24-18.36.11:844][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2017.08.24-18.37.21:452][282]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.24-18.37.22:209][282]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.24-18.37.23:034][282]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 113 classes and 0 folders.
+[2017.08.24-18.37.25:761][282]LogSlate: Took 0.021943 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.24-18.37.28:604][283]LogSlate: Took 0.030552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.24-18.39.31:754][124]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.24-18.39.43:243][792]LogSlate: Took 0.070508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.24-18.46.24:470][333]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-18.46.24:470][333]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-18.46.24:470][333]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-18.46.24:471][333]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-18.46.24:471][333]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_1) from referencer (Image /Engine/UMG/Editor/Transient.Image_1).  Import failed...
+[2017.08.24-18.46.24:471][333]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_1''
+[2017.08.24-18.47.07:927][728]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.028
+[2017.08.24-18.47.08:261][728]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/UI/GameplayHUD] ([1] browsable assets)...
+[2017.08.24-18.47.08:263][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/GameplayHUD]
+[2017.08.24-18.47.08:263][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/GameplayHUD" FILE="../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/GameplayHUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.24-18.47.08:824][728]LogSavePackage: Save=300.69ms
+[2017.08.24-18.47.08:824][728]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/GameplayHUD_Auto156016ED541DBC80BC321D5BC0A6570ED.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/GameplayHUD_Auto1.uasset'
+[2017.08.24-18.47.08:825][728]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/GameplayHUD_Auto1.uasset
+[2017.08.24-18.47.08:825][728]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/UI/ShipMap] ([1] browsable assets)...
+[2017.08.24-18.47.08:825][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/ShipMap]
+[2017.08.24-18.47.08:825][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/ShipMap" FILE="../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/ShipMap_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.24-18.47.08:869][728]LogSavePackage: Save=42.24ms
+[2017.08.24-18.47.08:869][728]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipMap_Auto1E58F9FC144A6CC6A794551AD898723C8.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/ShipMap_Auto1.uasset'
+[2017.08.24-18.47.08:870][728]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/ShipMap_Auto1.uasset
+[2017.08.24-18.47.08:870][728]LogFileHelpers: Auto-saving content packages took 0.942
+[2017.08.24-18.53.45:538][130]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.24-18.53.46:039][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.24-18.53.46:039][130]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.24-18.53.46:106][130]LogPlayLevel: [PlayLevel] Compiling Base_Ship before play...
+[2017.08.24-18.53.46:525][130]LogPlayLevel: [PlayLevel]   Compiling GameplayHUD as a dependent...
+[2017.08.24-18.53.46:544][130]LogPlayLevel: [PlayLevel]   Compiling GameplayPC as a dependent...
+[2017.08.24-18.53.47:301][130]LogPlayLevel: [PlayLevel] Compiling ShipMap before play...
+[2017.08.24-18.53.47:446][130]LogPlayLevel: PlayLevel: Blueprint regeneration took 1406 ms (4 blueprints)
+[2017.08.24-18.53.47:517][130]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 24, 2017, 4:53:47 AM)
+[2017.08.24-18.53.47:518][130]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.24-18.53.47:570][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052290s)
+[2017.08.24-18.53.47:570][130]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.24-18.53.47:571][130]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2017.08.24-18.53.47:571][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.053787s)
+[2017.08.24-18.53.47:595][130]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.24-18.53.47:624][130]LogInit: FAudioDevice initialized.
+[2017.08.24-18.53.47:684][130]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.24-18.53.47:693][130]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.24-11.53.47
+[2017.08.24-18.53.47:791][130]LogWorld: Bringing up level for play took: 0.103461
+[2017.08.24-18.53.47:902][130]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 11 classes and 0 folders.
+[2017.08.24-18.53.47:969][130]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Bridge
+[2017.08.24-18.53.47:970][130]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engineering
+[2017.08.24-18.53.47:971][130]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engines
+[2017.08.24-18.53.48:026][130]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.963
+[2017.08.24-18.53.48:027][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.24-18.53.48:393][146]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.53.49:437][205]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.53.50:599][272]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.53.52:165][366]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.53.53:482][445]LogBlueprintUserMessages: [ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_557] Turret1 hit Base_Ship.
+[2017.08.24-18.53.53:916][471]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.53.53:966][474]LogBlueprintUserMessages: [MainTurret_Blueprint_C_557] Turret2 hit Base_Ship.
+[2017.08.24-18.53.55:599][572]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.53.57:767][702]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.53.58:032][718]Set new viewmode: Wireframe
+[2017.08.24-18.53.58:549][749]Set new viewmode: Wireframe
+[2017.08.24-18.53.59:035][778]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.24-18.53.59:087][778]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.24-18.53.59:986][827]LogTemp: Repeating last play command: Selected Viewport
+[2017.08.24-18.54.00:048][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.24-18.54.00:049][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.24-18.54.00:049][827]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 24, 2017, 4:54:00 AM)
+[2017.08.24-18.54.00:049][827]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.24-18.54.00:069][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020342s)
+[2017.08.24-18.54.00:070][827]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.24-18.54.00:070][827]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2017.08.24-18.54.00:070][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021398s)
+[2017.08.24-18.54.00:096][827]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.24-18.54.00:125][827]LogInit: FAudioDevice initialized.
+[2017.08.24-18.54.00:160][827]LogLoad: Game class is 'BonVoyageMode_C'
+[2017.08.24-18.54.00:163][827]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.08.24-11.54.00
+[2017.08.24-18.54.00:167][827]LogWorld: Bringing up level for play took: 0.006469
+[2017.08.24-18.54.00:176][827]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Bridge
+[2017.08.24-18.54.00:176][827]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engineering
+[2017.08.24-18.54.00:176][827]LogBlueprintUserMessages: [Base_Ship_C_0] Setting room widget for Engines
+[2017.08.24-18.54.00:206][827]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.143
+[2017.08.24-18.54.00:207][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.24-18.54.00:693][850]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.01:727][912]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.02:167][938]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.02:185][939]LogBlueprintUserMessages: [ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_557] Turret1 hit Base_Ship.
+[2017.08.24-18.54.02:902][982]LogBlueprintUserMessages: [ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_557] Turret1 hit Base_Ship.
+[2017.08.24-18.54.03:635][ 26]LogBlueprintUserMessages: [ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_557] Turret1 hit Base_Ship.
+[2017.08.24-18.54.03:819][ 37]LogBlueprintUserMessages: [MainTurret_Blueprint_C_557] Turret2 hit Base_Ship.
+[2017.08.24-18.54.05:569][142]LogBlueprintUserMessages: [Base_Ship_C_0] Weapon System 1 targetting Base_Ship
+[2017.08.24-18.54.09:503][378]LogBlueprintUserMessages: [ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_2] Turret1 hit Base_Ship.
+[2017.08.24-18.54.10:701][450]LogBlueprintUserMessages: [Base_Ship_C_0] Weapon System 0 targetting Base_Ship
+[2017.08.24-18.54.11:319][487]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.12:535][560]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.13:718][631]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.13:736][632]LogBlueprintUserMessages: [ChildActor_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_2] Turret1 hit Base_Ship.
+[2017.08.24-18.54.15:084][713]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.15:669][748]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.17:501][858]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.17:902][882]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.20:419][ 33]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.20:651][ 47]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.23:402][212]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.24:052][251]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.26:135][376]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.26:935][424]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.29:212][541]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.30:211][544]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.32:542][551]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.33:874][555]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.35:876][561]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.37:541][566]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.38:212][568]LogTemp: Warning: crimsonoctopus: !!
+[2017.08.24-18.54.39:808][606]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.41:091][683]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.43:352][799]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.45:347][805]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.46:021][807]LogTemp: Warning: crimsonoctopus: !!Engineering
+[2017.08.24-18.54.47:099][853]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.49:381][990]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.50:998][ 87]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.53:472][178]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.54:644][209]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.54.57:544][383]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.54.58:128][418]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.01:517][488]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.01:854][489]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.05:518][500]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.05:856][501]LogTemp: Warning: crimsonoctopus: !!Away
+[2017.08.24-18.55.05:856][501]LogBlueprintUserMessages: [Base_Ship_C_0] Adding AwayCrew
+[2017.08.24-18.55.06:199][502]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.09:106][676]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2017.08.24-18.55.16:255][103]LogBlueprintUserMessages: [RoomSelector_C_14] Ship exists
+[2017.08.24-18.55.16:255][103]LogBlueprintUserMessages: [Base_Ship_C_0] Beaming
+[2017.08.24-18.55.16:374][110]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.16:374][110]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:77C0
+[2017.08.24-18.55.16:407][110]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.16:407][110]LogScript: Warning: Accessed None
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:77D5
+[2017.08.24-18.55.16:408][110]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.16:408][110]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:7960
+[2017.08.24-18.55.16:408][110]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.16:408][110]LogScript: Warning: Accessed None
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:7975
+[2017.08.24-18.55.16:409][110]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.16:409][110]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:77C0
+[2017.08.24-18.55.16:410][110]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.16:410][110]LogScript: Warning: Accessed None
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:77D5
+[2017.08.24-18.55.16:410][110]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.16:410][110]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:7960
+[2017.08.24-18.55.16:411][110]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.16:411][110]LogScript: Warning: Accessed None
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:7975
+[2017.08.24-18.55.16:411][110]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.16:974][143]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.20:324][344]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.20:324][344]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:77C0
+[2017.08.24-18.55.20:324][344]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.20:324][344]LogScript: Warning: Accessed None
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:77D5
+[2017.08.24-18.55.20:324][344]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.20:324][344]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:7960
+[2017.08.24-18.55.20:324][344]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.20:324][344]LogScript: Warning: Accessed None
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:7975
+[2017.08.24-18.55.20:325][344]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.20:574][359]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.24:191][576]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.24:457][592]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.27:808][793]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.28:590][840]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.31:424][ 10]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.32:724][ 88]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.32:724][ 88]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:77C0
+[2017.08.24-18.55.32:724][ 88]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.32:724][ 88]LogScript: Warning: Accessed None
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:77D5
+[2017.08.24-18.55.32:724][ 88]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.32:724][ 88]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:7960
+[2017.08.24-18.55.32:724][ 88]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.32:724][ 88]LogScript: Warning: Accessed None
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:7975
+[2017.08.24-18.55.32:724][ 88]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.35:041][227]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.36:857][336]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.38:658][444]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.40:991][584]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.42:274][661]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.45:125][832]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.45:892][878]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.49:258][ 80]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.49:258][ 80]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+	Base_Ship_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248
+	Function /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship_C:ExecuteUbergraph_Base_Ship:77C0
+[2017.08.24-18.55.49:258][ 80]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.49:258][ 80]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: SetText (Text) in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.49:258][ 80]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_RoomRecord from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None trying to read property K2Node_CustomEvent_RoomRecord
+[2017.08.24-18.55.49:259][ 80]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Base_Ship' from node: Set Color and Opacity in graph: EventGraph in object: Base_Ship with description: Accessed None
+[2017.08.24-18.55.49:509][ 95]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.53:126][312]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.53:391][328]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.55.56:742][529]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.55.57:524][576]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.56.00:359][746]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.56.01:658][824]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.56.03:976][963]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.56.05:792][ 72]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.56.07:592][177]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.56.09:925][317]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.56.11:226][395]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.56.14:075][566]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.56.14:842][612]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.56.18:209][814]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.56.18:459][829]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.56.22:076][ 46]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.56.22:342][ 62]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.56.25:693][263]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.56.26:475][310]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.56.29:310][480]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_555] Turret0 hit Base_Ship.
+[2017.08.24-18.56.30:611][558]LogBlueprintUserMessages: [Turret1_GEN_VARIABLE_MainTurret_Blueprint_C_CAT_1] Turret0 hit Base_Ship.
+[2017.08.24-18.56.31:698][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.24-18.56.31:744][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.24-18.59.54:698][775]LogSavePackage: Save=119.39ms
+[2017.08.24-18.59.54:698][775]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto21A4F987F4B5B66EE2745A4BF8076FECA.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.08.24-18.59.54:699][775]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.08.24-18.59.54:701][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.524
+[2017.08.24-18.59.54:701][775]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.524
+[2017.08.24-18.59.54:703][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/UI/GameplayHUD] ([1] browsable assets)...
+[2017.08.24-18.59.54:703][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/GameplayHUD]
+[2017.08.24-18.59.54:703][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/GameplayHUD" FILE="../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/GameplayHUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.24-18.59.54:920][775]LogSavePackage: Save=210.81ms
+[2017.08.24-18.59.54:920][775]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/GameplayHUD_Auto2C63D85054C1E39497ADD0389E1782D65.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/GameplayHUD_Auto2.uasset'
+[2017.08.24-18.59.54:987][775]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/GameplayHUD_Auto2.uasset
+[2017.08.24-18.59.54:988][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/UI/ShipMap] ([1] browsable assets)...
+[2017.08.24-18.59.54:988][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/ShipMap]
+[2017.08.24-18.59.54:988][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/ShipMap" FILE="../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/ShipMap_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.24-18.59.55:039][775]LogSavePackage: Save=47.46ms
+[2017.08.24-18.59.55:039][775]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipMap_Auto2AF39A4CC4B3A2AD1F2CA3CB2688E9639.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/ShipMap_Auto2.uasset'
+[2017.08.24-18.59.55:039][775]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/ShipMap_Auto2.uasset
+[2017.08.24-18.59.55:039][775]LogFileHelpers: Auto-saving content packages took 0.338
+[2017.08.24-19.00.50:552][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.00.50:552][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.00.50:552][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.00.50:552][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_14.WidgetTree_117.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_1) from referencer (Image /Engine/UMG/Editor/Transient.Image_1).  Import failed...
+[2017.08.24-19.00.50:553][730]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_1''
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_14.WidgetTree_117.UniformGridPanel_0
+[2017.08.24-19.00.50:553][730]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_3) from referencer (Image /Engine/UMG/Editor/Transient.Image_3).  Import failed...
+[2017.08.24-19.00.50:553][730]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_3''
+[2017.08.24-19.01.24:204][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.01.24:204][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.01.24:204][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.01.24:204][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.01.24:204][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.01.24:204][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.01.24:204][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.01.24:204][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_14.WidgetTree_117.UniformGridPanel_0
+[2017.08.24-19.01.24:204][352]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_2) from referencer (Image /Engine/UMG/Editor/Transient.Image_2).  Import failed...
+[2017.08.24-19.01.24:204][352]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_2''
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_14.WidgetTree_117.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_3) from referencer (Image /Engine/UMG/Editor/Transient.Image_3).  Import failed...
+[2017.08.24-19.01.24:205][352]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_3''
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_14.WidgetTree_117.UniformGridPanel_0
+[2017.08.24-19.01.24:205][352]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_5) from referencer (Image /Engine/UMG/Editor/Transient.Image_5).  Import failed...
+[2017.08.24-19.01.24:205][352]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_5''
+[2017.08.24-19.09.55:610][684]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.026
+[2017.08.24-19.09.55:611][684]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/UI/ShipMap] ([1] browsable assets)...
+[2017.08.24-19.09.55:611][684]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/ShipMap]
+[2017.08.24-19.09.55:611][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/ShipMap" FILE="../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/ShipMap_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.24-19.09.55:641][684]LogSavePackage: Save=25.45ms
+[2017.08.24-19.09.55:641][684]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipMap_Auto35F8F795C405F8D2272E6BF896D87E155.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/ShipMap_Auto3.uasset'
+[2017.08.24-19.09.55:642][684]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/UI/ShipMap_Auto3.uasset
+[2017.08.24-19.09.55:642][684]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.08.24-19.10.42:047][718]AssetReimport: New page: Outstanding source content changes 5:10:42 AM
+[2017.08.24-19.10.42:325][718]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Unreal/Projects/BonVoyage/Content/Assets/Crown.png)
+[2017.08.24-19.10.42:457][719]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Unreal/Projects/BonVoyage/Content/Assets/Diamond.png)
+[2017.08.24-19.10.42:547][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Crown" FILE="../../../../Projects/BonVoyage/Content/Assets/Crown.uasset" SILENT=true
+[2017.08.24-19.10.42:584][720]LogSavePackage: Save=35.33ms
+[2017.08.24-19.10.42:584][720]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/CrownCC503734498AD0F1723775B6222115A7.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Crown.uasset'
+[2017.08.24-19.10.42:588][720]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Crown.uasset
+[2017.08.24-19.10.42:627][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Diamond" FILE="../../../../Projects/BonVoyage/Content/Assets/Diamond.uasset" SILENT=true
+[2017.08.24-19.10.42:642][720]LogSavePackage: Save=12.87ms
+[2017.08.24-19.10.42:642][720]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Diamond604B39C14661A681B529AAAF84A94F07.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Diamond.uasset'
+[2017.08.24-19.10.42:644][720]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Diamond.uasset
+[2017.08.24-19.10.45:656][895]AssetReimport: Importing new asset /Game/Assets/Crown.
+[2017.08.24-19.10.45:656][895]AssetReimport: Importing new asset /Game/Assets/Diamond.
+[2017.08.24-19.13.02:106][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.13.02:106][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.13.02:106][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.13.02:106][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.13.02:106][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.13.02:106][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.13.02:106][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.13.02:106][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_16.WidgetTree_121.UniformGridPanel_0
+[2017.08.24-19.13.02:106][510]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_8) from referencer (Image /Engine/UMG/Editor/Transient.Image_8).  Import failed...
+[2017.08.24-19.13.02:106][510]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_8''
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_16.WidgetTree_121.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_5) from referencer (Image /Engine/UMG/Editor/Transient.Image_5).  Import failed...
+[2017.08.24-19.13.02:107][510]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_5''
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_16.WidgetTree_121.UniformGridPanel_0
+[2017.08.24-19.13.02:107][510]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_4) from referencer (Image /Engine/UMG/Editor/Transient.Image_4).  Import failed...
+[2017.08.24-19.13.02:107][510]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_4''
+[2017.08.24-19.13.16:342][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.13.16:342][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.13.16:342][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.13.16:342][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.13.16:342][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.13.16:342][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.13.16:342][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_17.WidgetTree_124.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_16.WidgetTree_121.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_8) from referencer (Image /Engine/UMG/Editor/Transient.Image_8).  Import failed...
+[2017.08.24-19.13.16:343][150]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_8''
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_17.WidgetTree_124.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_16.WidgetTree_121.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_5) from referencer (Image /Engine/UMG/Editor/Transient.Image_5).  Import failed...
+[2017.08.24-19.13.16:343][150]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_5''
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_17.WidgetTree_124.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_16.WidgetTree_121.UniformGridPanel_0
+[2017.08.24-19.13.16:343][150]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_4) from referencer (Image /Engine/UMG/Editor/Transient.Image_4).  Import failed...
+[2017.08.24-19.13.16:343][150]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_4''
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_17.WidgetTree_124.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_16.WidgetTree_121.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_18.WidgetTree_125.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_12) from referencer (Image /Engine/UMG/Editor/Transient.Image_12).  Import failed...
+[2017.08.24-19.13.33:472][930]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_12''
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_17.WidgetTree_124.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_16.WidgetTree_121.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_18.WidgetTree_125.UniformGridPanel_0
+[2017.08.24-19.13.33:472][930]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_13) from referencer (Image /Engine/UMG/Editor/Transient.Image_13).  Import failed...
+[2017.08.24-19.13.33:472][930]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_13''
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_5.WidgetTree_28.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_6.WidgetTree_29.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_7.WidgetTree_30.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_8.WidgetTree_31.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:REINST_ShipMap_C_0.WidgetTree_32.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap_C:WidgetTree.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_15.WidgetTree_120.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_17.WidgetTree_124.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_16.WidgetTree_121.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_10:ShipMap_C_18.WidgetTree_125.UniformGridPanel_0
+[2017.08.24-19.13.33:473][930]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/Assets/UI/ShipMap.ShipMap:WidgetTree.UniformGridPanel_0.UniformGridSlot_14) from referencer (Image /Engine/UMG/Editor/Transient.Image_14).  Import failed...
+[2017.08.24-19.13.33:473][930]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'UniformGridPanel_0.UniformGridSlot_14''
+[2017.08.24-19.14.31:024][674]BlueprintLog: New page: Compile ShipMap
+[2017.08.24-19.14.32:068][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/ShipMap" FILE="../../../../Projects/BonVoyage/Content/Assets/UI/ShipMap.uasset" SILENT=true
+[2017.08.24-19.14.32:090][721]LogSavePackage: Save=19.49ms
+[2017.08.24-19.14.32:090][721]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipMapD9B19DDC40BB561D225989AB17DB5D40.tmp' to '../../../../Projects/BonVoyage/Content/Assets/UI/ShipMap.uasset'
+[2017.08.24-19.14.32:093][721]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/UI/ShipMap.uasset
+[2017.08.24-19.14.54:223][994]BlueprintLog: New page: Compile GameplayHUD
+[2017.08.24-19.14.55:655][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/GameplayHUD" FILE="../../../../Projects/BonVoyage/Content/Assets/UI/GameplayHUD.uasset" SILENT=true
+[2017.08.24-19.14.55:878][ 15]LogSavePackage: Save=213.69ms
+[2017.08.24-19.14.55:878][ 15]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/GameplayHUDBAB6A5FC44D55A817E4DC281C8832505.tmp' to '../../../../Projects/BonVoyage/Content/Assets/UI/GameplayHUD.uasset'
+[2017.08.24-19.14.55:882][ 15]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/UI/GameplayHUD.uasset
+[2017.08.24-19.20.07:069][898]LogSlate: Took 0.017854 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.24-19.20.58:788][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Room" FILE="../../../../Projects/BonVoyage/Content/Assets/Room.uasset" SILENT=true
+[2017.08.24-19.20.58:801][928]LogSavePackage: Save=6.48ms
+[2017.08.24-19.20.58:801][928]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/RoomDB4F980D4DDCA52042816FAE334DD070.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Room.uasset'
+[2017.08.24-19.20.59:082][928]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Room.uasset
+[2017.08.24-19.24.09:528][333]LogSavePackage: Save=167.70ms
+[2017.08.24-19.24.09:528][333]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto4516716524DB5B74B6DBFEFA4F4CC42CF.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.08.24-19.24.09:529][333]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.08.24-19.24.09:532][333]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.539
+[2017.08.24-19.24.09:532][333]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.539
+[2017.08.24-19.24.09:553][333]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.24-19.24.09:577][333]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.24-19.24.09:577][333]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.24-19.24.11:442][333]LogSavePackage: Save=1848.67ms
+[2017.08.24-19.24.11:442][333]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto436B15F304CC26BEE375495920F0F4ADB.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto4.uasset'
+[2017.08.24-19.24.11:459][333]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto4.uasset
+[2017.08.24-19.24.11:460][333]LogFileHelpers: Auto-saving content packages took 1.926
+[2017.08.24-19.28.55:746][647]LogEditorTransaction: Undo Delete current selection
+[2017.08.24-19.28.55:763][647]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Base_Ship_1248.CharacterMesh0) Component already registered.
+[2017.08.24-19.28.55:773][647]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.Base_Ship_C_1.CollisionCylinder) Component already registered.
+[2017.08.24-19.28.55:775][647]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.Base_Ship_C_1.CharacterMesh0) Component already registered.
+[2017.08.24-19.34.50:876][779]BlueprintLog: New page: Compile ShipMap
+[2017.08.24-19.34.51:491][779]LogClass: Warning: Type mismatch in NextRoom_66_1BC43F8B4BD9719E0C04AABDA5AF4980 of Room - Previous (StrProperty) Current(IntProperty) for package:  FObjectReader
+[2017.08.24-19.34.51:491][779]LogClass: Warning: Type mismatch in NextRoom_66_1BC43F8B4BD9719E0C04AABDA5AF4980 of Room - Previous (StrProperty) Current(IntProperty) for package:  FObjectReader
+[2017.08.24-19.34.51:492][779]LogClass: Warning: Type mismatch in NextRoom_66_1BC43F8B4BD9719E0C04AABDA5AF4980 of Room - Previous (StrProperty) Current(IntProperty) for package:  FObjectReader
+[2017.08.24-19.34.53:334][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/ShipMap" FILE="../../../../Projects/BonVoyage/Content/Assets/UI/ShipMap.uasset" SILENT=true
+[2017.08.24-19.34.53:360][845]LogSavePackage: Save=18.85ms
+[2017.08.24-19.34.53:360][845]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ShipMapBC012A6D4EE24CC2EC00C2888AF34011.tmp' to '../../../../Projects/BonVoyage/Content/Assets/UI/ShipMap.uasset'
+[2017.08.24-19.34.53:362][845]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/UI/ShipMap.uasset
+[2017.08.24-19.36.00:576][376]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.24-19.37.26:403][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/MapIcon" FILE="../../../../Projects/BonVoyage/Content/Assets/UI/MapIcon.uasset" SILENT=true
+[2017.08.24-19.37.26:417][ 12]LogSavePackage: Save=11.95ms
+[2017.08.24-19.37.26:417][ 12]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/MapIconA03C2534438966E65FD157A6C4073FE0.tmp' to '../../../../Projects/BonVoyage/Content/Assets/UI/MapIcon.uasset'
+[2017.08.24-19.37.26:418][ 12]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/UI/MapIcon.uasset
+[2017.08.24-19.37.45:631][954]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.24-19.38.06:220][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/MapIcon" FILE="../../../../Projects/BonVoyage/Content/Assets/UI/MapIcon.uasset" SILENT=true
+[2017.08.24-19.38.06:237][982]LogSavePackage: Save=9.97ms
+[2017.08.24-19.38.06:237][982]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/MapIconA3E0EDFC42FDFD3835026D9863900CA2.tmp' to '../../../../Projects/BonVoyage/Content/Assets/UI/MapIcon.uasset'
+[2017.08.24-19.38.06:239][982]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/UI/MapIcon.uasset
+[2017.08.24-19.41.10:036][478]LogSavePackage: Save=255.88ms
+[2017.08.24-19.41.10:036][478]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/ThirdPersonExampleMap_Auto55CBC13394A9A803DE0D4C682EFCD53C8.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2017.08.24-19.41.10:073][478]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2017.08.24-19.41.10:074][478]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.687
+[2017.08.24-19.41.10:074][478]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.687
+[2017.08.24-19.41.10:077][478]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship] ([1] browsable assets)...
+[2017.08.24-19.41.10:110][478]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship]
+[2017.08.24-19.41.10:110][478]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship]
+[2017.08.24-19.41.12:670][478]LogSavePackage: Save=2545.01ms
+[2017.08.24-19.41.12:670][478]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship_Auto52FAA0B224634DAAEA0F49698E2A9FF12.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto5.uasset'
+[2017.08.24-19.41.12:725][478]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship_Auto5.uasset
+[2017.08.24-19.41.12:727][478]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Room] ([1] browsable assets)...
+[2017.08.24-19.41.12:727][478]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Room]
+[2017.08.24-19.41.12:727][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Room" FILE="../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Room_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.24-19.41.12:764][478]LogSavePackage: Save=18.45ms
+[2017.08.24-19.41.12:773][478]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Room_Auto5C09B5D964A5BA25B96BCF3A3F59C7BB3.tmp' to '../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Room_Auto5.uasset'
+[2017.08.24-19.41.12:775][478]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Saved/Autosaves/Game/Assets/Room_Auto5.uasset
+[2017.08.24-19.41.12:775][478]LogFileHelpers: Auto-saving content packages took 2.700
+[2017.08.24-19.43.26:673][596]LogSavePackage: Save=1810.26ms
+[2017.08.24-19.43.26:673][596]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_ShipEF15F3DF43A2D65573A0CB80D5B46BCF.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.24-19.43.26:677][596]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.24-19.43.27:078][615]BlueprintLog: New page: Compile Base_Ship
+[2017.08.24-19.43.28:063][615]LogBlueprint: Error: [Compiler Base_Ship] The property associated with  <Unnamed>  could not be found
+[2017.08.24-19.43.28:070][615]LogBlueprint: Error: [Compiler Base_Ship] The property associated with  Icon Image  could not be found
+[2017.08.24-19.43.30:266][615]LogBlueprint: Warning: [Compiler Base_Ship] [4066.86] Compile of Base_Ship failed. 2 Fatal Issue(s) 0 Warning(s) [in 3,187 ms] (/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship)
+[2017.08.24-19.43.48:139][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Room" FILE="../../../../Projects/BonVoyage/Content/Assets/Room.uasset" SILENT=true
+[2017.08.24-19.43.48:150][473]LogSavePackage: Save=7.35ms
+[2017.08.24-19.43.48:150][473]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Room8D8CEACF499A32FE366842A3394623D9.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Room.uasset'
+[2017.08.24-19.43.48:154][473]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Room.uasset
+[2017.08.24-19.43.57:249][813]LogSavePackage: Save=1782.03ms
+[2017.08.24-19.43.57:249][813]LogSavePackage: Moving '../../../../Projects/BonVoyage/Saved/Base_Ship21A0CBE649E728068375328F6DA902A3.tmp' to '../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset'
+[2017.08.24-19.43.57:252][813]LogSavePackage: Display: Finished SavePackage ../../../../Projects/BonVoyage/Content/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.uasset
+[2017.08.24-19.43.57:604][832]BlueprintLog: New page: Compile Base_Ship
+[2017.08.24-19.43.58:538][832]LogBlueprint: Error: [Compiler Base_Ship] The property associated with  <Unnamed>  could not be found
+[2017.08.24-19.43.58:545][832]LogBlueprint: Error: [Compiler Base_Ship] The property associated with  Icon Image  could not be found
+[2017.08.24-19.44.00:772][832]LogBlueprint: Warning: [Compiler Base_Ship] [4097.36] Compile of Base_Ship failed. 2 Fatal Issue(s) 0 Warning(s) [in 3,168 ms] (/Game/Assets/Blueprints/PlayableShips/Base_Ship/Base_Ship.Base_Ship)
+[2017.08.24-19.44.29:691][421]BlueprintLog: New page: Compile MapIcon
